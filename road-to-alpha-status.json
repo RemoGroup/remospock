@@ -1,0 +1,1318 @@
+{
+  "schema_version": 1,
+  "revision": 6,
+  "generated_at": "2026-10-15T16:21:02.919Z",
+  "last_evidence_check": "2026-10-15T16:21:02.919Z",
+  "latest_accepted_engineering_event": {
+    "at": null,
+    "date": "2026-10-15",
+    "precision": "day",
+    "basis": "Independent ChatGPT source acceptances: RemoCommand C2a/C1b and Spock scheduler; exact acceptance times not supplied."
+  },
+  "last_milestone_disposition_change": {
+    "at": null,
+    "date": "2026-10-11",
+    "precision": "day",
+    "basis": "Last historical public-board disposition date; exact final change time not supplied."
+  },
+  "milestone_evidence_cutoff": "2026-10-12T01:52:00Z",
+  "expected_refresh_seconds": 600,
+  "sources": [
+    {
+      "id": "local-git",
+      "label": "Accepted / candidate Git identities",
+      "checked_at": "2026-10-15T16:21:02.461Z",
+      "status": "OK",
+      "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
+    },
+    {
+      "id": "envelope-C2a",
+      "label": "C2a accepted source envelope",
+      "checked_at": "2026-10-15T16:21:02.463Z",
+      "status": "OK",
+      "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
+    },
+    {
+      "id": "envelope-C1b",
+      "label": "C1b accepted source envelope",
+      "checked_at": "2026-10-15T16:21:02.464Z",
+      "status": "OK",
+      "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
+    },
+    {
+      "id": "github",
+      "label": "Public dashboard GitHub branch",
+      "checked_at": "2026-10-15T16:21:02.919Z",
+      "status": "OK",
+      "note": "Public branch metadata read successfully; no completion inferred from branch activity."
+    },
+    {
+      "id": "coordination",
+      "label": "Authorized coordination receipts",
+      "checked_at": "2026-10-15T16:11:43.777443Z",
+      "status": "DEGRADED",
+      "note": "Both exact private source envelopes fetched and byte/hash/declared commit/tree identities matched. Independent LOCAL SOURCE acceptance is established. Canonical ledger synchronization remains pending; no ingestion event is fabricated."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "historical-PACKET",
+      "title": "RemoGPT dashboard packet (owner-relayed to Spock)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T20:23:52Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-R1_PACKET",
+      "title": "RemoGPT dashboard R1 packet: bounded lane-D source-review disposition; RAP-03.B-1 assignment (owner-relayed)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-MB00",
+      "title": "MB-00 startup receipt (RemoCommand executor; not itself a PASS)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "3e2da5f3fe073b8aed6bda8d2008423013dad805e76ddab07bf74d71bc55c952",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T14:30:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-RAP03A_ADMIT",
+      "title": "RAP-03.A admission under MB-03 (RemoGPT/O1)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "9e1af1d9060ec8adaacc0db1befb77dbf58d2bff63e76f35988761709f9e542e",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T15:01:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-RAP03A_PASS",
+      "title": "RAP-03.A R2 independent source review (RemoGPT/O1)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "a65ea8511e1c56efff9ab852379ee8d16b144f58594c2f67573b00afc28765e1",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:15:09Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-MB01_DISP",
+      "title": "MB-01 integration-gate disposition (read-only)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "2c71bf7e2e2a9debbbc404cbe5b5c65b435e3acdf1215a07b59ea9b97a2628d9",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:24:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-MB01_REVIEW",
+      "title": "O1 review of the MB-01 disposition and lane-D admission",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "045908acf365662dd95efddb781e907045e18c7926401b4f7d89749f42d67212",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:41:54Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-LANED",
+      "title": "Lane-D fixture correction READY_FOR_AUDIT record (no self-PASS)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "e9414dbb530bf76571727746d2fc450e52899bfd62e1cab33ae518cc70929af9",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T19:16:52Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-PRREG",
+      "title": "RemoGPT PR disposition register and live PR metadata",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "9a8812ff25ded2c132cc9bf164ac9f469de90d333e43da75e0664c2d118baa2e",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-10T17:45:30Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-CONV04A",
+      "title": "CONV-04A whole-unit source audit acceptance",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "f3421caffb2d7e8ab9e6146a6bd253617c97efc41d40d3baec1643ecb90acebe",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-01T19:23:04Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-S04_INTAKE",
+      "title": "CONV-05B S04 gate and source-eligibility intake",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "48e17c21f605c48cff68647b864648fe0b3dd77a0147630871eef191a5ab5e04",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T03:13:09Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-S04_P1",
+      "title": "CONV-05B S04-P1 READY_FOR_AUDIT record; audit later BLOCKED (per MB-00 receipt)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": "971a03f2e3de06cf47f20dc43eddad316e59f135f96077aad3ff4207fc4d8056",
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T04:45:03Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-SPOCK_R1",
+      "title": "Spock dashboard R1 session receipts (reconciliation, baseline, freeze)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:29Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-R2_PACKET",
+      "title": "RemoGPT hosted-live R2 packet: current assignments (owner-relayed)",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:52:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-SPOCK_R2",
+      "title": "Spock R2 session receipts",
+      "classification": "HISTORICAL PUBLIC",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:55:00Z. No new acceptance inferred from a recheck."
+    },
+    {
+      "id": "historical-mb00-disposition",
+      "title": "MB-00 scheduling-transition disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "191bb9c83e0041ea6d3732573ad8d512addf12cd0084026b1965b1629b23ff1e",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-11T15:01:00Z",
+      "accepted_date": "2026-10-11",
+      "scope": "Verified complete for scheduling transition only. Preserving work remains an obligation in subsequent milestones."
+    },
+    {
+      "id": "scheduler-independent-pass",
+      "title": "Spock bounded scheduler design: independent source pass",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "e1273ec4f4e8aee89fb8cb33f9927db018dfb7b7eff899a25906c9b494129251",
+      "commit": "78048f4ef7cf1cde5ea0a56ab572f76d65e18f11",
+      "tree": "57d511e999e23d333f6598d3d85e0e2b80e66324",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "scope": "Independent 77/77 source replay. Actual Windows scheduled recovery NOT VERIFIED. Accepted archive SHA-256 06fa375a02b977ec76b0c03e75f79f35232a22cbc6d081b54eae24ee6167e2ab."
+    },
+    {
+      "id": "scheduler-rewindow-candidate",
+      "title": "Spock scheduler: fresh attended-window descendant",
+      "classification": "SOURCE CANDIDATE",
+      "sha256": "0acade9795c99ce6d45f84a3733b04daa05d6c3797d7c5dd6941ffcc9c605c2d",
+      "commit": "a4a3a8f9028ac883f46adee23ac35850880ff1f8",
+      "tree": "28496137a00524c65bc5cc119693dd6088caa33e",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Two XML files retimed; Python unchanged. Engineer replay77/77 and native validate-only pass. Independent retiming review and a separate operational grant remain pending; nothing executed."
+    },
+    {
+      "id": "r3-candidate",
+      "title": "R3 evidence core: frozen source candidate",
+      "classification": "EXECUTOR REPORTED",
+      "sha256": null,
+      "commit": "e3e1f46fedff119c95d31c47c1f0970b035d38f8",
+      "tree": "83e467ce59ab7c19607d11b39532bb061806d078",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Engineer reports52source tests and8mutation detections; independent audit pending. Exact governing plan bytes remain unavailable; no autonomous milestone completion authority."
+    },
+    {
+      "id": "creator-candidate",
+      "title": "Creator workbench: frozen candidate and bounded GET-await defect",
+      "classification": "EXECUTOR REPORTED",
+      "sha256": "107aca208dc785c3979b306f5817d40a8b27209d893cb177cb4f7b880b84e46c",
+      "commit": "f1e4a21ced48c9cb5b333b63e7e2c2298f303df4",
+      "tree": "9ec35cbbfdbc8fd602810d06bcb8dbe31160b81b",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Source/harness defect reproduced: GET does not await the service. Exact two-file repair request prepared; separate source admission required. Previous74focused/267regression/14mutation results remain executor reports. Legacy Creator packet MB-13B2b does not establish a binding master-milestone mapping; mapping NOT VERIFIED."
+    },
+    {
+      "id": "dashboard-source-work",
+      "title": "Existing command-center live engineering feed: implementation",
+      "classification": "EXECUTOR REPORTED",
+      "sha256": null,
+      "commit": null,
+      "tree": null,
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Owner-admitted source implementation completed, preserving the original layout and32cards. Engineer24focused tests and browser dynamic-flow checks pass. Consolidated publication is pending; no source acceptance or milestone completion inferred."
+    },
+    {
+      "id": "RAP03C-C2a-H",
+      "title": "C2a hotfix — independent LOCAL SOURCE acceptance",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "4c778d26eb5c58e9e7130f1bc42a59b0cd91968a3a91675c83063fa8aae6859e",
+      "commit": "3e15851e34ac84950e7844b97bf025e98f2e10c1",
+      "tree": "5b96999008dcf189472fbde89b983b16c7480a9b",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+    },
+    {
+      "id": "RAP03C-C2a-D",
+      "title": "C2a development — independent LOCAL SOURCE acceptance",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "4c778d26eb5c58e9e7130f1bc42a59b0cd91968a3a91675c83063fa8aae6859e",
+      "commit": "e7e2f794406d4c4aa57c6c4f587b0dbe233f9c12",
+      "tree": "1875fc881c37177f1a31c5dee76bd027b2a1e4f1",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+    },
+    {
+      "id": "RAP03C-C1b-H",
+      "title": "C1b hotfix — independent LOCAL SOURCE acceptance",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "791c142032fb109b469cb0e6c7f8fe08ef9f7f2f7270fdac29f4aedd41209fad",
+      "commit": "5cf777a0fe7235961ba5611e13fab733f965c18f",
+      "tree": "e97e0c3badbeafd78293ff9b20f1e48953dd1855",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+    },
+    {
+      "id": "RAP03C-C1b-D",
+      "title": "C1b development — independent LOCAL SOURCE acceptance",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "791c142032fb109b469cb0e6c7f8fe08ef9f7f2f7270fdac29f4aedd41209fad",
+      "commit": "e7b261031dbc61020290c350b96357d1e7001abb",
+      "tree": "b18f5a08cbd4cc1c8316e788daed6c6c6570e369",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+    }
+  ],
+  "work_items": [
+    {
+      "id": "spock-dashboard",
+      "title": "Existing command center: live engineering status feed",
+      "lane": "spock",
+      "milestone_ids": [],
+      "classification": "EXECUTOR REPORTED",
+      "state": "PENDING REVIEW",
+      "writer": "Spock Codex",
+      "activity_at": "2026-10-15T16:17:43.466148Z",
+      "activity_basis": "TEST RUN",
+      "next_action": "One consolidated publication decision for the tested dashboard/feed and ten-minute updater; then continue separately admitted Creator engineering.",
+      "blockers": [],
+      "evidence_ids": [
+        "dashboard-source-work"
+      ]
+    },
+    {
+      "id": "spock-scheduler",
+      "title": "Bounded Windows scheduler qualification design",
+      "lane": "spock",
+      "milestone_ids": [],
+      "classification": "SOURCE ACCEPTED",
+      "state": "PENDING REVIEW",
+      "writer": "Spock Codex",
+      "activity_at": null,
+      "activity_basis": "RECEIPT",
+      "next_action": "Independent review of the retimed descendant; separate exact diagnostic operational decision.",
+      "blockers": [
+        "Actual scheduled7-to0 recovery is NOT VERIFIED. No Windows task installation is part of dashboard delivery."
+      ],
+      "evidence_ids": [
+        "scheduler-independent-pass",
+        "scheduler-rewindow-candidate"
+      ]
+    },
+    {
+      "id": "spock-r3",
+      "title": "R3 evidence reconciliation core",
+      "lane": "spock",
+      "milestone_ids": [],
+      "classification": "EXECUTOR REPORTED",
+      "state": "PENDING REVIEW",
+      "writer": "Spock Codex",
+      "activity_at": null,
+      "activity_basis": "RECEIPT",
+      "next_action": "Independent source audit and admission of a later integration tranche.",
+      "blockers": [
+        "Full governing plan and proposed traceability bytes are not yet verified."
+      ],
+      "evidence_ids": [
+        "r3-candidate"
+      ]
+    },
+    {
+      "id": "spock-creator",
+      "title": "Creator workbench GET-await repair",
+      "lane": "spock",
+      "milestone_ids": [],
+      "classification": "EXECUTOR REPORTED",
+      "state": "PENDING REVIEW",
+      "writer": "Spock Codex — proposed repair; Creator custody preserved",
+      "activity_at": null,
+      "activity_basis": "RECEIPT",
+      "next_action": "Admit the exact route-and-test repair in a separate isolated worktree.",
+      "blockers": [
+        "Separate two-file source admission remains pending. No dependency on unattended monitoring."
+      ],
+      "evidence_ids": [
+        "creator-candidate"
+      ]
+    },
+    {
+      "id": "remo-c2a",
+      "title": "RAP-03.C C2a — WebSocket fail-closed security",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-03"
+      ],
+      "classification": "SOURCE ACCEPTED",
+      "state": "UNKNOWN",
+      "writer": "RemoCommand Codex — current activity unconfirmed",
+      "activity_at": null,
+      "activity_basis": "RECEIPT",
+      "next_action": "Separately qualify frontend compatibility, integration and release; reconcile canonical acceptance-ledger synchronization.",
+      "blockers": [
+        "Integration, deployment and whole-milestone acceptance remain open. Canonical coordination sync pending; source acceptance is independently established."
+      ],
+      "evidence_ids": [
+        "RAP03C-C2a-H",
+        "RAP03C-C2a-D"
+      ]
+    },
+    {
+      "id": "remo-c1b",
+      "title": "RAP-03.C C1b — HTTP authentication, cookie and CSRF boundary",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-03"
+      ],
+      "classification": "SOURCE ACCEPTED",
+      "state": "UNKNOWN",
+      "writer": "RemoCommand Codex — current activity unconfirmed",
+      "activity_at": null,
+      "activity_basis": "RECEIPT",
+      "next_action": "Separately qualify frontend compatibility, integration and release; reconcile canonical acceptance-ledger synchronization.",
+      "blockers": [
+        "Integration, deployment and whole-milestone acceptance remain open. Canonical coordination sync pending; source acceptance is independently established."
+      ],
+      "evidence_ids": [
+        "RAP03C-C1b-H",
+        "RAP03C-C1b-D"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "MB-00",
+      "label": "Adopt one delivery queue and preserve existing work",
+      "group": "FOUNDATION",
+      "state": "VERIFIED COMPLETE",
+      "scope": "scheduling transition only",
+      "evidence_at": "2026-10-11T15:01:00Z",
+      "evidence_ids": [
+        "historical-PACKET",
+        "historical-MB00",
+        "historical-RAP03A_ADMIT",
+        "historical-mb00-disposition"
+      ],
+      "remaining": [],
+      "dependencies": [],
+      "next_action": "Preserve the adopted delivery queue and existing work.",
+      "children": [
+        {
+          "id": "MB-00.queue",
+          "title": "Unified Beta Delivery Plan v1 adopted as the one delivery queue",
+          "lane": "shared",
+          "state": "VERIFIED COMPLETE",
+          "note": "RemoGPT now admits work by master milestone (MB-03 and MB-01 admissions on Oct 11).",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-PACKET",
+            "historical-MB00",
+            "historical-RAP03A_ADMIT"
+          ]
+        }
+      ],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-01",
+      "label": "Clear integration and test-baseline obstructions",
+      "group": "FOUNDATION",
+      "state": "PARTIAL",
+      "scope": "",
+      "evidence_at": "2026-10-11T21:28:00Z",
+      "evidence_ids": [
+        "historical-R1_PACKET",
+        "historical-MB01_DISP",
+        "historical-MB01_REVIEW",
+        "historical-LANED"
+      ],
+      "remaining": [
+        "Cumulative accepted RemoGPT integration lineage (25 commits) — SOURCE ACCEPTED (historical disposition)",
+        "Six lane-D scanner fixture findings: three-file fixture substitution — SOURCE ACCEPTED (historical disposition)",
+        "18 lane A/B scanner findings (15 lane A, 3 lane B) — BLOCKED (historical disposition)",
+        "Effective CI scanner gate on dev — BLOCKED (historical disposition)",
+        "One cumulative integration PR to dev — BLOCKED (historical disposition)",
+        "Five Ubuntu-only scanner self-test cases — BLOCKED (historical disposition)"
+      ],
+      "dependencies": [
+        "18 lane A/B scanner findings need Spock/O2 source custody; the request was prepared but its delivery is not acknowledged. (historical as of October11 Arizona)"
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [
+        {
+          "id": "MB-01.lineage",
+          "title": "Cumulative accepted RemoGPT integration lineage (25 commits)",
+          "lane": "remocommand",
+          "state": "SOURCE ACCEPTED",
+          "note": "Every segment has its own independent acceptance; none of the 25 commits is on dev yet.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-MB01_DISP",
+            "historical-MB01_REVIEW"
+          ]
+        },
+        {
+          "id": "MB-01.laneD",
+          "title": "Six lane-D scanner fixture findings: three-file fixture substitution",
+          "lane": "remocommand",
+          "state": "SOURCE ACCEPTED",
+          "note": "Bounded RemoGPT source-review disposition: SOURCE ACCEPTED for the three-file fixture substitution only. Candidate scan 24 to 18 findings. Local only; not integrated; not all of MB-01.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-R1_PACKET",
+            "historical-LANED"
+          ]
+        },
+        {
+          "id": "MB-01.laneAB",
+          "title": "18 lane A/B scanner findings (15 lane A, 3 lane B)",
+          "lane": "spock",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Owned by Spock/O2 but not started: needs Spock source custody under its own lease; the 18-row request delivery was blocked and is not acknowledged.",
+          "evidence_ids": [
+            "historical-MB01_DISP",
+            "historical-MB01_REVIEW"
+          ]
+        },
+        {
+          "id": "MB-01.ci",
+          "title": "Effective CI scanner gate on dev",
+          "lane": "shared",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "The required dev scan is a false green (ripgrep is missing on the runner). The effective scanner can pass only after all remaining findings are resolved.",
+          "evidence_ids": [
+            "historical-MB01_DISP"
+          ]
+        },
+        {
+          "id": "MB-01.pr",
+          "title": "One cumulative integration PR to dev",
+          "lane": "shared",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Sequenced after the 18 lane A/B findings; it also carries the six-site security-inventory allowlist review.",
+          "evidence_ids": [
+            "historical-MB01_DISP"
+          ]
+        },
+        {
+          "id": "MB-01.ubuntu",
+          "title": "Five Ubuntu-only scanner self-test cases",
+          "lane": "unassigned",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Not yet run: they need an Ubuntu environment (WSL has no ripgrep); no runner is assigned.",
+          "evidence_ids": [
+            "historical-LANED",
+            "historical-R1_PACKET"
+          ]
+        }
+      ],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-02",
+      "label": "Set supported product and provider boundaries",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [
+        "historical-MB00"
+      ],
+      "remaining": [
+        "Independently qualify the governing requirements for: Set supported product and provider boundaries.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-03",
+      "label": "Identity, membership, grants and provisioning",
+      "group": "FOUNDATION",
+      "state": "PARTIAL",
+      "scope": "",
+      "evidence_at": "2026-10-12T01:52:00Z",
+      "evidence_ids": [
+        "historical-MB01_DISP",
+        "historical-R1_PACKET",
+        "historical-R2_PACKET",
+        "historical-RAP03A_PASS"
+      ],
+      "remaining": [
+        "RAP-03.A Account-bound professional membership authority — SOURCE ACCEPTED (historical disposition)",
+        "Access transition for legacy professional profiles — BLOCKED (historical disposition)",
+        "RAP-03.B-1 professional credential revocation and selection — READY (historical disposition)",
+        "RAP-03.B remainder: resolver unification and tenant-guard enablement — NOT VERIFIED (historical disposition)",
+        "RAP-03.C endpoint security floor — NOT VERIFIED (historical disposition)"
+      ],
+      "dependencies": [
+        "Membership integration waits on the MB-01 effective scanner gate and on Tim's access-transition decision. (historical as of October11 Arizona)"
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [
+        {
+          "id": "RAP-03.A",
+          "title": "RAP-03.A Account-bound professional membership authority",
+          "lane": "remocommand",
+          "state": "SOURCE ACCEPTED",
+          "note": "Bounded local source acceptance; frozen and parked awaiting integration. Not all of RAP-03, and not CI, integration, live migration or release.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-RAP03A_PASS"
+          ]
+        },
+        {
+          "id": "RAP-03.A.access",
+          "title": "Access transition for legacy professional profiles",
+          "lane": "unassigned",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Owner decision (Tim) required before the membership candidate integrates.",
+          "evidence_ids": [
+            "historical-MB01_DISP"
+          ]
+        },
+        {
+          "id": "RAP-03.B-1",
+          "title": "RAP-03.B-1 professional credential revocation and selection",
+          "lane": "remocommand",
+          "state": "READY",
+          "note": "Current RemoCommand assignment after owner relay. Assigned, not shown as working: execution is verified only by a fresh RemoCommand heartbeat with recent activity.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-R2_PACKET",
+            "historical-R1_PACKET"
+          ]
+        },
+        {
+          "id": "RAP-03.B",
+          "title": "RAP-03.B remainder: resolver unification and tenant-guard enablement",
+          "lane": "unassigned",
+          "state": "NOT VERIFIED",
+          "note": "",
+          "blocker": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "RAP-03.C",
+          "title": "RAP-03.C endpoint security floor",
+          "lane": "unassigned",
+          "state": "NOT VERIFIED",
+          "note": "",
+          "blocker": "",
+          "evidence_ids": []
+        }
+      ],
+      "work_item_ids": [
+        "remo-c2a",
+        "remo-c1b"
+      ]
+    },
+    {
+      "id": "MB-04",
+      "label": "Site/domain delivery and lender workspace",
+      "group": "FOUNDATION",
+      "state": "PARTIAL",
+      "scope": "",
+      "evidence_at": "2026-10-11T04:45:03Z",
+      "evidence_ids": [
+        "historical-PRREG",
+        "historical-CONV04A",
+        "historical-S04_INTAKE",
+        "historical-S04_P1"
+      ],
+      "remaining": [
+        "CONV-05B S01–S03 domain and runtime contribution — INTEGRATED (historical disposition)",
+        "CONV-04A guarded lender loan-workspace projection (S01–S03) — SOURCE ACCEPTED (historical disposition)",
+        "CONV-05B S04 network-observer source slice — BLOCKED (historical disposition)",
+        "S04 hosted / custom-domain qualification — BLOCKED (historical disposition)"
+      ],
+      "dependencies": [
+        "S04 hosted/custom-domain qualification lacks a domain-grant receipt, custom-host staging scope and an approved hosting-inventory read. (historical as of October11 Arizona)"
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [
+        {
+          "id": "CONV-05B.S01-S03",
+          "title": "CONV-05B S01–S03 domain and runtime contribution",
+          "lane": "remocommand",
+          "state": "INTEGRATED",
+          "note": "Merged to the convergence branch with post-merge CI verified. Not yet on dev; S04 and whole-unit gates remain open.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-PRREG"
+          ]
+        },
+        {
+          "id": "CONV-04A",
+          "title": "CONV-04A guarded lender loan-workspace projection (S01–S03)",
+          "lane": "remocommand",
+          "state": "SOURCE ACCEPTED",
+          "note": "Whole-unit source review preserved. Its PR is intentionally parked (build-ahead hold); final-head platform-authority and Hub/RLOS reviews remain before integration.",
+          "blocker": "",
+          "evidence_ids": [
+            "historical-CONV04A",
+            "historical-PRREG"
+          ]
+        },
+        {
+          "id": "CONV-05B.S04-P1",
+          "title": "CONV-05B S04 network-observer source slice",
+          "lane": "remocommand",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Independent audit blocked; the candidate is parked, not retried, diagnosed or corrected.",
+          "evidence_ids": [
+            "historical-S04_P1",
+            "historical-MB00"
+          ]
+        },
+        {
+          "id": "CONV-05B.S04-hosted",
+          "title": "S04 hosted / custom-domain qualification",
+          "lane": "unassigned",
+          "state": "BLOCKED",
+          "note": "",
+          "blocker": "Needs a domain-grant receipt, custom-host staging scope bound to the convergence tip, an approved hosting-inventory read and a ruling on CONV-05A dependencies.",
+          "evidence_ids": [
+            "historical-S04_INTAKE"
+          ]
+        }
+      ],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-05",
+      "label": "Cases, relationships and durable business events",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Cases, relationships and durable business events.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-06",
+      "label": "Authorized and truthful autonomous business work",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Authorized and truthful autonomous business work.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-07",
+      "label": "CRM import and evidence",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: CRM import and evidence.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-08",
+      "label": "Communications, calendars and follow-up",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Communications, calendars and follow-up.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-09",
+      "label": "Professional operating surfaces",
+      "group": "FOUNDATION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Professional operating surfaces.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-10",
+      "label": "Growth runtime, devices and reusable assets",
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Growth runtime, devices and reusable assets.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-11",
+      "label": "Growth CRM, outreach and commercial readiness",
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Growth CRM, outreach and commercial readiness.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-12",
+      "label": "Creator production integration",
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Creator production integration.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-13",
+      "label": "Marketing preparation, publishing and outcomes",
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Marketing preparation, publishing and outcomes.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-14",
+      "label": "Public website to application experience",
+      "group": "CUSTOMER AND PROFESSIONAL JOURNEYS",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Public website to application experience.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-15",
+      "label": "Documents, income, LOE and credit choice",
+      "group": "CUSTOMER AND PROFESSIONAL JOURNEYS",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Documents, income, LOE and credit choice.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-16",
+      "label": "Property discovery, RemoShow and professional handoff",
+      "group": "CUSTOMER AND PROFESSIONAL JOURNEYS",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Property discovery, RemoShow and professional handoff.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-17",
+      "label": "Offers, signing, broker review and transactions",
+      "group": "CUSTOMER AND PROFESSIONAL JOURNEYS",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Offers, signing, broker review and transactions.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-18",
+      "label": "Pricing, ARIVE/AUS, underwriting and closing",
+      "group": "CUSTOMER AND PROFESSIONAL JOURNEYS",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Pricing, ARIVE/AUS, underwriting and closing.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-19",
+      "label": "Brokerage accounting and payouts",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Brokerage accounting and payouts.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-20",
+      "label": "Verification, e-closing and partner workflows",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Verification, e-closing and partner workflows.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-21",
+      "label": "Lifetime care, recruiting and recapture",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Lifetime care, recruiting and recapture.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-22",
+      "label": "Live Connect and RemoJohnson",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Live Connect and RemoJohnson.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-23",
+      "label": "Property media and staffed-service software",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Property media and staffed-service software.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-24",
+      "label": "Native, mobile, Dock and distribution clients",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Native, mobile, Dock and distribution clients.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-25",
+      "label": "Commercial onboarding and operational support",
+      "group": "BUSINESS OPERATIONS AND DISTRIBUTION",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Commercial onboarding and operational support.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-26",
+      "label": "Site migration and full convergence",
+      "group": "CONVERGENCE AND ALPHA",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Site migration and full convergence.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-27",
+      "label": "Cross-product security, topology and recovery",
+      "group": "CONVERGENCE AND ALPHA",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Cross-product security, topology and recovery.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-28",
+      "label": "Integrated alpha engineering candidate",
+      "group": "CONVERGENCE AND ALPHA",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Integrated alpha engineering candidate.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-29",
+      "label": "Consolidated owner alpha",
+      "group": "CONVERGENCE AND ALPHA",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Consolidated owner alpha.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-30",
+      "label": "Controlled betas and real pilots",
+      "group": "POST-ALPHA RELEASE",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Controlled betas and real pilots.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    },
+    {
+      "id": "MB-31",
+      "label": "Production migration and stabilization",
+      "group": "POST-ALPHA RELEASE",
+      "state": "NOT VERIFIED",
+      "scope": "",
+      "evidence_at": null,
+      "evidence_ids": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Production migration and stabilization.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "dependencies": [
+        "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
+      ],
+      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "children": [],
+      "work_item_ids": []
+    }
+  ],
+  "lanes": {
+    "spock": {
+      "current_item_id": "spock-dashboard",
+      "note": "Existing-dashboard source/feed implementation prepared for one exact publication decision. Product work and source-audit decisions remain separate."
+    },
+    "remocommand": {
+      "current_item_id": "remo-c2a",
+      "note": "C2a and C1b independently accepted as bounded LOCAL SOURCE on both bases. Canonical ledger synchronization is pending; present coding activity is unconfirmed."
+    }
+  },
+  "panels": {
+    "advances": [
+      "October15: RemoCommand C2a and C1b independently SOURCE ACCEPTED on hotfix/development bases; integration and milestone completion remain open.",
+      "October15: Spock bounded scheduler design independently SOURCE ACCEPTED; actual scheduled recovery remains NOT VERIFIED.",
+      "Historical October11: Unified Beta Delivery Plan v1 adopted as the one delivery queue; admissions now run by master milestone.",
+      "Historical October11: RAP-03.A Account-bound professional membership authority passed bounded independent source review.",
+      "Historical October11: Integration-gate disposition reviewed: 25 accepted commits mapped and the remaining 24 scanner findings attributed by lane and owner.",
+      "Historical October11: Lane-D scanner fixture correction source-accepted for the three-file fixture substitution only (candidate scan 24 to 18 findings)."
+    ],
+    "critical_path": [
+      "Reconcile current Plan1 source acceptances and admit eligible Plan2 Creator work independently of monitor activation.",
+      "Historical October11: Spock/O2 resolves the 18 lane A/B scanner findings under its own lease (custody request not yet acknowledged).",
+      "Historical October11: One cumulative integration PR to dev with the effective scanner gate, the six-site security review and the Ubuntu-only scanner cases.",
+      "Historical October11: Membership candidate converges onto post-merge dev; Tim decides the access transition; then integration.",
+      "Historical October11: RAP-03.B-1 professional credential revocation and selection (assigned; execution not yet verified by a heartbeat)."
+    ],
+    "blockers": [
+      "C2a/C1b canonical coordination sync is pending; their independent local source acceptance is established. Frontend compatibility, integration and release remain separately open.",
+      "Requirement-level governing plan evidence is not yet verified; no new milestone disposition is asserted.",
+      "Historical October11: 18 lane A/B scanner findings require Spock/O2 source custody; the request has not been acknowledged.",
+      "Historical October11: The required dev model-scan check is a false green; the effective scanner gate passes only after all remaining findings are resolved.",
+      "Historical October11: Membership integration waits on the access-transition decision for legacy professional profiles.",
+      "Historical October11: Hosted/custom-domain qualification lacks a domain-grant receipt, custom-host staging scope and an approved hosting-inventory read.",
+      "Historical October11: The site-domain network-observer slice is parked after its independent audit was blocked."
+    ],
+    "decisions": [
+      "One consolidated existing-dashboard publication and ten-minute sanitized-feed updater grant.",
+      "Separate exact Creator two-file repair admission.",
+      "Historical October11: Access-transition decision for legacy professional profiles before the membership candidate integrates.",
+      "Historical October11: How to deliver the 18-row lane A/B scanner request to Spock/O2 and whether to grant its source lease.",
+      "Historical October11: Issue or decline the domain-grant receipt and custom-host staging scope for site-domain qualification.",
+      "Historical October11: Rule on the CONV-05A not-started and hosted-held dependencies for site domains."
+    ]
+  },
+  "checksum": "2e998c6662e100bfbb88f4c96dbf9cd89c25b30112306cc2d32f212a642cab09"
+}
