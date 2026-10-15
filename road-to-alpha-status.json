@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 6,
-  "generated_at": "2026-10-15T16:21:02.919Z",
-  "last_evidence_check": "2026-10-15T16:21:02.919Z",
+  "revision": 7,
+  "generated_at": "2026-10-15T20:46:25.736Z",
+  "last_evidence_check": "2026-10-15T20:46:25.736Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -21,37 +21,37 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-15T16:21:02.461Z",
+      "checked_at": "2026-10-15T20:46:25.328Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-15T16:21:02.463Z",
+      "checked_at": "2026-10-15T20:46:25.331Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-15T16:21:02.464Z",
+      "checked_at": "2026-10-15T20:46:25.332Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-15T16:21:02.919Z",
+      "checked_at": "2026-10-15T20:46:25.736Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-15T16:11:43.777443Z",
+      "checked_at": "2026-10-15T20:45:35.160Z",
       "status": "DEGRADED",
-      "note": "Both exact private source envelopes fetched and byte/hash/declared commit/tree identities matched. Independent LOCAL SOURCE acceptance is established. Canonical ledger synchronization remains pending; no ingestion event is fabricated."
+      "note": "Authorized connected receipt folder and mounted channels checked. The provider returned a limited metadata page; no new acceptance was established. C2a/C1b exact retained envelopes remain independently source accepted. Canonical ledger synchronization remains pending."
     }
   ],
   "evidence": [
@@ -329,6 +329,17 @@
       "accepted_at": null,
       "accepted_date": "2026-10-15",
       "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+    },
+    {
+      "id": "dashboard-release-publication",
+      "title": "Existing command center: approved release published and verified",
+      "classification": "EXECUTOR REPORTED",
+      "sha256": "67cc0a013c37f8c23eb04530ac77f893da716224f6d323d9ce5ddb2a9b45ec93",
+      "commit": "107954ebb810825c6e8acbb2b61acff14d9d261a",
+      "tree": "95594885391cfbbab0a197c93ccf6365c071ee01",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Owner authorized exact dashboard release. All ten served file identities and the rendered 32-card board verified by the engineer. Four C2a/C1b independent bounded source acceptances remain visible. No product source acceptance or milestone disposition is added."
     }
   ],
   "work_items": [
@@ -338,14 +349,15 @@
       "lane": "spock",
       "milestone_ids": [],
       "classification": "EXECUTOR REPORTED",
-      "state": "PENDING REVIEW",
+      "state": "IDLE",
       "writer": "Spock Codex",
-      "activity_at": "2026-10-15T16:17:43.466148Z",
-      "activity_basis": "TEST RUN",
-      "next_action": "One consolidated publication decision for the tested dashboard/feed and ten-minute updater; then continue separately admitted Creator engineering.",
+      "activity_at": "2026-10-15T20:46:24.475268Z",
+      "activity_basis": "RECEIPT",
+      "next_action": "Maintain the authorized ten-minute evidence feed; continue Creator engineering only after its separate bounded source admission.",
       "blockers": [],
       "evidence_ids": [
-        "dashboard-source-work"
+        "dashboard-source-work",
+        "dashboard-release-publication"
       ]
     },
     {
@@ -354,13 +366,13 @@
       "lane": "spock",
       "milestone_ids": [],
       "classification": "SOURCE ACCEPTED",
-      "state": "PENDING REVIEW",
+      "state": "BLOCKED",
       "writer": "Spock Codex",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Independent review of the retimed descendant; separate exact diagnostic operational decision.",
+      "next_action": "Obtain independent disposition and an exact future-window operational amendment before any diagnostic execution; permanent monitor remains a separate decision.",
       "blockers": [
-        "Actual scheduled7-to0 recovery is NOT VERIFIED. No Windows task installation is part of dashboard delivery."
+        "The proposed October 15 qualification window has expired. Actual scheduled recovery remains NOT VERIFIED."
       ],
       "evidence_ids": [
         "scheduler-independent-pass",
@@ -1273,7 +1285,7 @@
   "lanes": {
     "spock": {
       "current_item_id": "spock-dashboard",
-      "note": "Existing-dashboard source/feed implementation prepared for one exact publication decision. Product work and source-audit decisions remain separate."
+      "note": "The exact existing-dashboard release is live and verified; ten-minute feed updates are authorized. Scheduler qualification and product source admissions remain separate."
     },
     "remocommand": {
       "current_item_id": "remo-c2a",
@@ -1314,5 +1326,5 @@
       "Historical October11: Rule on the CONV-05A not-started and hosted-held dependencies for site domains."
     ]
   },
-  "checksum": "2e998c6662e100bfbb88f4c96dbf9cd89c25b30112306cc2d32f212a642cab09"
+  "checksum": "c32163597c8697e80be54d13efd970a2e182de8a9bf314ae7ddbf12a281f2684"
 }
