@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 118,
-  "generated_at": "2026-10-16T18:10:10.062Z",
-  "last_evidence_check": "2026-10-16T18:10:10.062Z",
+  "revision": 119,
+  "generated_at": "2026-10-16T18:18:35.413Z",
+  "last_evidence_check": "2026-10-16T18:18:35.413Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -21,37 +21,37 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-16T18:10:09.622Z",
+      "checked_at": "2026-10-16T18:18:35.013Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-16T18:10:09.625Z",
+      "checked_at": "2026-10-16T18:18:35.016Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-16T18:10:09.626Z",
+      "checked_at": "2026-10-16T18:18:35.018Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-16T18:10:10.062Z",
+      "checked_at": "2026-10-16T18:18:35.413Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-16T18:10:09.211368+00:00",
+      "checked_at": "2026-10-16T18:18:34.650292+00:00",
       "status": "DEGRADED",
-      "note": "Authenticated RemoGPT merge/ancestry/check metadata and exact hosted artifact rechecked; O1 R4 and Issue 3564 acceptance receipts retained. Owner relay preserved for local candidates and frontend/Jest acceptance claims. Current full Plan 1 register and complete Drive receipt coverage are unavailable; canonical ledger sync remains pending. No present coding activity inferred."
+      "note": "Exact O1 CONV-04A final-head source-review receipt and current GitHub candidate identity reconciled, alongside retained R4 / Issue 3564 acceptances and hosted qualification. Complete receipt-channel coverage and current full Plan 1 register remain unavailable; canonical sync pending. No present coding activity inferred."
     }
   ],
   "evidence": [
@@ -516,6 +516,17 @@
       "accepted_at": null,
       "accepted_date": "2026-10-13",
       "scope": "O1 independent two-path source audit, October 12 Arizona / October 13 UTC. Exact acceptance time not supplied. No publication or dev integration; normal lockfile-bound GitHub CI remains required. Full-history scans retain 2,539 findings without waiver."
+    },
+    {
+      "id": "conv04a-final-head-source-reviews-pass",
+      "title": "CONV-04A: exact final-head platform-authority and Hub source reviews PASS",
+      "classification": "SOURCE ACCEPTED",
+      "sha256": "8e6f25f821bf487b09b857128d7c6f0f8779611a151ab240ce7f062692396a20",
+      "commit": "e755c5a4ed85a9e70307382fc445ec97abf6e5cc",
+      "tree": "279026a9b9a7540431bb3ab46ed6cbaf96d58e30",
+      "accepted_at": "2026-10-11T03:00:10.613928+00:00",
+      "accepted_date": "2026-10-11",
+      "scope": "O1 independent exact 17-file shared-surface source review, with 79 supplementary functional checks passing. The two old final-head source-review gates are closed. This is not current-target combined-result qualification, pinned CI equivalence, hosted acceptance, merge or release; sequencing and remaining S04/domain/TLS gates remain."
     }
   ],
   "work_items": [
@@ -843,24 +854,26 @@
     },
     {
       "id": "CONV-04A",
-      "title": "CONV-04A — accepted source history; draft remains parked",
+      "title": "CONV-04A — source accepted; final-head shared reviews passed; integration held",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-04"
       ],
-      "classification": "HISTORICAL PUBLIC",
-      "state": "IDLE",
+      "classification": "SOURCE ACCEPTED",
+      "state": "BLOCKED",
       "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Preserve the existing candidate; reconcile final-head platform/Hub authority, current-target integration conditions and exact holds.",
+      "next_action": "Preserve the accepted exact head and passed shared reviews; qualify the current-target combined result and satisfy the explicit sequence, effective CI and exact integration / merge authority.",
       "blockers": [
-        "PR 3530 remains draft and unmerged; no authenticated receipt supersedes the full recorded integration hold."
+        "Final-head platform-authority and Hub source reviews passed and are not current blockers.",
+        "Current-target combined-result qualification, governing S04/custom-host/TLS/operational sequence, effective required CI and fresh prospective integration / merge authority remain open."
       ],
       "evidence_ids": [
         "conv04a-pr3530-current-head",
         "historical-CONV04A",
-        "historical-PRREG"
+        "historical-PRREG",
+        "conv04a-final-head-source-reviews-pass"
       ]
     },
     {
@@ -1783,7 +1796,8 @@
       "P0 Packets A/B: new owner-relayed frozen local candidates are visible as executor reports awaiting independent audit, without source acceptance.",
       "PRs 3565, 3566 and 3567: actual dev merges and ancestry verified. Production deployment and exact master-milestone mapping are not inferred.",
       "Issue 3564: independent accepted two-path CI repair is preserved, parked and unpublished; the issue remains open.",
-      "CONV-05B S01-S03 convergence integration and CONV-04A accepted/parked history rechecked without duplicating their historical milestone children."
+      "CONV-05B S01-S03 convergence integration and CONV-04A accepted/parked history rechecked without duplicating their historical milestone children.",
+      "CONV-04A: exact O1 final-head platform-authority / Hub source review passed October 11. Those two source-review gates are closed; current-target integration, sequence, CI and merge gates remain."
     ],
     "critical_path": [
       "MB-01 integration lineage is on dev. Reconcile Issue 3564 and the remaining required CI / milestone obligations instead of requesting the already-completed cumulative merge.",
@@ -1791,7 +1805,8 @@
       "RAP-03.C: final independent integration review on the hosted-qualified draft head, then separately authorized dev merge and staging / release qualification.",
       "P0 A/B: independent audits of exact frozen local candidates; Packet A retains four reported inherited security-test failures.",
       "Authenticate the current Plan 1 acceptance register and original source receipt identities before any additional master-milestone mapping or formal child promotion.",
-      "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing."
+      "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing.",
+      "CONV-04A: use the retained passed shared-surface reviews; reconcile the actual remaining integration gates instead of requesting a duplicate source review."
     ],
     "blockers": [
       "Formal MB-01 / MB-03 / MB-04 child/card wording remains a historical disposition pending exact predecessor-bound owner approval; the current engineering records above supersede stale present-tense interpretations.",
@@ -1801,7 +1816,7 @@
       "C2a/C1b canonical ledger sync remains pending without demoting established independent source acceptance.",
       "Frontend/Jest original full-tree and raw acceptance-receipt binding is unavailable; owner-confirmed acceptance is preserved as a labeled relay.",
       "Current Plan 1 acceptance register and exact mappings for P0 A/B and PRs 3565–3567 remain unauthenticated.",
-      "Historical October 11 S04/domain/TLS/hosted and legacy-profile transition gates are retained unless an exact later receipt supersedes them."
+      "Historical October 11 S04/domain/TLS/hosted and legacy-profile transition gates remain unless later qualified receipts supersede them. CONV-04A final-head shared-source reviews are already passed."
     ],
     "decisions": [
       "Exact proposed MB-01 / MB-03 / MB-04 historical-card reconciliation, bound to the current predecessor; no master-milestone completion promotion.",
@@ -1811,5 +1826,5 @@
       "Separate final integration / merge decision for hosted-qualified PR 3568; no staging or production effect implied."
     ]
   },
-  "checksum": "8dc93264a5140567ca70ac0ccaf14be6c6b6253f92d70424f719352c7a75eca1"
+  "checksum": "11095c963300a7ff8af61c2d618cd2e1c4b4c3bad4de0cbca732c57e0222d17a"
 }
