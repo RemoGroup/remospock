@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 107,
-  "generated_at": "2026-10-16T16:15:15.367Z",
-  "last_evidence_check": "2026-10-16T16:15:15.367Z",
+  "revision": 108,
+  "generated_at": "2026-10-16T16:25:12.633Z",
+  "last_evidence_check": "2026-10-16T16:25:12.633Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -21,35 +21,35 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-16T16:15:14.921Z",
+      "checked_at": "2026-10-16T16:25:12.206Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-16T16:15:14.923Z",
+      "checked_at": "2026-10-16T16:25:12.208Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-16T16:15:14.925Z",
+      "checked_at": "2026-10-16T16:25:12.210Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-16T16:15:15.366Z",
+      "checked_at": "2026-10-16T16:25:12.632Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-16T16:15:14.417Z",
+      "checked_at": "2026-10-16T16:25:11.696Z",
       "status": "DEGRADED",
       "note": "Authorized connected receipt folder and mounted channels checked. The provider returned a limited metadata page; no new acceptance was established. C2a/C1b exact retained envelopes remain independently source accepted. Canonical ledger synchronization remains pending."
     }
@@ -1326,5 +1326,5 @@
       "Historical October11: Rule on the CONV-05A not-started and hosted-held dependencies for site domains."
     ]
   },
-  "checksum": "bbe6d7fca213ba05eab5a3294729f1dcca56bb6287f72f713cd447881568e9f9"
+  "checksum": "d9491e8f21c292217768b360f6299c9def5ef006f2d03f2393eff956c97f4a04"
 }
