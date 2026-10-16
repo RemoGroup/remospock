@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 119,
-  "generated_at": "2026-10-16T18:18:35.413Z",
-  "last_evidence_check": "2026-10-16T18:18:35.413Z",
+  "revision": 120,
+  "generated_at": "2026-10-16T18:26:26.173Z",
+  "last_evidence_check": "2026-10-16T18:26:26.173Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -21,37 +21,37 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-16T18:18:35.013Z",
+      "checked_at": "2026-10-16T18:26:25.462Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-16T18:18:35.016Z",
+      "checked_at": "2026-10-16T18:26:25.465Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-16T18:18:35.018Z",
+      "checked_at": "2026-10-16T18:26:25.466Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-16T18:18:35.413Z",
+      "checked_at": "2026-10-16T18:26:26.173Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-16T18:18:34.650292+00:00",
+      "checked_at": "2026-10-16T18:26:24.974Z",
       "status": "DEGRADED",
-      "note": "Exact O1 CONV-04A final-head source-review receipt and current GitHub candidate identity reconciled, alongside retained R4 / Issue 3564 acceptances and hosted qualification. Complete receipt-channel coverage and current full Plan 1 register remain unavailable; canonical sync pending. No present coding activity inferred."
+      "note": "Authorized connected receipt folder and mounted channels checked. The provider returned a limited metadata page; no new acceptance was established. C2a/C1b exact retained envelopes remain independently source accepted. Canonical ledger synchronization remains pending."
     }
   ],
   "evidence": [
@@ -1826,5 +1826,5 @@
       "Separate final integration / merge decision for hosted-qualified PR 3568; no staging or production effect implied."
     ]
   },
-  "checksum": "11095c963300a7ff8af61c2d618cd2e1c4b4c3bad4de0cbca732c57e0222d17a"
+  "checksum": "ed59f603a4223d9513b5d1ffc058364c6254b770286461370245b0b97e5651ef"
 }
