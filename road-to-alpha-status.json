@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 120,
-  "generated_at": "2026-10-16T18:26:26.173Z",
-  "last_evidence_check": "2026-10-16T18:26:26.173Z",
+  "revision": 121,
+  "generated_at": "2026-10-16T18:33:51.548Z",
+  "last_evidence_check": "2026-10-16T18:33:51.548Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -10,48 +10,48 @@
     "basis": "Independent ChatGPT source acceptances: RemoCommand C2a/C1b and Spock scheduler; exact acceptance times not supplied."
   },
   "last_milestone_disposition_change": {
-    "at": null,
-    "date": "2026-10-11",
-    "precision": "day",
-    "basis": "Last historical public-board disposition date; exact final change time not supplied."
+    "at": "2026-10-16T18:31:43Z",
+    "date": "2026-10-16",
+    "precision": "second",
+    "basis": "MB-04 exact owner engineering reconciliation disposition"
   },
-  "milestone_evidence_cutoff": "2026-10-12T01:52:00Z",
+  "milestone_evidence_cutoff": "2026-10-16T18:31:43Z",
   "expected_refresh_seconds": 600,
   "sources": [
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-16T18:26:25.462Z",
+      "checked_at": "2026-10-16T18:33:51.101Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-16T18:26:25.465Z",
+      "checked_at": "2026-10-16T18:33:51.104Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-16T18:26:25.466Z",
+      "checked_at": "2026-10-16T18:33:51.105Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-16T18:26:26.173Z",
+      "checked_at": "2026-10-16T18:33:51.548Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-16T18:26:24.974Z",
+      "checked_at": "2026-10-16T18:33:24.763Z",
       "status": "DEGRADED",
-      "note": "Authorized connected receipt folder and mounted channels checked. The provider returned a limited metadata page; no new acceptance was established. C2a/C1b exact retained envelopes remain independently source accepted. Canonical ledger synchronization remains pending."
+      "note": "Authorized connected receipt folder and mounted channels checked. The provider returned a limited metadata page; no new source acceptance was established. Exact prior independent source acceptance is preserved. Canonical ledger synchronization remains pending."
     }
   ],
   "evidence": [
@@ -527,6 +527,39 @@
       "accepted_at": "2026-10-11T03:00:10.613928+00:00",
       "accepted_date": "2026-10-11",
       "scope": "O1 independent exact 17-file shared-surface source review, with 79 supplementary functional checks passing. The two old final-head source-review gates are closed. This is not current-target combined-result qualification, pinned CI equivalence, hosted acceptance, merge or release; sequencing and remaining S04/domain/TLS gates remain."
+    },
+    {
+      "id": "owner-mb-01-engineering-reconciliation",
+      "title": "MB-01 exact owner engineering reconciliation disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-16T18:31:43Z",
+      "accepted_date": "2026-10-16",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
+    },
+    {
+      "id": "owner-mb-03-engineering-reconciliation",
+      "title": "MB-03 exact owner engineering reconciliation disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-16T18:31:43Z",
+      "accepted_date": "2026-10-16",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
+    },
+    {
+      "id": "owner-mb-04-engineering-reconciliation",
+      "title": "MB-04 exact owner engineering reconciliation disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-16T18:31:43Z",
+      "accepted_date": "2026-10-16",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
     }
   ],
   "work_items": [
@@ -983,36 +1016,42 @@
       "group": "FOUNDATION",
       "state": "PARTIAL",
       "scope": "",
-      "evidence_at": "2026-10-11T21:28:00Z",
+      "evidence_at": "2026-10-16T18:31:43Z",
       "evidence_ids": [
         "historical-R1_PACKET",
         "historical-MB01_DISP",
         "historical-MB01_REVIEW",
-        "historical-LANED"
+        "historical-LANED",
+        "owner-mb-01-engineering-reconciliation"
       ],
       "remaining": [
-        "Cumulative accepted RemoGPT integration lineage (25 commits) — SOURCE ACCEPTED (historical disposition)",
-        "Six lane-D scanner fixture findings: three-file fixture substitution — SOURCE ACCEPTED (historical disposition)",
-        "18 lane A/B scanner findings (15 lane A, 3 lane B) — BLOCKED (historical disposition)",
-        "Effective CI scanner gate on dev — BLOCKED (historical disposition)",
-        "One cumulative integration PR to dev — BLOCKED (historical disposition)",
-        "Five Ubuntu-only scanner self-test cases — BLOCKED (historical disposition)"
+        "Current: Issue 3564 accepted repair needs separately authorized current-target publication, normal CI and review.",
+        "Current: exact requirement closure, including retained Ubuntu-case evidence and non-waived history-scan limitations, remains open.",
+        "Historical October 11: Cumulative accepted RemoGPT integration lineage (25 commits) — SOURCE ACCEPTED (historical disposition)",
+        "Historical October 11: Six lane-D scanner fixture findings: three-file fixture substitution — SOURCE ACCEPTED (historical disposition)",
+        "Historical October 11: 18 lane A/B scanner findings (15 lane A, 3 lane B) — BLOCKED (historical disposition)",
+        "Historical October 11: Effective CI scanner gate on dev — BLOCKED (historical disposition)",
+        "Historical October 11: One cumulative integration PR to dev — BLOCKED (historical disposition)",
+        "Historical October 11: Five Ubuntu-only scanner self-test cases — BLOCKED (historical disposition)"
       ],
       "dependencies": [
-        "18 lane A/B scanner findings need Spock/O2 source custody; the request was prepared but its delivery is not acknowledged. (historical as of October11 Arizona)"
+        "Current: MB-01 cumulative lineage is on dev; the old not-on-dev dependency is superseded.",
+        "Current: accepted Issue 3564 repair, required-CI evidence and governing requirement-level acceptance remain open.",
+        "Historical: 18 lane A/B scanner findings need Spock/O2 source custody; the request was prepared but its delivery is not acknowledged. (historical as of October11 Arizona)"
       ],
-      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "next_action": "Preserve the verified dev integration; reconcile Issue 3564 and the remaining exact CI / milestone requirements under separate source and operational grants.",
       "children": [
         {
           "id": "MB-01.lineage",
           "title": "Cumulative accepted RemoGPT integration lineage (25 commits)",
           "lane": "remocommand",
-          "state": "SOURCE ACCEPTED",
-          "note": "Every segment has its own independent acceptance; none of the 25 commits is on dev yet.",
+          "state": "INTEGRATED",
+          "note": "PR 3561 merged October 13 UTC; the exact accepted cumulative contribution is in current dev ancestry. Historical October 11 source-only state is superseded for this contribution; whole MB-01 is not closed.",
           "blocker": "",
           "evidence_ids": [
             "historical-MB01_DISP",
-            "historical-MB01_REVIEW"
+            "historical-MB01_REVIEW",
+            "mb01-pr3561-dev-merge"
           ]
         },
         {
@@ -1031,12 +1070,13 @@
           "id": "MB-01.laneAB",
           "title": "18 lane A/B scanner findings (15 lane A, 3 lane B)",
           "lane": "spock",
-          "state": "BLOCKED",
-          "note": "",
-          "blocker": "Owned by Spock/O2 but not started: needs Spock source custody under its own lease; the 18-row request delivery was blocked and is not acknowledged.",
+          "state": "NOT VERIFIED",
+          "note": "Historical October 11: 18 lane A/B findings blocked the old integration candidate. The cumulative lineage is now merged and current dev scanner checks succeed; exact per-row final requirement disposition is not independently reconciled.",
+          "blocker": "Current requirement-level disposition remains unverified; do not present the historical 18-row failure as a fresh scan.",
           "evidence_ids": [
             "historical-MB01_DISP",
-            "historical-MB01_REVIEW"
+            "historical-MB01_REVIEW",
+            "mb01-current-dev-ci"
           ]
         },
         {
@@ -1044,33 +1084,37 @@
           "title": "Effective CI scanner gate on dev",
           "lane": "shared",
           "state": "BLOCKED",
-          "note": "",
-          "blocker": "The required dev scan is a false green (ripgrep is missing on the runner). The effective scanner can pass only after all remaining findings are resolved.",
+          "note": "Current dev has 12 successful checks and one skipped manual check. The historical post-merge Asset Hub Gate failed; its accepted Issue 3564 source repair remains parked and unpublished.",
+          "blocker": "Issue 3564 current-target publication, normal lockfile-bound CI and final required-CI disposition remain separate.",
           "evidence_ids": [
-            "historical-MB01_DISP"
+            "historical-MB01_DISP",
+            "mb01-current-dev-ci",
+            "mb01-issue3564-o1-source-pass"
           ]
         },
         {
           "id": "MB-01.pr",
           "title": "One cumulative integration PR to dev",
           "lane": "shared",
-          "state": "BLOCKED",
-          "note": "",
-          "blocker": "Sequenced after the 18 lane A/B findings; it also carries the six-site security-inventory allowlist review.",
+          "state": "INTEGRATED",
+          "note": "The cumulative dev PR is merged as the verified PR 3561 merge commit. Historical blocked publication language is superseded.",
+          "blocker": "",
           "evidence_ids": [
-            "historical-MB01_DISP"
+            "historical-MB01_DISP",
+            "mb01-pr3561-dev-merge"
           ]
         },
         {
           "id": "MB-01.ubuntu",
           "title": "Five Ubuntu-only scanner self-test cases",
           "lane": "unassigned",
-          "state": "BLOCKED",
-          "note": "",
-          "blocker": "Not yet run: they need an Ubuntu environment (WSL has no ripgrep); no runner is assigned.",
+          "state": "NOT VERIFIED",
+          "note": "Historical five Ubuntu-only scanner cases remain a named requirement. Current checks succeed, but exact five-case result-to-requirement binding is not authenticated by this reconciliation.",
+          "blocker": "Retain the required proof gap without claiming an observed current failure.",
           "evidence_ids": [
             "historical-LANED",
-            "historical-R1_PACKET"
+            "historical-R1_PACKET",
+            "mb01-current-dev-ci"
           ]
         }
       ],
@@ -1106,24 +1150,29 @@
       "group": "FOUNDATION",
       "state": "PARTIAL",
       "scope": "",
-      "evidence_at": "2026-10-12T01:52:00Z",
+      "evidence_at": "2026-10-16T18:31:43Z",
       "evidence_ids": [
         "historical-MB01_DISP",
         "historical-R1_PACKET",
         "historical-R2_PACKET",
-        "historical-RAP03A_PASS"
+        "historical-RAP03A_PASS",
+        "owner-mb-03-engineering-reconciliation"
       ],
       "remaining": [
-        "RAP-03.A Account-bound professional membership authority — SOURCE ACCEPTED (historical disposition)",
-        "Access transition for legacy professional profiles — BLOCKED (historical disposition)",
-        "RAP-03.B-1 professional credential revocation and selection — READY (historical disposition)",
-        "RAP-03.B remainder: resolver unification and tenant-guard enablement — NOT VERIFIED (historical disposition)",
-        "RAP-03.C endpoint security floor — NOT VERIFIED (historical disposition)"
+        "Current: R4 is SOURCE ACCEPTED; draft-publication-only qualification does not close integration / regression / legacy-account policy gates.",
+        "Current: PR 3568 is hosted-qualified and unmerged; frontend/Jest original receipt binding and remaining endpoint-floor obligations are retained.",
+        "Current: legacy-profile access-transition decision remains open.",
+        "Historical October 11: RAP-03.A Account-bound professional membership authority — SOURCE ACCEPTED (historical disposition)",
+        "Historical October 11: Access transition for legacy professional profiles — BLOCKED (historical disposition)",
+        "Historical October 11: RAP-03.B-1 professional credential revocation and selection — READY (historical disposition)",
+        "Historical October 11: RAP-03.B remainder: resolver unification and tenant-guard enablement — NOT VERIFIED (historical disposition)",
+        "Historical October 11: RAP-03.C endpoint security floor — NOT VERIFIED (historical disposition)"
       ],
       "dependencies": [
-        "Membership integration waits on the MB-01 effective scanner gate and on Tim's access-transition decision. (historical as of October11 Arizona)"
+        "Current: MB-01 dev integration prerequisite is verified; remaining CI and Tim legacy-account / access-transition decisions remain separate.",
+        "Historical: Membership integration waits on the MB-01 effective scanner gate and on Tim's access-transition decision. (historical as of October11 Arizona)"
       ],
-      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "next_action": "Preserve accepted source and the hosted-qualified draft; obtain final integration review / exact merge decisions, independent P0 audits and the legacy-account transition ruling.",
       "children": [
         {
           "id": "RAP-03.A",
@@ -1151,12 +1200,14 @@
           "id": "RAP-03.B-1",
           "title": "RAP-03.B-1 professional credential revocation and selection",
           "lane": "remocommand",
-          "state": "READY",
-          "note": "Current RemoCommand assignment after owner relay. Assigned, not shown as working: execution is verified only by a fresh RemoCommand heartbeat with recent activity.",
-          "blocker": "",
+          "state": "SOURCE ACCEPTED",
+          "note": "O1 independently accepted exact R4 source on October 13 UTC. Prospective test-merge review qualified draft publication only; no actual merge or deployment. Historical READY assignment wording is superseded.",
+          "blocker": "Broad regression, current-target CI / final integration review and legacy durable-account transition policy remain unresolved.",
           "evidence_ids": [
             "historical-R2_PACKET",
-            "historical-R1_PACKET"
+            "historical-R1_PACKET",
+            "rap03b1-r4-o1-source-pass",
+            "rap03b1-prospective-draft-only"
           ]
         },
         {
@@ -1172,10 +1223,16 @@
           "id": "RAP-03.C",
           "title": "RAP-03.C endpoint security floor",
           "lane": "unassigned",
-          "state": "NOT VERIFIED",
-          "note": "",
-          "blocker": "",
-          "evidence_ids": []
+          "state": "PARTIAL",
+          "note": "Accepted C2a/C1b are preserved. PR 3568 is an unmerged hosted-qualified candidate with 129 backend and 155 frontend passing tests and zero recorded fence violations. Owner relays frontend/Jest acceptance; original tuples/receipts remain incomplete.",
+          "blocker": "Final integration review / merge, exact frontend/Jest receipt binding, P0 candidate audits and whole endpoint-floor requirements remain open.",
+          "evidence_ids": [
+            "RAP03C-C2a-D",
+            "RAP03C-C1b-D",
+            "rap03c-pr3568-hosted-qualified",
+            "rap03c-frontend-owner-acceptance-relay",
+            "rap03c-jest-owner-acceptance-relay"
+          ]
         }
       ],
       "work_item_ids": [
@@ -1183,8 +1240,7 @@
         "remo-c1b",
         "remo-rap03c-pr3568",
         "remo-rap03c-frontend",
-        "remo-rap03c-jest",
-        "remo-rap03b1-r4"
+        "remo-rap03c-jest"
       ]
     },
     {
@@ -1193,33 +1249,38 @@
       "group": "FOUNDATION",
       "state": "PARTIAL",
       "scope": "",
-      "evidence_at": "2026-10-11T04:45:03Z",
+      "evidence_at": "2026-10-16T18:31:43Z",
       "evidence_ids": [
         "historical-PRREG",
         "historical-CONV04A",
         "historical-S04_INTAKE",
-        "historical-S04_P1"
+        "historical-S04_P1",
+        "owner-mb-04-engineering-reconciliation",
+        "conv04a-final-head-source-reviews-pass"
       ],
       "remaining": [
-        "CONV-05B S01–S03 domain and runtime contribution — INTEGRATED (historical disposition)",
-        "CONV-04A guarded lender loan-workspace projection (S01–S03) — SOURCE ACCEPTED (historical disposition)",
-        "CONV-05B S04 network-observer source slice — BLOCKED (historical disposition)",
-        "S04 hosted / custom-domain qualification — BLOCKED (historical disposition)"
+        "Current: CONV-04A final-head platform-authority / Hub source-review gates are passed. Convergence-only S01-S03 integration is retained; current-target / sequence / CI / merge and whole-unit operational gates remain.",
+        "Historical October 11, still not superseded by a qualifying receipt: CONV-05B S01–S03 domain and runtime contribution — INTEGRATED (historical disposition)",
+        "Historical October 11, still not superseded by a qualifying receipt: CONV-04A guarded lender loan-workspace projection (S01–S03) — SOURCE ACCEPTED (historical disposition)",
+        "Historical October 11, still not superseded by a qualifying receipt: CONV-05B S04 network-observer source slice — BLOCKED (historical disposition)",
+        "Historical October 11, still not superseded by a qualifying receipt: S04 hosted / custom-domain qualification — BLOCKED (historical disposition)"
       ],
       "dependencies": [
-        "S04 hosted/custom-domain qualification lacks a domain-grant receipt, custom-host staging scope and an approved hosting-inventory read. (historical as of October11 Arizona)"
+        "Current: S04/domain/TLS/hosted gates and CONV-04A combined-current-target qualification / sequence / required CI / prospective integration authority remain unverified or blocked.",
+        "Historical: S04 hosted/custom-domain qualification lacks a domain-grant receipt, custom-host staging scope and an approved hosting-inventory read. (historical as of October11 Arizona)"
       ],
-      "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
+      "next_action": "Retain accepted source and passed shared reviews; qualify the current target, satisfy the explicit S04 / hosted / domain sequence and obtain exact prospective integration / merge authority.",
       "children": [
         {
           "id": "CONV-05B.S01-S03",
           "title": "CONV-05B S01–S03 domain and runtime contribution",
           "lane": "remocommand",
           "state": "INTEGRATED",
-          "note": "Merged to the convergence branch with post-merge CI verified. Not yet on dev; S04 and whole-unit gates remain open.",
+          "note": "PR 3551 historical convergence merge and post-merge evidence are preserved and reverified. Its merge remains outside current dev ancestry; S04, hosted/domain/TLS and whole-unit gates remain open.",
           "blocker": "",
           "evidence_ids": [
-            "historical-PRREG"
+            "historical-PRREG",
+            "conv05b-pr3551-merge-recheck"
           ]
         },
         {
@@ -1227,11 +1288,13 @@
           "title": "CONV-04A guarded lender loan-workspace projection (S01–S03)",
           "lane": "remocommand",
           "state": "SOURCE ACCEPTED",
-          "note": "Whole-unit source review preserved. Its PR is intentionally parked (build-ahead hold); final-head platform-authority and Hub/RLOS reviews remain before integration.",
+          "note": "Whole-unit source acceptance is preserved. O1 final-head platform-authority and Hub shared-surface source reviews passed October 11 on this exact head; those two source-review gates are closed. Current-target combined-result qualification, sequence/S04/domain/TLS, effective required CI and prospective integration / merge authority remain open. PR 3530 is still draft and unmerged.",
           "blocker": "",
           "evidence_ids": [
             "historical-CONV04A",
-            "historical-PRREG"
+            "historical-PRREG",
+            "conv04a-pr3530-current-head",
+            "conv04a-final-head-source-reviews-pass"
           ]
         },
         {
@@ -1239,7 +1302,7 @@
           "title": "CONV-05B S04 network-observer source slice",
           "lane": "remocommand",
           "state": "BLOCKED",
-          "note": "",
+          "note": "Historical blocked disposition retained; no qualifying later receipt supersedes this scope. ",
           "blocker": "Independent audit blocked; the candidate is parked, not retried, diagnosed or corrected.",
           "evidence_ids": [
             "historical-S04_P1",
@@ -1251,7 +1314,7 @@
           "title": "S04 hosted / custom-domain qualification",
           "lane": "unassigned",
           "state": "BLOCKED",
-          "note": "",
+          "note": "Historical blocked disposition retained; no qualifying later receipt supersedes this scope. ",
           "blocker": "Needs a domain-grant receipt, custom-host staging scope bound to the convergence tip, an approved hosting-inventory read and a ruling on CONV-05A dependencies.",
           "evidence_ids": [
             "historical-S04_INTAKE"
@@ -1826,5 +1889,5 @@
       "Separate final integration / merge decision for hosted-qualified PR 3568; no staging or production effect implied."
     ]
   },
-  "checksum": "ed59f603a4223d9513b5d1ffc058364c6254b770286461370245b0b97e5651ef"
+  "checksum": "14d36dfb424d0db9613b8fdf1e18aecd85bb823754e3660282f6747b12c01a9e"
 }
