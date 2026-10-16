@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "bindings": [
+    {"id":"spock-mb01","lane":"spock","title":"Integration and test-baseline engineering","packet":"MB-01 PRODUCT CONTINUATION","milestone_ids":["MB-01"]},
+    {"id":"spock-creator","lane":"spock","title":"Creator workbench engineering","packet":"CREATOR WORKBENCH","milestone_ids":["MB-12"]},
+    {"id":"spock-reporting","lane":"spock","title":"Automatic engineering work reporting","packet":"RTA PER-TURN REPORTING","milestone_ids":[]},
+    {"id":"remocommand-professional","lane":"remocommand","title":"Professional membership and security engineering","packet":"RAP-03 PROFESSIONAL","milestone_ids":["MB-03"]}
+  ]
+}
