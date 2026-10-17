@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 274,
-  "generated_at": "2026-10-17T21:40:08.313Z",
-  "last_evidence_check": "2026-10-17T21:40:08.313Z",
+  "revision": 275,
+  "generated_at": "2026-10-17T22:01:36.040Z",
+  "last_evidence_check": "2026-10-17T22:01:36.040Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T21:40:07.907Z",
+      "checked_at": "2026-10-17T22:01:35.624Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T21:40:07.910Z",
+      "checked_at": "2026-10-17T22:01:35.628Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T21:40:07.911Z",
+      "checked_at": "2026-10-17T22:01:35.629Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T21:40:08.313Z",
+      "checked_at": "2026-10-17T22:01:36.040Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T21:39:43.543433+00:00",
+      "checked_at": "2026-10-17T22:01:15.112088+00:00",
       "status": "DEGRADED",
-      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage."
+      "note": "Limited connected folder and mounted checks plus a separately authenticated exact preliminary O2 ACK after the initial snapshot preserve all original source acceptances and dates. Conditional O1 proposal and fresh O2 pre-acquisition conflict checks are authenticated; actual native O1 lease and separate matching qualification ACK remain pending. Original receipt encoding failure and verified append-only correction are retained. No CI, coding or integration acceptance is inferred. C2a/C1b canonical sync remains pending; limited metadata is not complete receipt coverage."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T21:40:07.740914+00:00",
+      "checked_at": "2026-10-17T21:52:29.236388+00:00",
       "status": "OK",
-      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current draft. No new acceptance or coding activity inferred."
+      "note": "Authenticated seven-PR checks and three retained receipts reverified with complete bounded check/workflow coverage. Current draft qualification is not inherited from older hosted proof. No new acceptance or coding inferred."
     }
   ],
   "evidence": [
@@ -809,6 +809,17 @@
       "accepted_at": null,
       "accepted_date": null,
       "scope": "Authenticated October17 21:25 coordination reply verifies receipt of the exact O2 request, but the reporter does not claim Creator/main custody. The current scoped target holder and native lease-control location are not authenticated; no fresh target lease or qualification occupancy exists in the reply. The known RemoGPT/dev custodian record has a different repository scope and cannot supply Creator/main authority. Independent current GitHub reads preserve source67428661, main9bbc4cf3 and combineda821c9d2/tree9321de89, with zero exact-combined checks/workflows and PR92 unmerged. Existing O1 must supply its current scoped assignment and native control; if no such holder/control remains, an exact owner designation of a scoped replacement is required. The prepared normal-CI route is unexecuted. No source or integration acceptance, audit reopening, source edit, CI publication, merge, milestone disposition or production effect is granted."
+    },
+    {
+      "id": "creator-pod04-proposal-o2-prelease-ack-a821c9d2",
+      "title": "Creator POD04 conditional custodian proposal and O2 pre-acquisition conflict check",
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "a821c9d24d997d1d7523d75081b6cc6e70885a6c",
+      "tree": "9321de899e64802f5624779aff2c69158a8f2b2b",
+      "sha256": "6d12d3530a84a2b5dbf319840eb3e0be3892c3fe2a05af94200fd4e3b7d969b2",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Authenticated October17 21:46 conditional temporary O1 custodian proposal and original native proposed contract are bound to the exact source, target and prospective combined identities. Fresh focused O2 native conflict checks passed; its October17 21:55 pre-acquisition acknowledgment was privately delivered; an append-only correction preserves exact original embedded bytes and has verified raw readback. The original line-ending failure and correction remain retained. This completes only the O2 pre-acquisition prerequisite and coordinates one conditional normal-CI window. No actual O1 native lease is authenticated and no matching actual-custody qualification acknowledgment is issued; no CI or ref publication is granted by this preliminary acknowledgment. Independent current GitHub reads preserve source67428661, main9bbc4cf3 and combineda821c9d2/tree9321de89 with PR92 open and unmerged. O1 must independently acquire exclusive native target custody and provide immutable acquired evidence; O2 must verify the actual unexpired lease before its separate qualification acknowledgment. Exact combined CI and independent prospective integration review remain pending. Historical dependency-security failure remains unwaived. All three bounded source acceptances and closed audits remain preserved; no source or integration acceptance, milestone disposition, coding, merge or production effect is inferred."
     }
   ],
   "work_items": [
@@ -870,9 +881,9 @@
       "activity_at": "2026-10-16T19:40:19.687+00:00",
       "activity_basis": "TEST RUN",
       "blockers": [
-        "Current Creator/main custodian assignment and native lease-control location are not authenticated. The existing RemoGPT/dev custodian record has a different repository scope and cannot establish Creator/main authority.",
-        "POD04 exact combined qualification remains gated: no fresh target lease, no exact-combined checks/workflows, and the historical RemoMedia dependency-scan failure within Tests remains unwaived.",
-        "Five-file-parent/main security obligations, POD05 then POD03 caller, RCD10, hosted/browser qualification and production remain separate."
+        "Conditional scoped O1 proposal and fresh O2 pre-acquisition conflict acknowledgment are authenticated; actual O1 exclusive native target lease and the separate matching O2 actual-custody qualification acknowledgment remain pending.",
+        "POD04 exact combined qualification remains gated: no authorized combined CI execution or independent integration acceptance is established. Historical RemoMedia dependency-scan failure within Tests remains unwaived.",
+        "Five-file-parent/main security obligations, POD05 then POD03 caller, RCD10, baseline TS2322, hosted/browser qualification and production remain separate."
       ],
       "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
@@ -887,7 +898,7 @@
       "milestone_ids": [
         "MB-12"
       ],
-      "next_action": "Preserve all three authenticated bounded source acceptances and closed audits. Authenticate the existing Creator/main target holder and native lease-control location; if none remains, obtain exact owner scoped replacement designation. Only then establish fresh O1 custody/qualification occupancy, qualify the exact prospective combined result through normal CI, and obtain independent O2 review. No self-assignment or merge is admitted.",
+      "next_action": "Preserve the three authenticated bounded source acceptances and closed audits. O1 must complete its own fresh conflict checks and exclusive native target acquisition for the authenticated conditional proposal, then provide immutable actual-lease evidence. O2 must verify exact identities, expiry and protections before issuing the separate matching qualification acknowledgment. Only then qualify the exact combined result through authorized normal CI and independent prospective integration review. No merge is admitted.",
       "state": "IDLE",
       "title": "Creator workbench GET-await repair",
       "writer": "Spock Codex - accepted frozen GET-await source; writer lease closed"
@@ -1301,7 +1312,7 @@
       "next_action": "Preserve the authenticated original Create verdict and its original acceptance time; all three bounded source audits remain closed. Advance POD04 separately through fresh O1 current-target and qualification custody, normal combined CI and O2 prospective review. No unrelated correction is admitted.",
       "blockers": [
         "Preexisting TS2322, real browser/hosted qualification and inherited five-file-parent/main security obligations remain separate.",
-        "POD04 current Creator/main holder and native lease control are not authenticated; the coordination reporter claims no target custody. Fresh O1 custody/occupancy, exact normal combined CI and independent review remain gated. Historical dependency-scan failure is unwaived; POD05 then POD03 and RCD10 stay separate."
+        "POD04 conditional O1 custodian proposal and O2 pre-acquisition conflict ACK are authenticated. Actual native O1 target lease, separate matching O2 qualification ACK, exact normal combined CI and independent review remain pending. Historical dependency-scan failure is unwaived; POD05 then POD03 and RCD10 stay separate."
       ],
       "evidence_ids": [
         "creator-character-create-csrf-audit-handoff-5adb24b7",
@@ -2226,7 +2237,7 @@
   "lanes": {
     "spock": {
       "current_item_id": "spock-creator",
-      "note": "GET, DELETE and CREATE original verdicts remain authenticated; all three bounded audits and source leases are closed. The POD04 reply authenticates request receipt only: current Creator/main holder and native lease control are unverified, no fresh custody exists, and proposed CI remains unexecuted. Existing scoped assignment/control or an exact owner replacement designation is required before custody and qualification. No current coding or target lease is asserted."
+      "note": "GET, DELETE and CREATE original verdicts remain authenticated; all three bounded audits and source leases are closed. The conditional O1 POD04 custodian proposal and original native contract are authenticated. Fresh O2 pre-acquisition conflict checks passed and its preliminary ACK was delivered and verified. Actual native O1 custody and the separate matching O2 qualification ACK remain pending; no CI, current coding or target lease is inferred."
     },
     "remocommand": {
       "current_item_id": "remo-p0-packet-b",
@@ -2260,7 +2271,8 @@
       "PR3568 new draft snapshot October17 21:01 UTC: headb97490d2/tree0e0696a2 verified, open and unmerged to dev. Complete bounded pages show11 successful checks, one skipped and two in progress; seven successful workflows and two in progress. Prior-head hosted proof remains historical; current-source and artifact qualification are not established by green checks.",
       "PR3568 check snapshot October17 21:11 UTC: exact draft headb97490d2/tree0e0696a2 now has14 successful checks, one skipped check and nine successful workflows in complete bounded pages. It remains open/unmerged. This supersedes the in-progress check snapshot; source acceptance, current-head hosted-artifact qualification and final integration are separate gates.",
       "Creator POD04 historical CI precision: authenticated original October8 RemoMedia job output confirms dependency-scan.test.ts:33 real-workspace policy failure inside the failed Tests step. This is an existing-log observation, not a new test or scan run. The failure remains unwaived; accepted source and the three completed bounded audits are preserved.",
-      "Creator POD04 coordination reply October17 21:25 UTC authenticates the exact private request and identifies a specific authority gap: no authenticated current Creator/main holder or native lease-control location. The reporter claims no custodianship or lease. A normal combined-CI route is prepared but unexecuted; source acceptances and all three closed audits remain preserved."
+      "Creator POD04 coordination reply October17 21:25 UTC authenticates the exact private request and identifies a specific authority gap: no authenticated current Creator/main holder or native lease-control location. The reporter claims no custodianship or lease. A normal combined-CI route is prepared but unexecuted; source acceptances and all three closed audits remain preserved.",
+      "Creator POD04: the conditional O1 scoped custodian proposal and native proposed contract are authenticated. Fresh focused O2 conflict checks passed, and its 21:55 UTC pre-acquisition ACK was delivered with exact raw readback. This satisfies only the preliminary O2 prerequisite; actual native target acquisition and the separate qualification ACK remain pending."
     ],
     "critical_path": [
       "MB-01 integration lineage is on dev. Reconcile Issue 3564 and the remaining required CI / milestone obligations instead of requesting the already-completed cumulative merge.",
@@ -2270,7 +2282,7 @@
       "Authenticate the current Plan 1 acceptance register and original source receipt identities before any additional master-milestone mapping or formal child promotion.",
       "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing.",
       "CONV-04A: use the retained passed shared-surface reviews; reconcile the actual remaining integration gates instead of requesting a duplicate source review.",
-      "Creator: preserve closed GET/DELETE/CREATE audits and original acceptance times. Authenticate the current scoped Creator/main holder and native lease control, or obtain an exact owner replacement designation if none remains. Then establish fresh O1 custody/qualification occupancy, qualify exact combineda821c9d2 through normal CI with the historical dependency-scan failure unwaived, obtain O2 prospective review and separate integration admission. POD05 then POD03 and RCD10 remain separate."
+      "Creator: preserve closed GET/DELETE/CREATE audits and original acceptance times. O1 must acquire exclusive native target custody for the authenticated conditional proposal, furnish immutable actual-lease evidence, and obtain O2 verification plus its separate matching qualification ACK. Then qualify exact combineda821c9d2 through authorized normal CI with the historical dependency-security failure unwaived, obtain independent prospective integration review and separate integration admission. POD05 then POD03 and RCD10 remain separate."
     ],
     "blockers": [
       "Formal MB-01 / MB-03 / MB-04 child/card wording remains a historical disposition pending exact predecessor-bound owner approval; the current engineering records above supersede stale present-tense interpretations.",
@@ -2281,7 +2293,7 @@
       "Frontend/Jest original full-tree and raw acceptance-receipt binding is unavailable; owner-confirmed acceptance is preserved as a labeled relay.",
       "Current Plan 1 acceptance register and exact mappings for P0 A/B and PRs 3565–3567 remain unauthenticated.",
       "Historical October 11 S04/domain/TLS/hosted and legacy-profile transition gates remain unless later qualified receipts supersede them. CONV-04A final-head shared-source reviews are already passed.",
-      "Creator POD04: current Creator/main custodian and native lease control are not authenticated; the RemoGPT/dev custodian scope cannot transfer. No fresh target custody/qualification occupancy or exact-combined CI exists. Historical dependency-scan failure remains unwaived. Baseline TS2322, hosted/browser and production qualification remain separate.",
+      "Creator POD04: conditional O1 proposal and O2 preliminary conflict ACK are authenticated, but actual exclusive native target custody and the separate matching qualification ACK are pending. Exact combined CI and independent prospective integration review remain unqualified. Historical dependency-scan failure, baseline TS2322, hosted/browser and production gates remain unwaived.",
       "The newer local P0 combined candidate is frozen and unpublished; the existing draft head/checks cannot qualify it. No new successor writer admission is established."
     ],
     "decisions": [
@@ -2291,8 +2303,8 @@
       "Separate RAP-03.B-1 publication / integration and legacy-account transition decisions; source acceptance does not grant these effects.",
       "Separate final integration and merge decision for PR3568 only after matching exact current-head source and hosted artifact qualification; no staging or production effect implied.",
       "Exact bounded P0 CI amendment application, publication and hosted qualification of the resulting candidate; merge and deployment remain separate.",
-      "Creator POD04: existing Creator/main custodian must supply its authenticated current scoped assignment and native lease-control location. If no such holder/control remains, the owner must explicitly designate the replacement scoped holder and control; no portfolio transfer is requested. Fresh custody, exact combined CI and independent O2 review still precede any separate integration or merge decision. All three bounded source audits stay closed."
+      "Creator POD04: the prepared conditional scoped designation and authenticated O1 proposal do not establish an active native lease. O1 must complete exclusive native acquisition and supply its actual custody ACK; O2 must authenticate that unexpired exact lease and provide the separate matching qualification ACK. No additional owner decision is currently established by this coordination step. Exact combined CI and independent review still precede any separate integration or merge decision; all three bounded source audits stay closed."
     ]
   },
-  "checksum": "afad3c1b54273c3fab611a6191738e48ee855b84d8d931f11caae488ec3521eb"
+  "checksum": "a6c4f9198c4df140d60df33d949a00e1e7cd57599232edb2b8089ba735a98437"
 }
