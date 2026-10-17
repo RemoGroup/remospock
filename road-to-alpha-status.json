@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 273,
-  "generated_at": "2026-10-17T21:32:43.903Z",
-  "last_evidence_check": "2026-10-17T21:32:43.903Z",
+  "revision": 274,
+  "generated_at": "2026-10-17T21:40:08.313Z",
+  "last_evidence_check": "2026-10-17T21:40:08.313Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T21:32:43.484Z",
+      "checked_at": "2026-10-17T21:40:07.907Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T21:32:43.487Z",
+      "checked_at": "2026-10-17T21:40:07.910Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T21:32:43.488Z",
+      "checked_at": "2026-10-17T21:40:07.911Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T21:32:43.903Z",
+      "checked_at": "2026-10-17T21:40:08.313Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T21:30:59.565105+00:00",
+      "checked_at": "2026-10-17T21:39:43.543433+00:00",
       "status": "DEGRADED",
-      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage. Authenticated POD04 reply establishes a current scoped-holder/native-control gap, not custody or execution. Existing Creator/main assignment/control must be authenticated, or an exact scoped replacement designation is needed if none remains."
+      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T21:31:24.030394+00:00",
+      "checked_at": "2026-10-17T21:40:07.740914+00:00",
       "status": "OK",
-      "note": "Authenticated seven-PR checks and three retained receipts reverified with complete bounded check/workflow coverage. Current draft qualification is not inherited from older hosted proof. No new acceptance or coding inferred."
+      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current draft. No new acceptance or coding activity inferred."
     }
   ],
   "evidence": [
@@ -2294,5 +2294,5 @@
       "Creator POD04: existing Creator/main custodian must supply its authenticated current scoped assignment and native lease-control location. If no such holder/control remains, the owner must explicitly designate the replacement scoped holder and control; no portfolio transfer is requested. Fresh custody, exact combined CI and independent O2 review still precede any separate integration or merge decision. All three bounded source audits stay closed."
     ]
   },
-  "checksum": "10087b38fe489538354cddc800273230d88f147c13e8ec830620138fd37319f5"
+  "checksum": "afad3c1b54273c3fab611a6191738e48ee855b84d8d931f11caae488ec3521eb"
 }
