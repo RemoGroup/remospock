@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 279,
-  "generated_at": "2026-10-17T22:38:58.171Z",
-  "last_evidence_check": "2026-10-17T22:38:58.171Z",
+  "revision": 280,
+  "generated_at": "2026-10-17T22:45:17.989Z",
+  "last_evidence_check": "2026-10-17T22:45:17.989Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T22:38:57.482Z",
+      "checked_at": "2026-10-17T22:45:17.583Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T22:38:57.486Z",
+      "checked_at": "2026-10-17T22:45:17.586Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T22:38:57.487Z",
+      "checked_at": "2026-10-17T22:45:17.588Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T22:38:58.171Z",
+      "checked_at": "2026-10-17T22:45:17.989Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T22:36:27.064637+00:00",
+      "checked_at": "2026-10-17T22:44:48.768744+00:00",
       "status": "DEGRADED",
-      "note": "Fresh connected and mounted receipt checks preserve all original source acceptances, dates and closed audits. The true PR3568 dev merge and current target-tip movement are normalized as scoped historical GitHub observations, with source-head and exact merged-commit CI kept distinct. Older hosted proof does not transfer; no new source or independent integration acceptance, coding or milestone disposition is issued. Creator actual native O1 custody/second ACK and C2a/C1b canonical synchronization remain pending; metadata coverage is limited."
+      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T22:36:54.163018+00:00",
+      "checked_at": "2026-10-17T22:45:17.403327+00:00",
       "status": "OK",
-      "note": "Authenticated seven-PR checks and three retained receipts verified. PR3568 truly merged into dev; target ancestry and complete bounded source-head checks verified. Separate exact merged-commit CI is retained with precise scope. Earlier hosted qualification remains exact-head historical; no source or independent integration acceptance, current coding or milestone disposition inferred."
+      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
   ],
   "evidence": [
@@ -2322,5 +2322,5 @@
       "Creator POD04: the prepared conditional scoped designation and authenticated O1 proposal do not establish an active native lease. O1 must complete exclusive native acquisition and supply its actual custody ACK; O2 must authenticate that unexpired exact lease and provide the separate matching qualification ACK. No additional owner decision is currently established by this coordination step. Exact combined CI and independent review still precede any separate integration or merge decision; all three bounded source audits stay closed."
     ]
   },
-  "checksum": "d9157868438bbbd5545d8b2109be275a9f0bbc259b45a87e5ab52b5335f16894"
+  "checksum": "f8270688576568baca15e3e8b3c6966f7fd300522f32c36fb600d6a6b6faa5b4"
 }
