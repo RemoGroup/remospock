@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 228,
-  "generated_at": "2026-10-17T13:11:09.318Z",
-  "last_evidence_check": "2026-10-17T13:11:09.318Z",
+  "revision": 229,
+  "generated_at": "2026-10-17T13:21:05.597Z",
+  "last_evidence_check": "2026-10-17T13:21:05.597Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -21,42 +21,42 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T13:11:08.907Z",
+      "checked_at": "2026-10-17T13:21:05.211Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T13:11:08.910Z",
+      "checked_at": "2026-10-17T13:21:05.214Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T13:11:08.911Z",
+      "checked_at": "2026-10-17T13:21:05.215Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T13:11:09.318Z",
+      "checked_at": "2026-10-17T13:21:05.597Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T13:10:40.162455+00:00",
+      "checked_at": "2026-10-17T13:20:38.242061+00:00",
       "status": "DEGRADED",
       "note": "Authorized coordination receipts checked with limited metadata coverage. Independently accepted canonical dispositions have exact owner-authorized public projections. Established source acceptances and original technical timestamps are preserved. C2a/C1b canonical ledger synchronization remains pending."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T13:11:08.760967+00:00",
+      "checked_at": "2026-10-17T13:21:05.071621+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held PR3568 qualification remains tied to its unmerged head. No new acceptance or coding activity inferred."
     }
@@ -2060,5 +2060,5 @@
       "Exact bounded P0 CI amendment application, publication and hosted qualification of the resulting candidate; merge and deployment remain separate."
     ]
   },
-  "checksum": "2539455af0dbde0f405c0cbd36e5266302fbb341d1ef3ec5ccf597f60aae9765"
+  "checksum": "a8e18d1ccb6eaeac3a0c82c2db02ef6b7340dc8c0f4bedf25c6966cf18413fe1"
 }
