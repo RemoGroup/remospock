@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 268,
-  "generated_at": "2026-10-17T20:44:56.519Z",
-  "last_evidence_check": "2026-10-17T20:44:56.519Z",
+  "revision": 269,
+  "generated_at": "2026-10-17T20:50:07.523Z",
+  "last_evidence_check": "2026-10-17T20:50:07.523Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T20:44:56.099Z",
+      "checked_at": "2026-10-17T20:50:07.116Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T20:44:56.102Z",
+      "checked_at": "2026-10-17T20:50:07.119Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T20:44:56.104Z",
+      "checked_at": "2026-10-17T20:50:07.120Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T20:44:56.519Z",
+      "checked_at": "2026-10-17T20:50:07.523Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T20:43:46.954003+00:00",
+      "checked_at": "2026-10-17T20:49:41.836638+00:00",
       "status": "DEGRADED",
-      "note": "Connected original Create verdict and authentication receipt verified as exact private bytes. The original19:58:08.973 UTC acceptance time is preserved; this closes the original-artifact provenance gap without a second source acceptance or reopened audit. All previous accepted records and formal dispositions remain intact. POD04 target custody and qualification stay pending; C2a/C1b canonical synchronization and limited coverage remain explicit."
+      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T20:44:55.925376+00:00",
+      "checked_at": "2026-10-17T20:50:06.948221+00:00",
       "status": "OK",
-      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification applies only while its exact source head matches. No source acceptance or coding inferred from GitHub checks."
+      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current draft. No new acceptance or coding activity inferred."
     }
   ],
   "evidence": [
@@ -2236,5 +2236,5 @@
       "Creator: existing O1 custodian must furnish fresh POD04 source/target and qualification custody; normal combined CI, O2 prospective review and separate integration admission remain required. All three original bounded source verdicts are authenticated and audits closed. No unrelated client-CSRF correction is admitted."
     ]
   },
-  "checksum": "44d47d7d3a1158f2be9b00e1e6c0c98cf6ac11cd410d765e10c60e9616d4a0db"
+  "checksum": "3e659e7d465260fa3886fb1f12fcc7694159e6bb0700d64d8fbc891bf8de79e9"
 }
