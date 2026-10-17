@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 177,
-  "generated_at": "2026-10-17T04:49:25.595Z",
-  "last_evidence_check": "2026-10-17T04:49:25.595Z",
+  "revision": 178,
+  "generated_at": "2026-10-17T04:56:44.224Z",
+  "last_evidence_check": "2026-10-17T04:56:44.224Z",
   "latest_accepted_engineering_event": {
     "at": null,
     "date": "2026-10-15",
@@ -10,990 +10,1058 @@
     "basis": "Independent ChatGPT source acceptances: RemoCommand C2a/C1b and Spock scheduler; exact acceptance times not supplied."
   },
   "last_milestone_disposition_change": {
-    "at": "2026-10-16T18:31:43Z",
-    "date": "2026-10-16",
+    "at": "2026-10-17T02:06:20.127731Z",
+    "date": "2026-10-17",
     "precision": "second",
-    "basis": "MB-04 exact owner engineering reconciliation disposition"
+    "basis": "MB-12 exact owner-authorized D12 canonical disposition"
   },
-  "milestone_evidence_cutoff": "2026-10-16T18:31:43Z",
+  "milestone_evidence_cutoff": "2026-10-17T02:06:20.127731Z",
   "expected_refresh_seconds": 600,
   "sources": [
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T04:49:25.160Z",
+      "checked_at": "2026-10-17T04:56:43.826Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T04:49:25.164Z",
+      "checked_at": "2026-10-17T04:56:43.829Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T04:49:25.166Z",
+      "checked_at": "2026-10-17T04:56:43.830Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T04:49:25.595Z",
+      "checked_at": "2026-10-17T04:56:44.224Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T04:47:16Z",
+      "checked_at": "2026-10-17T04:54:16Z",
       "status": "DEGRADED",
-      "note": "Authorized coordination receipts checked with limited metadata coverage. A verified canonical post-write receipt is retained; public milestone synchronization awaits separate exact owner authority. Established source acceptances and published milestone history are preserved. C2a/C1b canonical ledger synchronization remains pending."
+      "note": "Authorized coordination receipts checked with limited metadata coverage. Independently accepted canonical dispositions have exact owner-authorized public projections. Established source acceptances and original technical timestamps are preserved. C2a/C1b canonical ledger synchronization remains pending."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T04:49:24.997318+00:00",
+      "checked_at": "2026-10-17T04:56:43.678109+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held PR3568 qualification remains tied to its unmerged head. No new acceptance or coding activity inferred."
     }
   ],
   "evidence": [
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-PACKET",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T20:23:52Z. No new acceptance inferred from a recheck.",
+      "sha256": null,
       "title": "RemoGPT dashboard packet (owner-relayed to Spock)",
-      "classification": "HISTORICAL PUBLIC",
-      "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T20:23:52Z. No new acceptance inferred from a recheck."
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-R1_PACKET",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:00Z. No new acceptance inferred from a recheck.",
+      "sha256": null,
       "title": "RemoGPT dashboard R1 packet: bounded lane-D source-review disposition; RAP-03.B-1 assignment (owner-relayed)",
-      "classification": "HISTORICAL PUBLIC",
-      "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:00Z. No new acceptance inferred from a recheck."
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-MB00",
-      "title": "MB-00 startup receipt (RemoCommand executor; not itself a PASS)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T14:30:00Z. No new acceptance inferred from a recheck.",
       "sha256": "3e2da5f3fe073b8aed6bda8d2008423013dad805e76ddab07bf74d71bc55c952",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T14:30:00Z. No new acceptance inferred from a recheck."
+      "title": "MB-00 startup receipt (RemoCommand executor; not itself a PASS)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-RAP03A_ADMIT",
-      "title": "RAP-03.A admission under MB-03 (RemoGPT/O1)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T15:01:00Z. No new acceptance inferred from a recheck.",
       "sha256": "9e1af1d9060ec8adaacc0db1befb77dbf58d2bff63e76f35988761709f9e542e",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T15:01:00Z. No new acceptance inferred from a recheck."
+      "title": "RAP-03.A admission under MB-03 (RemoGPT/O1)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-RAP03A_PASS",
-      "title": "RAP-03.A R2 independent source review (RemoGPT/O1)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:15:09Z. No new acceptance inferred from a recheck.",
       "sha256": "a65ea8511e1c56efff9ab852379ee8d16b144f58594c2f67573b00afc28765e1",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:15:09Z. No new acceptance inferred from a recheck."
+      "title": "RAP-03.A R2 independent source review (RemoGPT/O1)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-MB01_DISP",
-      "title": "MB-01 integration-gate disposition (read-only)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:24:00Z. No new acceptance inferred from a recheck.",
       "sha256": "2c71bf7e2e2a9debbbc404cbe5b5c65b435e3acdf1215a07b59ea9b97a2628d9",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:24:00Z. No new acceptance inferred from a recheck."
+      "title": "MB-01 integration-gate disposition (read-only)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-MB01_REVIEW",
-      "title": "O1 review of the MB-01 disposition and lane-D admission",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:41:54Z. No new acceptance inferred from a recheck.",
       "sha256": "045908acf365662dd95efddb781e907045e18c7926401b4f7d89749f42d67212",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T18:41:54Z. No new acceptance inferred from a recheck."
+      "title": "O1 review of the MB-01 disposition and lane-D admission",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-LANED",
-      "title": "Lane-D fixture correction READY_FOR_AUDIT record (no self-PASS)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T19:16:52Z. No new acceptance inferred from a recheck.",
       "sha256": "e9414dbb530bf76571727746d2fc450e52899bfd62e1cab33ae518cc70929af9",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T19:16:52Z. No new acceptance inferred from a recheck."
+      "title": "Lane-D fixture correction READY_FOR_AUDIT record (no self-PASS)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-PRREG",
-      "title": "RemoGPT PR disposition register and live PR metadata",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-10T17:45:30Z. No new acceptance inferred from a recheck.",
       "sha256": "9a8812ff25ded2c132cc9bf164ac9f469de90d333e43da75e0664c2d118baa2e",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-10T17:45:30Z. No new acceptance inferred from a recheck."
+      "title": "RemoGPT PR disposition register and live PR metadata",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-CONV04A",
-      "title": "CONV-04A whole-unit source audit acceptance",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-01T19:23:04Z. No new acceptance inferred from a recheck.",
       "sha256": "f3421caffb2d7e8ab9e6146a6bd253617c97efc41d40d3baec1643ecb90acebe",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-01T19:23:04Z. No new acceptance inferred from a recheck."
+      "title": "CONV-04A whole-unit source audit acceptance",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-S04_INTAKE",
-      "title": "CONV-05B S04 gate and source-eligibility intake",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T03:13:09Z. No new acceptance inferred from a recheck.",
       "sha256": "48e17c21f605c48cff68647b864648fe0b3dd77a0147630871eef191a5ab5e04",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T03:13:09Z. No new acceptance inferred from a recheck."
+      "title": "CONV-05B S04 gate and source-eligibility intake",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-S04_P1",
-      "title": "CONV-05B S04-P1 READY_FOR_AUDIT record; audit later BLOCKED (per MB-00 receipt)",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T04:45:03Z. No new acceptance inferred from a recheck.",
       "sha256": "971a03f2e3de06cf47f20dc43eddad316e59f135f96077aad3ff4207fc4d8056",
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T04:45:03Z. No new acceptance inferred from a recheck."
+      "title": "CONV-05B S04-P1 READY_FOR_AUDIT record; audit later BLOCKED (per MB-00 receipt)",
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-SPOCK_R1",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:29Z. No new acceptance inferred from a recheck.",
+      "sha256": null,
       "title": "Spock dashboard R1 session receipts (reconciliation, baseline, freeze)",
-      "classification": "HISTORICAL PUBLIC",
-      "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-11T21:28:29Z. No new acceptance inferred from a recheck."
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-R2_PACKET",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:52:00Z. No new acceptance inferred from a recheck.",
+      "sha256": null,
       "title": "RemoGPT hosted-live R2 packet: current assignments (owner-relayed)",
-      "classification": "HISTORICAL PUBLIC",
-      "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:52:00Z. No new acceptance inferred from a recheck."
+      "tree": null
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": null,
       "id": "historical-SPOCK_R2",
-      "title": "Spock R2 session receipts",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:55:00Z. No new acceptance inferred from a recheck.",
       "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Historical public-board evidence through October11 Arizona; original source time 2026-10-12T01:55:00Z. No new acceptance inferred from a recheck."
+      "title": "Spock R2 session receipts",
+      "tree": null
     },
     {
-      "id": "historical-mb00-disposition",
-      "title": "MB-00 scheduling-transition disposition",
-      "classification": "MILESTONE DISPOSITION",
-      "sha256": "191bb9c83e0041ea6d3732573ad8d512addf12cd0084026b1965b1629b23ff1e",
-      "commit": null,
-      "tree": null,
       "accepted_at": "2026-10-11T15:01:00Z",
       "accepted_date": "2026-10-11",
-      "scope": "Verified complete for scheduling transition only. Preserving work remains an obligation in subsequent milestones."
+      "classification": "MILESTONE DISPOSITION",
+      "commit": null,
+      "id": "historical-mb00-disposition",
+      "scope": "Verified complete for scheduling transition only. Preserving work remains an obligation in subsequent milestones.",
+      "sha256": "191bb9c83e0041ea6d3732573ad8d512addf12cd0084026b1965b1629b23ff1e",
+      "title": "MB-00 scheduling-transition disposition",
+      "tree": null
     },
     {
-      "id": "scheduler-independent-pass",
-      "title": "Spock bounded scheduler design: independent source pass",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
       "classification": "SOURCE ACCEPTED",
-      "sha256": "e1273ec4f4e8aee89fb8cb33f9927db018dfb7b7eff899a25906c9b494129251",
       "commit": "78048f4ef7cf1cde5ea0a56ab572f76d65e18f11",
-      "tree": "57d511e999e23d333f6598d3d85e0e2b80e66324",
-      "accepted_at": null,
-      "accepted_date": "2026-10-15",
-      "scope": "Independent 77/77 source replay. Actual Windows scheduled recovery NOT VERIFIED. Accepted archive SHA-256 06fa375a02b977ec76b0c03e75f79f35232a22cbc6d081b54eae24ee6167e2ab."
+      "id": "scheduler-independent-pass",
+      "scope": "Independent 77/77 source replay. Actual Windows scheduled recovery NOT VERIFIED. Accepted archive SHA-256 06fa375a02b977ec76b0c03e75f79f35232a22cbc6d081b54eae24ee6167e2ab.",
+      "sha256": "e1273ec4f4e8aee89fb8cb33f9927db018dfb7b7eff899a25906c9b494129251",
+      "title": "Spock bounded scheduler design: independent source pass",
+      "tree": "57d511e999e23d333f6598d3d85e0e2b80e66324"
     },
     {
-      "id": "scheduler-rewindow-candidate",
-      "title": "Spock scheduler: fresh attended-window descendant",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "SOURCE CANDIDATE",
-      "sha256": "0acade9795c99ce6d45f84a3733b04daa05d6c3797d7c5dd6941ffcc9c605c2d",
       "commit": "a4a3a8f9028ac883f46adee23ac35850880ff1f8",
-      "tree": "28496137a00524c65bc5cc119693dd6088caa33e",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Two XML files retimed; Python unchanged. Engineer replay77/77 and native validate-only pass. Independent retiming review and a separate operational grant remain pending; nothing executed."
+      "id": "scheduler-rewindow-candidate",
+      "scope": "Two XML files retimed; Python unchanged. Engineer replay77/77 and native validate-only pass. Independent retiming review and a separate operational grant remain pending; nothing executed.",
+      "sha256": "0acade9795c99ce6d45f84a3733b04daa05d6c3797d7c5dd6941ffcc9c605c2d",
+      "title": "Spock scheduler: fresh attended-window descendant",
+      "tree": "28496137a00524c65bc5cc119693dd6088caa33e"
     },
     {
-      "id": "r3-candidate",
-      "title": "R3 evidence core: frozen source candidate",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "EXECUTOR REPORTED",
-      "sha256": null,
       "commit": "e3e1f46fedff119c95d31c47c1f0970b035d38f8",
-      "tree": "83e467ce59ab7c19607d11b39532bb061806d078",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Engineer reports52source tests and8mutation detections; independent audit pending. Exact governing plan bytes remain unavailable; no autonomous milestone completion authority."
-    },
-    {
-      "id": "creator-candidate",
-      "title": "Creator workbench: frozen candidate and bounded GET-await defect",
-      "classification": "EXECUTOR REPORTED",
-      "sha256": "107aca208dc785c3979b306f5817d40a8b27209d893cb177cb4f7b880b84e46c",
-      "commit": "f1e4a21ced48c9cb5b333b63e7e2c2298f303df4",
-      "tree": "9ec35cbbfdbc8fd602810d06bcb8dbe31160b81b",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Source/harness defect reproduced: GET does not await the service. Exact two-file repair request prepared; separate source admission required. Previous74focused/267regression/14mutation results remain executor reports. Legacy Creator packet MB-13B2b does not establish a binding master-milestone mapping; mapping NOT VERIFIED."
-    },
-    {
-      "id": "dashboard-source-work",
-      "title": "Existing command-center live engineering feed: implementation",
-      "classification": "EXECUTOR REPORTED",
+      "id": "r3-candidate",
+      "scope": "Engineer reports52source tests and8mutation detections; independent audit pending. Exact governing plan bytes remain unavailable; no autonomous milestone completion authority.",
       "sha256": null,
-      "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Owner-admitted source implementation completed, preserving the original layout and32cards. Engineer24focused tests and browser dynamic-flow checks pass. Consolidated publication is pending; no source acceptance or milestone completion inferred."
+      "title": "R3 evidence core: frozen source candidate",
+      "tree": "83e467ce59ab7c19607d11b39532bb061806d078"
     },
     {
-      "id": "RAP03C-C2a-H",
-      "title": "C2a hotfix — independent LOCAL SOURCE acceptance",
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "EXECUTOR REPORTED",
+      "commit": "f1e4a21ced48c9cb5b333b63e7e2c2298f303df4",
+      "id": "creator-candidate",
+      "scope": "Source/harness defect reproduced: GET does not await the service. Exact two-file repair request prepared; separate source admission required. Previous74focused/267regression/14mutation results remain executor reports. Legacy Creator packet MB-13B2b does not establish a binding master-milestone mapping; mapping NOT VERIFIED.",
+      "sha256": "107aca208dc785c3979b306f5817d40a8b27209d893cb177cb4f7b880b84e46c",
+      "title": "Creator workbench: frozen candidate and bounded GET-await defect",
+      "tree": "9ec35cbbfdbc8fd602810d06bcb8dbe31160b81b"
+    },
+    {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "EXECUTOR REPORTED",
+      "commit": null,
+      "id": "dashboard-source-work",
+      "scope": "Owner-admitted source implementation completed, preserving the original layout and32cards. Engineer24focused tests and browser dynamic-flow checks pass. Consolidated publication is pending; no source acceptance or milestone completion inferred.",
+      "sha256": null,
+      "title": "Existing command-center live engineering feed: implementation",
+      "tree": null
+    },
+    {
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
       "classification": "SOURCE ACCEPTED",
-      "sha256": "4c778d26eb5c58e9e7130f1bc42a59b0cd91968a3a91675c83063fa8aae6859e",
       "commit": "3e15851e34ac84950e7844b97bf025e98f2e10c1",
-      "tree": "5b96999008dcf189472fbde89b983b16c7480a9b",
-      "accepted_at": null,
-      "accepted_date": "2026-10-15",
-      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
-    },
-    {
-      "id": "RAP03C-C2a-D",
-      "title": "C2a development — independent LOCAL SOURCE acceptance",
-      "classification": "SOURCE ACCEPTED",
+      "id": "RAP03C-C2a-H",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending.",
       "sha256": "4c778d26eb5c58e9e7130f1bc42a59b0cd91968a3a91675c83063fa8aae6859e",
+      "title": "C2a hotfix — independent LOCAL SOURCE acceptance",
+      "tree": "5b96999008dcf189472fbde89b983b16c7480a9b"
+    },
+    {
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
+      "classification": "SOURCE ACCEPTED",
       "commit": "e7e2f794406d4c4aa57c6c4f587b0dbe233f9c12",
-      "tree": "1875fc881c37177f1a31c5dee76bd027b2a1e4f1",
-      "accepted_at": null,
-      "accepted_date": "2026-10-15",
-      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+      "id": "RAP03C-C2a-D",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Unauthenticated professional WebSocket subscriptions/chat denied before sensitive dispatch. Larger executor suites were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending.",
+      "sha256": "4c778d26eb5c58e9e7130f1bc42a59b0cd91968a3a91675c83063fa8aae6859e",
+      "title": "C2a development — independent LOCAL SOURCE acceptance",
+      "tree": "1875fc881c37177f1a31c5dee76bd027b2a1e4f1"
     },
     {
-      "id": "RAP03C-C1b-H",
-      "title": "C1b hotfix — independent LOCAL SOURCE acceptance",
+      "accepted_at": null,
+      "accepted_date": "2026-10-15",
       "classification": "SOURCE ACCEPTED",
-      "sha256": "791c142032fb109b469cb0e6c7f8fe08ef9f7f2f7270fdac29f4aedd41209fad",
       "commit": "5cf777a0fe7235961ba5611e13fab733f965c18f",
-      "tree": "e97e0c3badbeafd78293ff9b20f1e48953dd1855",
-      "accepted_at": null,
-      "accepted_date": "2026-10-15",
-      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
-    },
-    {
-      "id": "RAP03C-C1b-D",
-      "title": "C1b development — independent LOCAL SOURCE acceptance",
-      "classification": "SOURCE ACCEPTED",
+      "id": "RAP03C-C1b-H",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending.",
       "sha256": "791c142032fb109b469cb0e6c7f8fe08ef9f7f2f7270fdac29f4aedd41209fad",
-      "commit": "e7b261031dbc61020290c350b96357d1e7001abb",
-      "tree": "b18f5a08cbd4cc1c8316e788daed6c6c6570e369",
+      "title": "C1b hotfix — independent LOCAL SOURCE acceptance",
+      "tree": "e97e0c3badbeafd78293ff9b20f1e48953dd1855"
+    },
+    {
       "accepted_at": null,
       "accepted_date": "2026-10-15",
-      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending."
+      "classification": "SOURCE ACCEPTED",
+      "commit": "e7b261031dbc61020290c350b96357d1e7001abb",
+      "id": "RAP03C-C1b-D",
+      "scope": "ChatGPT / GPT-6 independently accepted LOCAL / BOUNDED source. Original Git identities, two-path scope, syntax and28isolated router assertions independently verified. Engineer203tests/15mutations per base were not independently replayed in full. No merge, integration, deployment, frontend compatibility or milestone completion. Canonical coordination sync pending.",
+      "sha256": "791c142032fb109b469cb0e6c7f8fe08ef9f7f2f7270fdac29f4aedd41209fad",
+      "title": "C1b development — independent LOCAL SOURCE acceptance",
+      "tree": "b18f5a08cbd4cc1c8316e788daed6c6c6570e369"
     },
     {
-      "id": "dashboard-release-publication",
-      "title": "Existing command center: approved release published and verified",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "EXECUTOR REPORTED",
-      "sha256": "67cc0a013c37f8c23eb04530ac77f893da716224f6d323d9ce5ddb2a9b45ec93",
       "commit": "107954ebb810825c6e8acbb2b61acff14d9d261a",
-      "tree": "95594885391cfbbab0a197c93ccf6365c071ee01",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Owner authorized exact dashboard release. All ten served file identities and the rendered 32-card board verified by the engineer. Four C2a/C1b independent bounded source acceptances remain visible. No product source acceptance or milestone disposition is added."
+      "id": "dashboard-release-publication",
+      "scope": "Owner authorized exact dashboard release. All ten served file identities and the rendered 32-card board verified by the engineer. Four C2a/C1b independent bounded source acceptances remain visible. No product source acceptance or milestone disposition is added.",
+      "sha256": "67cc0a013c37f8c23eb04530ac77f893da716224f6d323d9ce5ddb2a9b45ec93",
+      "title": "Existing command center: approved release published and verified",
+      "tree": "95594885391cfbbab0a197c93ccf6365c071ee01"
     },
     {
-      "id": "rap03b1-prospective-draft-only",
-      "title": "RAP-03.B-1: independent prospective integration review — draft publication only",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "5e5567e971ddcec90c9aa10371e7194dcd22e2339570860adce7107f9e81d083",
       "commit": "26a87b560f5223b6b3cfc100345c67085f0fd0b9",
-      "tree": "ccd7b25e444afc2e0274afc7b12e3a2b0e5219e9",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "O1 review dated October 13 UTC; preserves R4 and the historical dev test-merge identity. Qualified only for separately authorized draft PR publication; current-target CI, broad regression, legacy-account policy and final integration review remain open."
+      "id": "rap03b1-prospective-draft-only",
+      "scope": "O1 review dated October 13 UTC; preserves R4 and the historical dev test-merge identity. Qualified only for separately authorized draft PR publication; current-target CI, broad regression, legacy-account policy and final integration review remain open.",
+      "sha256": "5e5567e971ddcec90c9aa10371e7194dcd22e2339570860adce7107f9e81d083",
+      "title": "RAP-03.B-1: independent prospective integration review — draft publication only",
+      "tree": "ccd7b25e444afc2e0274afc7b12e3a2b0e5219e9"
     },
     {
-      "id": "mb01-pr3561-dev-merge",
-      "title": "MB-01 PR 3561 — merged to dev and verified in current ancestry",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "4d098705da93e3826de59a2de17b5de42e122f6d84dacd6f2f6490f1b7a45dc8",
       "commit": "71ae9ed686674b0a81035a109c3412661b8437b2",
-      "tree": "be1a41ba985d76c4ef6896e803e79672792dc089",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "GitHub merge event October 13 at 00:07:52 UTC. Current dev is 12 commits ahead and zero behind this exact merge. This integration event supersedes the old not-on-dev assertion; it does not close MB-01 or prove production deployment."
+      "id": "mb01-pr3561-dev-merge",
+      "scope": "GitHub merge event October 13 at 00:07:52 UTC. Current dev is 12 commits ahead and zero behind this exact merge. This integration event supersedes the old not-on-dev assertion; it does not close MB-01 or prove production deployment.",
+      "sha256": "4d098705da93e3826de59a2de17b5de42e122f6d84dacd6f2f6490f1b7a45dc8",
+      "title": "MB-01 PR 3561 — merged to dev and verified in current ancestry",
+      "tree": "be1a41ba985d76c4ef6896e803e79672792dc089"
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "f5ccce40cde5a4f766a554f9cf70bf7da52ecb51",
       "id": "mb01-current-dev-ci",
-      "title": "Current dev — 12 successful checks; one manual check skipped",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Read-only GitHub check metadata verified on the exact current dev head. Seven push workflows succeeded. This does not prove the path-filtered Asset Hub Gate or full milestone / production qualification.",
       "sha256": "a7453a92f859e93dd47894d4f60f0ef366a59a2d4f7bbd27226f32cb61a7d59e",
-      "commit": "f5ccce40cde5a4f766a554f9cf70bf7da52ecb51",
-      "tree": "f1b07e85c1f90befd8ef541cd16193a6aa83d5b3",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Read-only GitHub check metadata verified on the exact current dev head. Seven push workflows succeeded. This does not prove the path-filtered Asset Hub Gate or full milestone / production qualification."
+      "title": "Current dev — 12 successful checks; one manual check skipped",
+      "tree": "f1b07e85c1f90befd8ef541cd16193a6aa83d5b3"
     },
     {
-      "id": "rap03c-pr3568-hosted-qualified",
-      "title": "RAP-03.C PR 3568 — UNMERGED INTEGRATION CANDIDATE; HOSTED TEST QUALIFIED",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "SOURCE CANDIDATE",
-      "sha256": "49980eef5078b147258192d6444089b5e904d9bbd59c143a7df00184fc900131",
       "commit": "95b8aae788859fe94b9b56eac942699114dd43c4",
-      "tree": "0ff964b56275d48f9e5f07a2233780010a45cd23",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Exact draft head: 129 backend and 155 frontend tests pass in 11 suites, with source bytes unchanged and zero nonloopback fence attempts. Nine workflows succeed; 14 checks pass and one manual check is skipped. Unmerged; no staging qualification or production deployment. Hosted run completed October 16 UTC."
+      "id": "rap03c-pr3568-hosted-qualified",
+      "scope": "Exact draft head: 129 backend and 155 frontend tests pass in 11 suites, with source bytes unchanged and zero nonloopback fence attempts. Nine workflows succeed; 14 checks pass and one manual check is skipped. Unmerged; no staging qualification or production deployment. Hosted run completed October 16 UTC.",
+      "sha256": "49980eef5078b147258192d6444089b5e904d9bbd59c143a7df00184fc900131",
+      "title": "RAP-03.C PR 3568 — UNMERGED INTEGRATION CANDIDATE; HOSTED TEST QUALIFIED",
+      "tree": "0ff964b56275d48f9e5f07a2233780010a45cd23"
     },
     {
-      "id": "rap03c-frontend-owner-acceptance-relay",
-      "title": "RAP-03.C lender-dashboard dismissal correction — independent acceptance relayed by owner",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "ACCEPTANCE REPORTED",
-      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
       "commit": "83d58a38ea6270a18a469a41424396ad8db1940e",
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Owner explicitly confirms independent source acceptance for this exact original commit. The original full tree, raw independent receipt and acceptance date are not authenticated in available channels; preserve the claim without inventing them. Hosted integrated-head qualification is separately verified."
+      "id": "rap03c-frontend-owner-acceptance-relay",
+      "scope": "Owner explicitly confirms independent source acceptance for this exact original commit. The original full tree, raw independent receipt and acceptance date are not authenticated in available channels; preserve the claim without inventing them. Hosted integrated-head qualification is separately verified.",
+      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
+      "title": "RAP-03.C lender-dashboard dismissal correction — independent acceptance relayed by owner",
+      "tree": null
     },
     {
-      "id": "rap03c-jest-owner-acceptance-relay",
-      "title": "RAP-03.C native Jest compatibility correction — independent acceptance relayed by owner",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "ACCEPTANCE REPORTED",
-      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
       "commit": "df26b7e45d80a7b65b52e822541b35cb03ddf48c",
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Owner explicitly confirms independent source acceptance for this exact original commit. The original full tree, raw independent receipt and acceptance date are not authenticated in available channels; preserve the claim without inventing them. Hosted integrated-head qualification is separately verified."
+      "id": "rap03c-jest-owner-acceptance-relay",
+      "scope": "Owner explicitly confirms independent source acceptance for this exact original commit. The original full tree, raw independent receipt and acceptance date are not authenticated in available channels; preserve the claim without inventing them. Hosted integrated-head qualification is separately verified.",
+      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
+      "title": "RAP-03.C native Jest compatibility correction — independent acceptance relayed by owner",
+      "tree": null
     },
     {
-      "id": "p0-packet-a-owner-executor-report",
-      "title": "P0 Packet A visitor-session integrity — owner-relayed executor report",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "EXECUTOR REPORTED",
-      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
       "commit": "942222efab1f785ff4508d0e8b85d636f90db131",
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Executor reports 53 of 53 new tests passing; four inherited security tests fail under the new capability contract. Frozen local source candidate awaiting ChatGPT independent audit; not published to GitHub. No self-issued source acceptance, integration or deployment."
-    },
-    {
-      "id": "p0-packet-b-owner-executor-report",
-      "title": "P0 Packet B authentication-log redaction — owner-relayed executor report",
-      "classification": "EXECUTOR REPORTED",
+      "id": "p0-packet-a-owner-executor-report",
+      "scope": "Executor reports 53 of 53 new tests passing; four inherited security tests fail under the new capability contract. Frozen local source candidate awaiting ChatGPT independent audit; not published to GitHub. No self-issued source acceptance, integration or deployment.",
       "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
+      "title": "P0 Packet A visitor-session integrity — owner-relayed executor report",
+      "tree": null
+    },
+    {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "EXECUTOR REPORTED",
       "commit": "c4fda4a85307524d8659d4d826c0963a09affae7",
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Executor reports 34 of 34 new tests and 145 of 145 existing regression tests passing. Frozen local source candidate awaiting ChatGPT independent audit; not published to GitHub. No self-issued source acceptance, integration or deployment."
+      "id": "p0-packet-b-owner-executor-report",
+      "scope": "Executor reports 34 of 34 new tests and 145 of 145 existing regression tests passing. Frozen local source candidate awaiting ChatGPT independent audit; not published to GitHub. No self-issued source acceptance, integration or deployment.",
+      "sha256": "f09c94996cc184f084cce2efc52c1589be25b1717620fddb9fb4e7e779df89eb",
+      "title": "P0 Packet B authentication-log redaction — owner-relayed executor report",
+      "tree": null
     },
     {
-      "id": "remogpt-pr3565-dev-merge",
-      "title": "RemoGPT PR 3565 — route-scoped public-site CORS; dev merge verified",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "cbf5c9a2466049f038cb256283aa29c8a994025c54aaf34ab78c56d72b226288",
       "commit": "efabbc0ca80a95db61e86fc1c6a2224c225ace56",
-      "tree": "9f74f56a42189c5a21ee6f592c223b4a77cdccc9",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "GitHub confirms merged to dev on 2026-10-13T22:37:55Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated."
+      "id": "remogpt-pr3565-dev-merge",
+      "scope": "GitHub confirms merged to dev on 2026-10-13T22:37:55Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated.",
+      "sha256": "cbf5c9a2466049f038cb256283aa29c8a994025c54aaf34ab78c56d72b226288",
+      "title": "RemoGPT PR 3565 — route-scoped public-site CORS; dev merge verified",
+      "tree": "9f74f56a42189c5a21ee6f592c223b4a77cdccc9"
     },
     {
-      "id": "remogpt-pr3566-dev-merge",
-      "title": "RemoGPT PR 3566 — sole-owner vault rotation approval; dev merge verified",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "7ce08a6769ccc8abb0aa69a327754e5bf3e827cd1c35a0c984737217d91cef09",
       "commit": "82120948a5e89c68d8050a665d178b6ca63e2b74",
-      "tree": "fd42e506e5a4640db78d2c66add73d1af3ed32a9",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "GitHub confirms merged to dev on 2026-10-13T22:38:27Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated."
+      "id": "remogpt-pr3566-dev-merge",
+      "scope": "GitHub confirms merged to dev on 2026-10-13T22:38:27Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated.",
+      "sha256": "7ce08a6769ccc8abb0aa69a327754e5bf3e827cd1c35a0c984737217d91cef09",
+      "title": "RemoGPT PR 3566 — sole-owner vault rotation approval; dev merge verified",
+      "tree": "fd42e506e5a4640db78d2c66add73d1af3ed32a9"
     },
     {
-      "id": "remogpt-pr3567-dev-merge",
-      "title": "RemoGPT PR 3567 — HttpOnly admin-cookie credentials page and CSRF guard; dev merge verified",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "bfc37fe9635b9bfb6d5eaf9103b3dbeb9b022f3601cc726150fa723beed7cb70",
       "commit": "f5ccce40cde5a4f766a554f9cf70bf7da52ecb51",
-      "tree": "f1b07e85c1f90befd8ef541cd16193a6aa83d5b3",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "GitHub confirms merged to dev on 2026-10-13T22:43:57Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated."
+      "id": "remogpt-pr3567-dev-merge",
+      "scope": "GitHub confirms merged to dev on 2026-10-13T22:43:57Z. Current dev ancestry independently verified. PR body deployment claims are not runtime evidence; no production deployment inferred. Exact master-requirement mapping is not authenticated.",
+      "sha256": "bfc37fe9635b9bfb6d5eaf9103b3dbeb9b022f3601cc726150fa723beed7cb70",
+      "title": "RemoGPT PR 3567 — HttpOnly admin-cookie credentials page and CSRF guard; dev merge verified",
+      "tree": "f1b07e85c1f90befd8ef541cd16193a6aa83d5b3"
     },
     {
-      "id": "conv05b-pr3551-merge-recheck",
-      "title": "CONV-05B S01-S03 — historical convergence merge reverified",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "2bb7de7e831a59d2f9e6cf516541303b7a8a4c5b38795ed456400279d6992159",
       "commit": "bcf7c0afb3529fa14899f705c3a34935da8610f9",
-      "tree": "6784f798683f01bb6e7d79da1594c20ba5ebf3fd",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "PR 3551 merged October 10 UTC to the convergence target. Its merge is not an ancestor of current dev; no dev integration or production inferred. Existing accepted source and historical post-merge evidence are preserved; S04 / custom-domain / TLS / whole-unit gates remain open."
+      "id": "conv05b-pr3551-merge-recheck",
+      "scope": "PR 3551 merged October 10 UTC to the convergence target. Its merge is not an ancestor of current dev; no dev integration or production inferred. Existing accepted source and historical post-merge evidence are preserved; S04 / custom-domain / TLS / whole-unit gates remain open.",
+      "sha256": "2bb7de7e831a59d2f9e6cf516541303b7a8a4c5b38795ed456400279d6992159",
+      "title": "CONV-05B S01-S03 — historical convergence merge reverified",
+      "tree": "6784f798683f01bb6e7d79da1594c20ba5ebf3fd"
     },
     {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "e755c5a4ed85a9e70307382fc445ec97abf6e5cc",
       "id": "conv04a-pr3530-current-head",
-      "title": "CONV-04A — accepted history preserved; PR 3530 remains draft and unmerged",
-      "classification": "HISTORICAL PUBLIC",
+      "scope": "Current exact draft head reverified. Prior whole-unit source acceptance and parked/build-ahead hold remain historical authority. This recheck is not a new source acceptance or integration review; no merge or deployment.",
       "sha256": "3490986eeb8d74634631829dc75f4aa863e62378dfabc6afe4b77ec55bdb6f4e",
-      "commit": "e755c5a4ed85a9e70307382fc445ec97abf6e5cc",
-      "tree": "279026a9b9a7540431bb3ab46ed6cbaf96d58e30",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Current exact draft head reverified. Prior whole-unit source acceptance and parked/build-ahead hold remain historical authority. This recheck is not a new source acceptance or integration review; no merge or deployment."
+      "title": "CONV-04A — accepted history preserved; PR 3530 remains draft and unmerged",
+      "tree": "279026a9b9a7540431bb3ab46ed6cbaf96d58e30"
     },
     {
-      "id": "plan1-remototal-context-retained",
-      "title": "Plan 1 / RemoTotal — original coverage and evidence limits retained",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "HISTORICAL PUBLIC",
-      "sha256": "00e8772279d8c42672cd2ef4ac05462911b1f39480bdc7f392c32f6e850ac2ad",
       "commit": null,
-      "tree": null,
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Retained October 2 planning/evidence reference recognizes original 43-row RemoTotal obligations and accepted predecessor contributions. It is not a current implementation-acceptance register. No claim that every row is missing; current row-level source/integration reconciliation remains unavailable."
+      "id": "plan1-remototal-context-retained",
+      "scope": "Retained October 2 planning/evidence reference recognizes original 43-row RemoTotal obligations and accepted predecessor contributions. It is not a current implementation-acceptance register. No claim that every row is missing; current row-level source/integration reconciliation remains unavailable.",
+      "sha256": "00e8772279d8c42672cd2ef4ac05462911b1f39480bdc7f392c32f6e850ac2ad",
+      "title": "Plan 1 / RemoTotal — original coverage and evidence limits retained",
+      "tree": null
     },
     {
-      "id": "creator-get-await-eec624f4",
-      "title": "Creator GET-await repair: owner-admitted frozen two-file candidate",
+      "accepted_at": null,
+      "accepted_date": null,
       "classification": "SOURCE CANDIDATE",
-      "sha256": "e9b2b9a50b528ccdd3abb68c15d556e856af4b49aac9dbfafa3d76f32f62dc02",
       "commit": "eec624f4e5f928f228174c5443a15da416d97219",
-      "tree": "01ef7d464fe7309ae299ed75358b3ee0101c2d11",
-      "accepted_at": null,
-      "accepted_date": null,
-      "scope": "Direct owner assignment admitted the bounded correction. The two-file child awaits the existing async workbench GET service and adds nine focused tests; POST bytes and asset.write authority are unchanged. Executor evidence: 84 focused checks, 70 overlapping fresh-checkout checks, typecheck and changed-file lint pass. A broad media regression was interrupted and is not PASS evidence. The parent is the separate five-file human-intake candidate, not this repair. Independent source review, parent admission, integration and formal milestone mapping remain separate; no current coding activity or acceptance is inferred."
+      "id": "creator-get-await-eec624f4",
+      "scope": "Direct owner assignment admitted the bounded correction. The two-file child awaits the existing async workbench GET service and adds nine focused tests; POST bytes and asset.write authority are unchanged. Executor evidence: 84 focused checks, 70 overlapping fresh-checkout checks, typecheck and changed-file lint pass. A broad media regression was interrupted and is not PASS evidence. The parent is the separate five-file human-intake candidate, not this repair. Independent source review, parent admission, integration and formal milestone mapping remain separate; no current coding activity or acceptance is inferred.",
+      "sha256": "e9b2b9a50b528ccdd3abb68c15d556e856af4b49aac9dbfafa3d76f32f62dc02",
+      "title": "Creator GET-await repair: owner-admitted frozen two-file candidate",
+      "tree": "01ef7d464fe7309ae299ed75358b3ee0101c2d11"
     },
     {
-      "id": "rap03b1-r4-o1-source-pass",
-      "title": "RAP-03.B-1 R4: O1 independent SOURCE ACCEPTED, October 13 UTC",
+      "accepted_at": null,
+      "accepted_date": "2026-10-13",
       "classification": "SOURCE ACCEPTED",
-      "sha256": "932a3699fbdb5319cc7cb29a8398acfe7e69f290690d43b0ee5e17169e228a6f",
       "commit": "04efc362a33dcfd8da67f182f29665dc4bab5089",
-      "tree": "f757edce8b680356c33d1d900550d859af87cf94",
-      "accepted_at": null,
-      "accepted_date": "2026-10-13",
-      "scope": "Exact five-commit source lineage, 30 paths. Independent bounded source audit; not a full-suite pass, publication, integration or deployment. Acceptance time within the UTC date was not supplied."
+      "id": "rap03b1-r4-o1-source-pass",
+      "scope": "Exact five-commit source lineage, 30 paths. Independent bounded source audit; not a full-suite pass, publication, integration or deployment. Acceptance time within the UTC date was not supplied.",
+      "sha256": "932a3699fbdb5319cc7cb29a8398acfe7e69f290690d43b0ee5e17169e228a6f",
+      "title": "RAP-03.B-1 R4: O1 independent SOURCE ACCEPTED, October 13 UTC",
+      "tree": "f757edce8b680356c33d1d900550d859af87cf94"
     },
     {
-      "id": "mb01-issue3564-o1-source-pass",
-      "title": "MB-01 Issue 3564 Asset Hub CI repair: independent SOURCE ACCEPTED and parked",
+      "accepted_at": null,
+      "accepted_date": "2026-10-13",
       "classification": "SOURCE ACCEPTED",
-      "sha256": "1285dbd61b4723e33df6ba235e1e5e72fd026a8761e193bb613683551f89bb61",
       "commit": "2c091d49e4f09e5fb89fd9bcbb8d873449dd7b12",
-      "tree": "3392bedf199c43c30f27d0e1cae31c3167f3c7bf",
-      "accepted_at": null,
-      "accepted_date": "2026-10-13",
-      "scope": "O1 independent two-path source audit, October 12 Arizona / October 13 UTC. Exact acceptance time not supplied. No publication or dev integration; normal lockfile-bound GitHub CI remains required. Full-history scans retain 2,539 findings without waiver."
+      "id": "mb01-issue3564-o1-source-pass",
+      "scope": "O1 independent two-path source audit, October 12 Arizona / October 13 UTC. Exact acceptance time not supplied. No publication or dev integration; normal lockfile-bound GitHub CI remains required. Full-history scans retain 2,539 findings without waiver.",
+      "sha256": "1285dbd61b4723e33df6ba235e1e5e72fd026a8761e193bb613683551f89bb61",
+      "title": "MB-01 Issue 3564 Asset Hub CI repair: independent SOURCE ACCEPTED and parked",
+      "tree": "3392bedf199c43c30f27d0e1cae31c3167f3c7bf"
     },
     {
-      "id": "conv04a-final-head-source-reviews-pass",
-      "title": "CONV-04A: exact final-head platform-authority and Hub source reviews PASS",
-      "classification": "SOURCE ACCEPTED",
-      "sha256": "8e6f25f821bf487b09b857128d7c6f0f8779611a151ab240ce7f062692396a20",
-      "commit": "e755c5a4ed85a9e70307382fc445ec97abf6e5cc",
-      "tree": "279026a9b9a7540431bb3ab46ed6cbaf96d58e30",
       "accepted_at": "2026-10-11T03:00:10.613928+00:00",
       "accepted_date": "2026-10-11",
-      "scope": "O1 independent exact 17-file shared-surface source review, with 79 supplementary functional checks passing. The two old final-head source-review gates are closed. This is not current-target combined-result qualification, pinned CI equivalence, hosted acceptance, merge or release; sequencing and remaining S04/domain/TLS gates remain."
+      "classification": "SOURCE ACCEPTED",
+      "commit": "e755c5a4ed85a9e70307382fc445ec97abf6e5cc",
+      "id": "conv04a-final-head-source-reviews-pass",
+      "scope": "O1 independent exact 17-file shared-surface source review, with 79 supplementary functional checks passing. The two old final-head source-review gates are closed. This is not current-target combined-result qualification, pinned CI equivalence, hosted acceptance, merge or release; sequencing and remaining S04/domain/TLS gates remain.",
+      "sha256": "8e6f25f821bf487b09b857128d7c6f0f8779611a151ab240ce7f062692396a20",
+      "title": "CONV-04A: exact final-head platform-authority and Hub source reviews PASS",
+      "tree": "279026a9b9a7540431bb3ab46ed6cbaf96d58e30"
     },
     {
+      "accepted_at": "2026-10-16T18:31:43Z",
+      "accepted_date": "2026-10-16",
+      "classification": "MILESTONE DISPOSITION",
+      "commit": null,
       "id": "owner-mb-01-engineering-reconciliation",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment.",
+      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
       "title": "MB-01 exact owner engineering reconciliation disposition",
-      "classification": "MILESTONE DISPOSITION",
-      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
-      "commit": null,
-      "tree": null,
-      "accepted_at": "2026-10-16T18:31:43Z",
-      "accepted_date": "2026-10-16",
-      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
+      "tree": null
     },
     {
+      "accepted_at": "2026-10-16T18:31:43Z",
+      "accepted_date": "2026-10-16",
+      "classification": "MILESTONE DISPOSITION",
+      "commit": null,
       "id": "owner-mb-03-engineering-reconciliation",
-      "title": "MB-03 exact owner engineering reconciliation disposition",
-      "classification": "MILESTONE DISPOSITION",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment.",
       "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
-      "commit": null,
-      "tree": null,
-      "accepted_at": "2026-10-16T18:31:43Z",
-      "accepted_date": "2026-10-16",
-      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
+      "title": "MB-03 exact owner engineering reconciliation disposition",
+      "tree": null
     },
     {
-      "id": "owner-mb-04-engineering-reconciliation",
-      "title": "MB-04 exact owner engineering reconciliation disposition",
-      "classification": "MILESTONE DISPOSITION",
-      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
-      "commit": null,
-      "tree": null,
       "accepted_at": "2026-10-16T18:31:43Z",
       "accepted_date": "2026-10-16",
-      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment."
+      "classification": "MILESTONE DISPOSITION",
+      "commit": null,
+      "id": "owner-mb-04-engineering-reconciliation",
+      "scope": "Direct owner approval of the exact bound card proposal; master remains PARTIAL. Original source acceptance dates and historical October 11 evidence retained. No requirement waiver, new source acceptance, merge or deployment.",
+      "sha256": "79ad57e3786b280ccd36d33992a602a2539e629c5993340adcf1faff87b45b1b",
+      "title": "MB-04 exact owner engineering reconciliation disposition",
+      "tree": null
+    },
+    {
+      "accepted_at": "2026-10-08T03:24:42.076Z",
+      "accepted_date": "2026-10-08",
+      "classification": "SOURCE ACCEPTED",
+      "commit": "6742866140a9a8db5bb3b36a83a01d79beec2cad",
+      "id": "creator-pod04-original-pass",
+      "scope": "Original independent bounded source PASS dated October8. Not a new source audit or whole Creator acceptance. Integration, hosted callers, release and provider effects remain separate.",
+      "sha256": "75a6748cd54a854c686d7d1d28b54c67599022aff68ffab783057e51d534f6d6",
+      "title": "Creator POD-04 original bounded independent source PASS",
+      "tree": "c2539345bf4225e591b9f48e0b1d73cf5f4d2985"
+    },
+    {
+      "accepted_at": "2026-10-08T18:45:50.607052Z",
+      "accepted_date": "2026-10-08",
+      "classification": "SOURCE ACCEPTED",
+      "commit": "e6884504bb84b4c581ee0fda0a7d226c2d96f75d",
+      "id": "creator-pod05-original-pass",
+      "scope": "Original independent source PASS dated October8; preserved by October9 nonauthoring review. Offline container qualification is retained. Integration ordering/security, hosted callers, recurring service and licensing remain open.",
+      "sha256": "5de3a4d8a6bfefca55b34a564437b8d6b715e7d3e734172ed358be5e83cd0759",
+      "title": "Creator POD-05 original bounded independent source PASS",
+      "tree": "47441f873b9335f24d17f78acc8b4845c97df20a"
+    },
+    {
+      "accepted_at": "2026-10-07T19:38:48.880Z",
+      "accepted_date": "2026-10-07",
+      "classification": "INTEGRATION ACCEPTED",
+      "commit": "71d322978c1d99898ae77a48d4ab6b12b5a2b8d9",
+      "id": "growth-rga13-original-integration-pass",
+      "scope": "Original independent prospective integration PASS dated October7 on the pinned head and target. Separate authenticated PR52 merge/current-tip evidence is retained; no installation, deployment or release acceptance.",
+      "sha256": "6cd6561c31c47023e39e42cb7fd6b9acfae6a384f18149aed204fb5447ebf49f",
+      "title": "Growth RGA-13.1 original pinned prospective integration PASS",
+      "tree": "74b8698d75003d125c91dafa1ef49e99fbabef7b"
+    },
+    {
+      "accepted_at": null,
+      "accepted_date": null,
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "5ec23082795c23f767041ad87c96e3aa22353f10",
+      "id": "growth-rga13-pr52-merge",
+      "scope": "Authenticated PR metadata confirms actual merge at 2026-10-07T23:01:10Z. Fresh branch read confirms this remains the program integration tip and exact accepted tree. No production deployment inferred.",
+      "sha256": "987320562b65fdb7e8b523a38e86cf66602e9abdbf92e0edaf542f610f492ce2",
+      "title": "Growth RGA-13.1 PR52 actual integration merge readback",
+      "tree": "74b8698d75003d125c91dafa1ef49e99fbabef7b"
+    },
+    {
+      "id": "canonical-d10-owner-publication-disposition",
+      "title": "MB-10 exact owner-authorized D10 canonical disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "8a6776230c3a149305c9bdb966839cc8db2848bc3df359f36e3a661f83eb2718",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-17T02:06:20.121733Z",
+      "accepted_date": "2026-10-17",
+      "scope": "Owner-authorized public display projection of the exact independently accepted canonical D10 record. Original formal timestamp retained. Public disposition evidence reference and display timestamp are schema metadata; native records remain unchanged. No new source acceptance, whole-milestone completion or deployment."
+    },
+    {
+      "id": "canonical-d12-owner-publication-disposition",
+      "title": "MB-12 exact owner-authorized D12 canonical disposition",
+      "classification": "MILESTONE DISPOSITION",
+      "sha256": "1534674d41e8ae3e4de4039058fb3d54b387b1d290c9c2f78befbc004e542a2f",
+      "commit": null,
+      "tree": null,
+      "accepted_at": "2026-10-17T02:06:20.127731Z",
+      "accepted_date": "2026-10-17",
+      "scope": "Owner-authorized public display projection of the exact independently accepted canonical D12 record. Original formal timestamp retained. Public disposition evidence reference and display timestamp are schema metadata; native records remain unchanged. No new source acceptance, whole-milestone completion or deployment."
     }
   ],
   "work_items": [
     {
-      "id": "spock-dashboard",
-      "title": "Existing command center: live engineering status feed",
-      "lane": "spock",
-      "milestone_ids": [],
-      "classification": "EXECUTOR REPORTED",
-      "state": "IDLE",
-      "writer": "Spock Codex",
       "activity_at": "2026-10-15T20:46:24.475268Z",
       "activity_basis": "RECEIPT",
-      "next_action": "Continue the existing authorized ten-minute evidence updater. The operational reader assignment is complete; product engineering has resumed separately and the native activity reporter remains inactive.",
       "blockers": [],
+      "classification": "EXECUTOR REPORTED",
       "evidence_ids": [
         "dashboard-source-work",
         "dashboard-release-publication"
-      ]
-    },
-    {
-      "id": "spock-scheduler",
-      "title": "Bounded Windows scheduler qualification design",
+      ],
+      "id": "spock-dashboard",
       "lane": "spock",
       "milestone_ids": [],
-      "classification": "SOURCE ACCEPTED",
-      "state": "BLOCKED",
-      "writer": "Spock Codex",
+      "next_action": "Continue the existing authorized ten-minute evidence updater. The operational reader assignment is complete; product engineering has resumed separately and the native activity reporter remains inactive.",
+      "state": "IDLE",
+      "title": "Existing command center: live engineering status feed",
+      "writer": "Spock Codex"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Obtain independent disposition and an exact future-window operational amendment before any diagnostic execution; permanent monitor remains a separate decision.",
       "blockers": [
         "The proposed October 15 qualification window has expired. Actual scheduled recovery remains NOT VERIFIED."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "scheduler-independent-pass",
         "scheduler-rewindow-candidate"
-      ]
-    },
-    {
-      "id": "spock-r3",
-      "title": "R3 evidence reconciliation core",
+      ],
+      "id": "spock-scheduler",
       "lane": "spock",
       "milestone_ids": [],
-      "classification": "EXECUTOR REPORTED",
-      "state": "PENDING REVIEW",
-      "writer": "Spock Codex",
+      "next_action": "Obtain independent disposition and an exact future-window operational amendment before any diagnostic execution; permanent monitor remains a separate decision.",
+      "state": "BLOCKED",
+      "title": "Bounded Windows scheduler qualification design",
+      "writer": "Spock Codex"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Independent source audit and admission of a later integration tranche.",
       "blockers": [
         "Full governing plan and proposed traceability bytes are not yet verified."
       ],
+      "classification": "EXECUTOR REPORTED",
       "evidence_ids": [
         "r3-candidate"
-      ]
-    },
-    {
-      "id": "spock-creator",
-      "title": "Creator workbench GET-await repair",
+      ],
+      "id": "spock-r3",
       "lane": "spock",
       "milestone_ids": [],
-      "classification": "SOURCE CANDIDATE",
+      "next_action": "Independent source audit and admission of a later integration tranche.",
       "state": "PENDING REVIEW",
-      "writer": "Spock Codex - frozen candidate; source lease closed",
+      "title": "R3 evidence reconciliation core",
+      "writer": "Spock Codex"
+    },
+    {
       "activity_at": "2026-10-16T19:40:19.687+00:00",
       "activity_basis": "TEST RUN",
-      "next_action": "Independently review the exact two-file child; preserve the parent review separately. Start a successor only under its actual source admission after the pending-review WIP slot is released.",
       "blockers": [
         "Independent source verdict on the frozen repair is pending.",
         "The retained five-file parent and broader Creator milestone mapping remain separate review and admission obligations."
       ],
+      "classification": "SOURCE CANDIDATE",
       "evidence_ids": [
         "creator-candidate",
         "creator-get-await-eec624f4"
-      ]
+      ],
+      "id": "spock-creator",
+      "lane": "spock",
+      "milestone_ids": [
+        "MB-12"
+      ],
+      "next_action": "Independently review the exact two-file child; preserve the parent review separately. Start a successor only under its actual source admission after the pending-review WIP slot is released.",
+      "state": "PENDING REVIEW",
+      "title": "Creator workbench GET-await repair",
+      "writer": "Spock Codex - frozen candidate; source lease closed"
     },
     {
-      "id": "remo-c2a",
-      "title": "RAP-03.C C2a — WebSocket fail-closed security",
-      "lane": "remocommand",
-      "milestone_ids": [
-        "MB-03"
-      ],
-      "classification": "SOURCE ACCEPTED",
-      "state": "UNKNOWN",
-      "writer": "RemoCommand Codex — current activity unconfirmed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Preserve accepted source; use the exact hosted-qualified PR head for final independent integration review and separately authorized merge / release.",
       "blockers": [
         "Independent local source acceptance is preserved. Canonical ledger synchronization remains pending.",
         "The shared integration candidate passed hosted compatibility tests but is unmerged; dev integration, staging, deployment and whole-MB-03 acceptance remain separate."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "RAP03C-C2a-H",
         "RAP03C-C2a-D",
         "rap03c-pr3568-hosted-qualified"
-      ]
-    },
-    {
-      "id": "remo-c1b",
-      "title": "RAP-03.C C1b — HTTP authentication, cookie and CSRF boundary",
+      ],
+      "id": "remo-c2a",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "classification": "SOURCE ACCEPTED",
+      "next_action": "Preserve accepted source; use the exact hosted-qualified PR head for final independent integration review and separately authorized merge / release.",
       "state": "UNKNOWN",
-      "writer": "RemoCommand Codex — current activity unconfirmed",
+      "title": "RAP-03.C C2a — WebSocket fail-closed security",
+      "writer": "RemoCommand Codex — current activity unconfirmed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Preserve accepted source; use the exact hosted-qualified PR head for final independent integration review and separately authorized merge / release.",
       "blockers": [
         "Independent local source acceptance is preserved. Canonical ledger synchronization remains pending.",
         "The shared integration candidate passed hosted compatibility tests but is unmerged; dev integration, staging, deployment and whole-MB-03 acceptance remain separate."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "RAP03C-C1b-H",
         "RAP03C-C1b-D",
         "rap03c-pr3568-hosted-qualified"
-      ]
+      ],
+      "id": "remo-c1b",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-03"
+      ],
+      "next_action": "Preserve accepted source; use the exact hosted-qualified PR head for final independent integration review and separately authorized merge / release.",
+      "state": "UNKNOWN",
+      "title": "RAP-03.C C1b — HTTP authentication, cookie and CSRF boundary",
+      "writer": "RemoCommand Codex — current activity unconfirmed"
     },
     {
-      "id": "mb01-dev-integration",
-      "title": "MB-01 cumulative lineage — merged to dev; milestone obligations remain",
-      "lane": "shared",
-      "milestone_ids": [
-        "MB-01"
-      ],
-      "classification": "HISTORICAL PUBLIC",
-      "state": "IDLE",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Reconcile remaining MB-01 requirements and Issue 3564; formal child/card updates need the exact predecessor-bound owner disposition.",
       "blockers": [
         "MB-01 remains PARTIAL; historical blocked child language awaits a specific disposition update.",
         "Issue 3564 source is accepted but parked; path-filtered Asset Hub CI and broader requirement closure remain separate."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "mb01-pr3561-dev-merge",
         "mb01-current-dev-ci",
         "historical-MB01_DISP"
-      ]
+      ],
+      "id": "mb01-dev-integration",
+      "lane": "shared",
+      "milestone_ids": [
+        "MB-01"
+      ],
+      "next_action": "Reconcile remaining MB-01 requirements and Issue 3564; formal child/card updates need the exact predecessor-bound owner disposition.",
+      "state": "IDLE",
+      "title": "MB-01 cumulative lineage — merged to dev; milestone obligations remain",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "remo-rap03c-pr3568",
-      "title": "RAP-03.C integrated draft — hosted qualified, unmerged",
-      "lane": "remocommand",
-      "milestone_ids": [
-        "MB-03"
-      ],
-      "classification": "SOURCE CANDIDATE",
-      "state": "PENDING REVIEW",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Obtain the exact final independent integration disposition and any separate merge grant; staging and production qualification remain separate.",
       "blockers": [
         "PR 3568 is still open and draft at the verified head; no dev merge or deployment.",
         "Full MB-03 identity / legacy-account and policy obligations remain open."
       ],
+      "classification": "SOURCE CANDIDATE",
       "evidence_ids": [
         "rap03c-pr3568-hosted-qualified",
         "RAP03C-C2a-D",
         "RAP03C-C1b-D"
-      ]
-    },
-    {
-      "id": "remo-rap03c-frontend",
-      "title": "RAP-03.C lender-dashboard dismissal correction — accepted per owner relay",
+      ],
+      "id": "remo-rap03c-pr3568",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "classification": "ACCEPTANCE REPORTED",
-      "state": "UNKNOWN",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "next_action": "Obtain the exact final independent integration disposition and any separate merge grant; staging and production qualification remain separate.",
+      "state": "PENDING REVIEW",
+      "title": "RAP-03.C integrated draft — hosted qualified, unmerged",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Retain the accepted source claim; obtain the original exact tuple / independent receipt for canonical binding without re-auditing accepted code.",
       "blockers": [
         "Original commit object is unavailable through authenticated GitHub commit and Git-object APIs; original tree and acceptance date remain unverified."
       ],
+      "classification": "ACCEPTANCE REPORTED",
       "evidence_ids": [
         "rap03c-frontend-owner-acceptance-relay",
         "rap03c-pr3568-hosted-qualified"
-      ]
-    },
-    {
-      "id": "remo-rap03c-jest",
-      "title": "RAP-03.C native Jest compatibility correction — accepted per owner relay",
+      ],
+      "id": "remo-rap03c-frontend",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "classification": "ACCEPTANCE REPORTED",
+      "next_action": "Retain the accepted source claim; obtain the original exact tuple / independent receipt for canonical binding without re-auditing accepted code.",
       "state": "UNKNOWN",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "title": "RAP-03.C lender-dashboard dismissal correction — accepted per owner relay",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Retain the accepted source claim; obtain the original exact tuple / independent receipt for canonical binding without re-auditing accepted code.",
       "blockers": [
         "Original commit object is unavailable through authenticated GitHub commit and Git-object APIs; original tree and acceptance date remain unverified."
       ],
+      "classification": "ACCEPTANCE REPORTED",
       "evidence_ids": [
         "rap03c-jest-owner-acceptance-relay",
         "rap03c-pr3568-hosted-qualified"
-      ]
+      ],
+      "id": "remo-rap03c-jest",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-03"
+      ],
+      "next_action": "Retain the accepted source claim; obtain the original exact tuple / independent receipt for canonical binding without re-auditing accepted code.",
+      "state": "UNKNOWN",
+      "title": "RAP-03.C native Jest compatibility correction — accepted per owner relay",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "remo-p0-packet-a",
-      "title": "P0 Packet A — visitor-session integrity; frozen local candidate",
-      "lane": "remocommand",
-      "milestone_ids": [],
-      "classification": "EXECUTOR REPORTED",
-      "state": "PENDING REVIEW",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "DECLARED",
-      "next_action": "Independent ChatGPT audit of the exact frozen candidate; retain original evidence and avoid source acceptance until a qualifying receipt.",
       "blockers": [
         "Executor reports 53 of 53 new tests passing; four inherited security tests fail under the new capability contract.",
         "No authenticated independent audit / acceptance or original full-tree identity is available. Authoritative master-milestone mapping remains pending."
       ],
+      "classification": "EXECUTOR REPORTED",
       "evidence_ids": [
         "p0-packet-a-owner-executor-report"
-      ]
-    },
-    {
-      "id": "remo-p0-packet-b",
-      "title": "P0 Packet B — authentication-log redaction; frozen local candidate",
+      ],
+      "id": "remo-p0-packet-a",
       "lane": "remocommand",
       "milestone_ids": [],
-      "classification": "EXECUTOR REPORTED",
+      "next_action": "Independent ChatGPT audit of the exact frozen candidate; retain original evidence and avoid source acceptance until a qualifying receipt.",
       "state": "PENDING REVIEW",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "title": "P0 Packet A — visitor-session integrity; frozen local candidate",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "DECLARED",
-      "next_action": "Independent ChatGPT audit of the exact frozen candidate; retain original evidence and avoid source acceptance until a qualifying receipt.",
       "blockers": [
         "Executor reports 34 of 34 new tests and 145 of 145 existing regression tests passing.",
         "No authenticated independent audit / acceptance or original full-tree identity is available. Authoritative master-milestone mapping remains pending."
       ],
+      "classification": "EXECUTOR REPORTED",
       "evidence_ids": [
         "p0-packet-b-owner-executor-report"
-      ]
-    },
-    {
-      "id": "remo-pr3565-merged",
-      "title": "PR 3565 route-scoped public-site CORS — merged to dev",
+      ],
+      "id": "remo-p0-packet-b",
       "lane": "remocommand",
       "milestone_ids": [],
-      "classification": "HISTORICAL PUBLIC",
-      "state": "IDLE",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "next_action": "Independent ChatGPT audit of the exact frozen candidate; retain original evidence and avoid source acceptance until a qualifying receipt.",
+      "state": "PENDING REVIEW",
+      "title": "P0 Packet B — authentication-log redaction; frozen local candidate",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
       "blockers": [
         "Master-milestone / requirement association is not authenticated; no invented mapping or milestone promotion.",
         "Production status is not established by the PR description."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "remogpt-pr3565-dev-merge"
-      ]
-    },
-    {
-      "id": "remo-pr3566-merged",
-      "title": "PR 3566 sole-owner vault rotation approval — merged to dev",
+      ],
+      "id": "remo-pr3565-merged",
       "lane": "remocommand",
       "milestone_ids": [],
-      "classification": "HISTORICAL PUBLIC",
+      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
       "state": "IDLE",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "title": "PR 3565 route-scoped public-site CORS — merged to dev",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
       "blockers": [
         "Master-milestone / requirement association is not authenticated; no invented mapping or milestone promotion.",
         "Production status is not established by the PR description."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "remogpt-pr3566-dev-merge"
-      ]
-    },
-    {
-      "id": "remo-pr3567-merged",
-      "title": "PR 3567 HttpOnly admin-cookie credentials page and CSRF guard — merged to dev",
+      ],
+      "id": "remo-pr3566-merged",
       "lane": "remocommand",
       "milestone_ids": [],
-      "classification": "HISTORICAL PUBLIC",
+      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
       "state": "IDLE",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "title": "PR 3566 sole-owner vault rotation approval — merged to dev",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
       "blockers": [
         "Master-milestone / requirement association is not authenticated; no invented mapping or milestone promotion.",
         "Production status is not established by the PR description."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "remogpt-pr3567-dev-merge"
-      ]
+      ],
+      "id": "remo-pr3567-merged",
+      "lane": "remocommand",
+      "milestone_ids": [],
+      "next_action": "Bind the verified integration to the authoritative Plan 1 / master-milestone register; keep deployment status unverified.",
+      "state": "IDLE",
+      "title": "PR 3567 HttpOnly admin-cookie credentials page and CSRF guard — merged to dev",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "CONV-05B.S01-S03",
-      "title": "CONV-05B S01-S03 — convergence integration retained; not on dev",
-      "lane": "remocommand",
-      "milestone_ids": [
-        "MB-04"
-      ],
-      "classification": "HISTORICAL PUBLIC",
-      "state": "IDLE",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Retain the accepted convergence contribution; reconcile S04 and hosted/domain/TLS gates against current authorized requirements.",
       "blockers": [
         "Convergence and dev histories remain divergent. S04 and whole-unit qualification are not closed."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "conv05b-pr3551-merge-recheck",
         "historical-PRREG"
-      ]
-    },
-    {
-      "id": "CONV-04A",
-      "title": "CONV-04A — source accepted; final-head shared reviews passed; integration held",
+      ],
+      "id": "CONV-05B.S01-S03",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-04"
       ],
-      "classification": "SOURCE ACCEPTED",
-      "state": "BLOCKED",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
+      "next_action": "Retain the accepted convergence contribution; reconcile S04 and hosted/domain/TLS gates against current authorized requirements.",
+      "state": "IDLE",
+      "title": "CONV-05B S01-S03 — convergence integration retained; not on dev",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
+    },
+    {
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Preserve the accepted exact head and passed shared reviews; qualify the current-target combined result and satisfy the explicit sequence, effective CI and exact integration / merge authority.",
       "blockers": [
         "Final-head platform-authority and Hub source reviews passed and are not current blockers.",
         "Current-target combined-result qualification, governing S04/custom-host/TLS/operational sequence, effective required CI and fresh prospective integration / merge authority remain open."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "conv04a-pr3530-current-head",
         "historical-CONV04A",
         "historical-PRREG",
         "conv04a-final-head-source-reviews-pass"
-      ]
+      ],
+      "id": "CONV-04A",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-04"
+      ],
+      "next_action": "Preserve the accepted exact head and passed shared reviews; qualify the current-target combined result and satisfy the explicit sequence, effective CI and exact integration / merge authority.",
+      "state": "BLOCKED",
+      "title": "CONV-04A — source accepted; final-head shared reviews passed; integration held",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "remo-remototal-register-reconciliation",
-      "title": "RemoTotal — current row-level acceptance reconciliation pending",
-      "lane": "remocommand",
-      "milestone_ids": [],
-      "classification": "HISTORICAL PUBLIC",
-      "state": "BLOCKED",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Obtain and authenticate the current Plan 1 source/integration acceptance register, exact packet identities and master-requirement mappings.",
       "blockers": [
         "Available Plan 1 context is historical and does not establish a current 43-row implementation disposition.",
         "Do not duplicate accepted work or classify original outcomes as missing from the absence of a current register."
       ],
+      "classification": "HISTORICAL PUBLIC",
       "evidence_ids": [
         "plan1-remototal-context-retained"
-      ]
+      ],
+      "id": "remo-remototal-register-reconciliation",
+      "lane": "remocommand",
+      "milestone_ids": [],
+      "next_action": "Obtain and authenticate the current Plan 1 source/integration acceptance register, exact packet identities and master-requirement mappings.",
+      "state": "BLOCKED",
+      "title": "RemoTotal — current row-level acceptance reconciliation pending",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "remo-rap03b1-r4",
-      "title": "RAP-03.B-1 R4 — source accepted; prospective integration qualified for draft publication only",
-      "lane": "remocommand",
-      "milestone_ids": [
-        "MB-03"
-      ],
-      "classification": "SOURCE ACCEPTED",
-      "state": "BLOCKED",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Preserve R4; obtain the exact draft-publication grant, reproduce the current-target test merge and obtain final independent integration review.",
       "blockers": [
         "Prospective audit qualified draft PR publication only; no merged or deployed contribution.",
         "Broad regression remains unresolved: shared 44 baseline failures and nine additional broad-run replay failures; isolated repeats do not establish a universal pass.",
         "Legacy professionals without durable accountId require authorized population evidence and an owner transition/linkage decision before production activation.",
         "Required current-target CI, Ubuntu-only scanner self-tests and final integration review remain separate."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "rap03b1-r4-o1-source-pass",
         "rap03b1-prospective-draft-only"
-      ]
+      ],
+      "id": "remo-rap03b1-r4",
+      "lane": "remocommand",
+      "milestone_ids": [
+        "MB-03"
+      ],
+      "next_action": "Preserve R4; obtain the exact draft-publication grant, reproduce the current-target test merge and obtain final independent integration review.",
+      "state": "BLOCKED",
+      "title": "RAP-03.B-1 R4 — source accepted; prospective integration qualified for draft publication only",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
-      "id": "spock-issue3564-accepted",
-      "title": "MB-01 Issue 3564 — accepted Asset Hub CI repair awaiting publication",
-      "lane": "spock",
-      "milestone_ids": [
-        "MB-01"
-      ],
-      "classification": "SOURCE ACCEPTED",
-      "state": "BLOCKED",
-      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Keep the exact repair frozen; requalify target drift and obtain its separate publication / PR CI / review and merge grants.",
       "blockers": [
         "GitHub Issue 3564 remains open; the accepted repair has not been authenticated as integrated.",
         "Original post-merge Asset Hub Gate failed on a license-gated scan and stale CI-gate assertion. Ordinary current dev checks do not substitute for this path-filtered gate.",
         "Full-history/manual-dispatch Gitleaks retains 2,539 historical findings; no suppression or waiver is inferred."
       ],
+      "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
         "mb01-issue3564-o1-source-pass",
         "mb01-pr3561-dev-merge"
-      ]
+      ],
+      "id": "spock-issue3564-accepted",
+      "lane": "spock",
+      "milestone_ids": [
+        "MB-01"
+      ],
+      "next_action": "Keep the exact repair frozen; requalify target drift and obtain its separate publication / PR CI / review and merge grants.",
+      "state": "BLOCKED",
+      "title": "MB-01 Issue 3564 — accepted Asset Hub CI repair awaiting publication",
+      "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     }
   ],
   "milestones": [
@@ -1442,22 +1510,39 @@
       "work_item_ids": []
     },
     {
-      "id": "MB-10",
-      "label": "Growth runtime, devices and reusable assets",
-      "group": "GROWTH, CREATOR AND MARKETING",
-      "state": "NOT VERIFIED",
-      "scope": "",
-      "evidence_at": null,
-      "evidence_ids": [],
-      "remaining": [
-        "Independently qualify the governing requirements for: Growth runtime, devices and reusable assets.",
-        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      "children": [
+        {
+          "blocker": "Full Growth runtime, device, reusable-asset, release and operational acceptance remain outstanding.",
+          "evidence_ids": [
+            "growth-rga13-original-integration-pass",
+            "growth-rga13-pr52-merge"
+          ],
+          "id": "GROWTH-RGA13.1",
+          "lane": "spock",
+          "note": "Original independent pinned prospective integration PASS is retained at October 7; PR52 actually merged into the named integration branch on October 7. Scope is this contribution only.",
+          "state": "INTEGRATED",
+          "title": "Growth RGA-13.1 accepted integration contribution"
+        }
       ],
       "dependencies": [
         "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
       ],
+      "evidence_at": "2026-10-17T02:06:20.121733Z",
+      "evidence_ids": [
+        "growth-rga13-original-integration-pass",
+        "growth-rga13-pr52-merge",
+        "canonical-d10-owner-publication-disposition"
+      ],
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "id": "MB-10",
+      "label": "Growth runtime, devices and reusable assets",
       "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
-      "children": [],
+      "remaining": [
+        "Independently qualify the governing requirements for: Growth runtime, devices and reusable assets.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "scope": "",
+      "state": "PARTIAL",
       "work_item_ids": []
     },
     {
@@ -1480,23 +1565,52 @@
       "work_item_ids": []
     },
     {
-      "id": "MB-12",
-      "label": "Creator production integration",
-      "group": "GROWTH, CREATOR AND MARKETING",
-      "state": "NOT VERIFIED",
-      "scope": "",
-      "evidence_at": null,
-      "evidence_ids": [],
-      "remaining": [
-        "Independently qualify the governing requirements for: Creator production integration.",
-        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      "children": [
+        {
+          "blocker": "Current-target integration review, qualification, hosted and production acceptance remain outstanding.",
+          "evidence_ids": [
+            "creator-pod04-original-pass"
+          ],
+          "id": "CREATOR-POD04",
+          "lane": "spock",
+          "note": "Original independent bounded source PASS on the pinned commit and tree is retained at October 8. PR92 remains open and unmerged.",
+          "state": "SOURCE ACCEPTED",
+          "title": "Creator POD-04 accepted source unit"
+        },
+        {
+          "blocker": "Current-target integration, hosted and production gates remain outstanding. PR93 dependency-security merge does not integrate this POD.",
+          "evidence_ids": [
+            "creator-pod05-original-pass"
+          ],
+          "id": "CREATOR-POD05",
+          "lane": "spock",
+          "note": "Original October 8 independent bounded source PASS and offline qualification are retained; the October 9 preservation receipt is not a second acceptance.",
+          "state": "SOURCE ACCEPTED",
+          "title": "Creator POD-05 accepted source unit"
+        }
       ],
       "dependencies": [
         "Dependencies require reconciliation against the adopted plan; proposed traceability is not binding."
       ],
+      "evidence_at": "2026-10-17T02:06:20.127731Z",
+      "evidence_ids": [
+        "creator-pod04-original-pass",
+        "creator-pod05-original-pass",
+        "canonical-d12-owner-publication-disposition"
+      ],
+      "group": "GROWTH, CREATOR AND MARKETING",
+      "id": "MB-12",
+      "label": "Creator production integration",
       "next_action": "Reconcile current accepted evidence, confirm the governing requirement checklist, and admit the next nonconflicting source packet.",
-      "children": [],
-      "work_item_ids": []
+      "remaining": [
+        "Independently qualify the governing requirements for: Creator production integration.",
+        "Requirement-level acceptance checklist has not yet been reconciled; no completion is claimed."
+      ],
+      "scope": "",
+      "state": "PARTIAL",
+      "work_item_ids": [
+        "spock-creator"
+      ]
     },
     {
       "id": "MB-13",
@@ -1912,5 +2026,5 @@
       "Separate final integration / merge decision for hosted-qualified PR 3568; no staging or production effect implied."
     ]
   },
-  "checksum": "d004116b5508bce1ae6d351bde5fb919dfebc80f618ecb0c8c9e5408d6838570"
+  "checksum": "708db8c6ff062b8b371a3d7efc938178c24b43b928dad32af06f0a6130e5176a"
 }
