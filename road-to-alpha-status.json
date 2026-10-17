@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 278,
-  "generated_at": "2026-10-17T22:25:15.573Z",
-  "last_evidence_check": "2026-10-17T22:25:15.573Z",
+  "revision": 279,
+  "generated_at": "2026-10-17T22:38:58.171Z",
+  "last_evidence_check": "2026-10-17T22:38:58.171Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T22:25:15.192Z",
+      "checked_at": "2026-10-17T22:38:57.482Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T22:25:15.195Z",
+      "checked_at": "2026-10-17T22:38:57.486Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T22:25:15.196Z",
+      "checked_at": "2026-10-17T22:38:57.487Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T22:25:15.573Z",
+      "checked_at": "2026-10-17T22:38:58.171Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T22:24:50.374967+00:00",
+      "checked_at": "2026-10-17T22:36:27.064637+00:00",
       "status": "DEGRADED",
-      "note": "Connected and mounted coordination checks preserve all authenticated source acceptances and original dates. All three bounded Creator verdict artifacts are authenticated; their audits remain closed. POD04 fresh target custody and qualification remain separately pending. C2a/C1b canonical synchronization remains pending; limited metadata pages do not establish complete receipt coverage."
+      "note": "Fresh connected and mounted receipt checks preserve all original source acceptances, dates and closed audits. The true PR3568 dev merge and current target-tip movement are normalized as scoped historical GitHub observations, with source-head and exact merged-commit CI kept distinct. Older hosted proof does not transfer; no new source or independent integration acceptance, coding or milestone disposition is issued. Creator actual native O1 custody/second ACK and C2a/C1b canonical synchronization remain pending; metadata coverage is limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T22:25:15.015186+00:00",
+      "checked_at": "2026-10-17T22:36:54.163018+00:00",
       "status": "OK",
-      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current draft. No new acceptance or coding activity inferred."
+      "note": "Authenticated seven-PR checks and three retained receipts verified. PR3568 truly merged into dev; target ancestry and complete bounded source-head checks verified. Separate exact merged-commit CI is retained with precise scope. Earlier hosted qualification remains exact-head historical; no source or independent integration acceptance, current coding or milestone disposition inferred."
     }
   ],
   "evidence": [
@@ -820,6 +820,17 @@
       "accepted_at": null,
       "accepted_date": null,
       "scope": "Authenticated October17 21:46 conditional temporary O1 custodian proposal and original native proposed contract are bound to the exact source, target and prospective combined identities. Fresh focused O2 native conflict checks passed; its October17 21:55 pre-acquisition acknowledgment was privately delivered; an append-only correction preserves exact original embedded bytes and has verified raw readback. The original line-ending failure and correction remain retained. This completes only the O2 pre-acquisition prerequisite and coordinates one conditional normal-CI window. No actual O1 native lease is authenticated and no matching actual-custody qualification acknowledgment is issued; no CI or ref publication is granted by this preliminary acknowledgment. Independent current GitHub reads preserve source67428661, main9bbc4cf3 and combineda821c9d2/tree9321de89 with PR92 open and unmerged. O1 must independently acquire exclusive native target custody and provide immutable acquired evidence; O2 must verify the actual unexpired lease before its separate qualification acknowledgment. Exact combined CI and independent prospective integration review remain pending. Historical dependency-security failure remains unwaived. All three bounded source acceptances and closed audits remain preserved; no source or integration acceptance, milestone disposition, coding, merge or production effect is inferred."
+    },
+    {
+      "id": "rap03c-pr3568-dev-merge-b04d1115-observed",
+      "title": "RAP-03.C actual dev merge and exact merged-commit CI observed",
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "b04d11154b0bcf6df70bab56c8a55e1c9cd9d3d3",
+      "tree": "0e0696a2f1599ee0369dd70d7daa70a7f1afe156",
+      "sha256": "f101866b5d2c12d8a8fb513878a9b58826f9e3b117aba3a94a3e762014d80ff7",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Authenticated GitHub evidence establishes PR3568 truly merged into dev at October17 22:31:15 UTC, closed and nondraft. Source headb97490d2/tree0e0696a2 is unchanged; actual merge commitb04d1115/tree0e0696a2 is the observed dev tip with verified target ancestry. Complete bounded source-head pages retain14 successful checks, one skipped check and nine successful workflows. Separate exact merged-commit pages show12 successful checks, one skipped check and seven successful workflows at the recorded check. Prior open/draft and target-tip snapshots remain historical. The held129-backend/155-frontend hosted artifact belongs only to head95b8aae7 and is not inherited by this source or merge commit. The observed merge and checks issue no source or independent integration acceptance, current coding claim, milestone disposition, staging or production qualification. Independent C2a/C1b local source acceptances and original dates remain preserved with canonical ledger synchronization pending; frontend/Jest original tuples and current Plan1 register remain explicit separate gaps."
     }
   ],
   "work_items": [
@@ -908,7 +919,7 @@
       "activity_basis": "RECEIPT",
       "blockers": [
         "Independent local source acceptance is preserved. Canonical ledger synchronization remains pending.",
-        "The retained hosted qualification is historical and tied to the earlier exact head. Current draft head changed and remains unmerged; equivalent current-head artifact, final integration, dev merge, staging and production qualification remain separate."
+        "The actual PR3568 dev mergeb04d1115 at October17 22:31:15 UTC is observed separately. The retained hosted artifact remains bound to earlier head95b8aae7; equivalent exact-source or merged-result qualification and independent integration acceptance are not established by merge/check metadata. Staging, production and whole-MB-03 qualification remain separate."
       ],
       "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
@@ -917,14 +928,15 @@
         "rap03c-pr3568-hosted-qualified",
         "rap03c-pr3568-head-d7d49bae-observed",
         "rap03c-pr3568-head-b97490d2-observed",
-        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592"
+        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592",
+        "rap03c-pr3568-dev-merge-b04d1115-observed"
       ],
       "id": "remo-c2a",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "next_action": "Preserve independent source acceptance and pending ledger synchronization. Reconcile exact current draft head and source tree with a matching qualification artifact before final integration review or any separately authorized merge or release.",
+      "next_action": "Preserve established independent local source acceptance, original dates and pending canonical synchronization. Reconcile the observed sourceb97490d2 and actual dev mergeb04d1115 with matching exact qualification and independent integration receipts without reopening accepted code. Staging and production remain separate.",
       "state": "UNKNOWN",
       "title": "RAP-03.C C2a — WebSocket fail-closed security",
       "writer": "RemoCommand Codex — current activity unconfirmed"
@@ -934,7 +946,7 @@
       "activity_basis": "RECEIPT",
       "blockers": [
         "Independent local source acceptance is preserved. Canonical ledger synchronization remains pending.",
-        "The retained hosted qualification is historical and tied to the earlier exact head. Current draft head changed and remains unmerged; equivalent current-head artifact, final integration, dev merge, staging and production qualification remain separate."
+        "The actual PR3568 dev mergeb04d1115 at October17 22:31:15 UTC is observed separately. The retained hosted artifact remains bound to earlier head95b8aae7; equivalent exact-source or merged-result qualification and independent integration acceptance are not established by merge/check metadata. Staging, production and whole-MB-03 qualification remain separate."
       ],
       "classification": "SOURCE ACCEPTED",
       "evidence_ids": [
@@ -943,14 +955,15 @@
         "rap03c-pr3568-hosted-qualified",
         "rap03c-pr3568-head-d7d49bae-observed",
         "rap03c-pr3568-head-b97490d2-observed",
-        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592"
+        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592",
+        "rap03c-pr3568-dev-merge-b04d1115-observed"
       ],
       "id": "remo-c1b",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "next_action": "Preserve independent source acceptance and pending ledger synchronization. Reconcile exact current draft head and source tree with a matching qualification artifact before final integration review or any separately authorized merge or release.",
+      "next_action": "Preserve established independent local source acceptance, original dates and pending canonical synchronization. Reconcile the observed sourceb97490d2 and actual dev mergeb04d1115 with matching exact qualification and independent integration receipts without reopening accepted code. Staging and production remain separate.",
       "state": "UNKNOWN",
       "title": "RAP-03.C C1b — HTTP authentication, cookie and CSRF boundary",
       "writer": "RemoCommand Codex — current activity unconfirmed"
@@ -982,8 +995,8 @@
       "activity_at": null,
       "activity_basis": "RECEIPT",
       "blockers": [
-        "Current PR3568 remains draft/open and unmerged. Its14 successful checks, one skipped check and nine successful workflows do not supply matching hosted-artifact qualification or independent integration acceptance.",
-        "Full MB-03 identity, legacy-account and policy obligations, final integration, staging and production qualification remain separate."
+        "PR3568 is truly merged into dev, but the observed merge and complete green checks do not establish matching hosted-artifact qualification or independent integration acceptance. The held artifact is tied to older head95b8aae7.",
+        "Full MB-03 identity, legacy-account and policy obligations, staging, production and formal milestone acceptance remain separate."
       ],
       "classification": "SOURCE CANDIDATE",
       "evidence_ids": [
@@ -991,16 +1004,17 @@
         "RAP03C-C2a-D",
         "RAP03C-C1b-D",
         "rap03c-pr3568-head-b97490d2-observed",
-        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592"
+        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592",
+        "rap03c-pr3568-dev-merge-b04d1115-observed"
       ],
       "id": "remo-rap03c-pr3568",
       "lane": "remocommand",
       "milestone_ids": [
         "MB-03"
       ],
-      "next_action": "Authenticate exact current headb97490d2/tree0e0696a2 source and matching hosted-artifact qualification, then obtain final independent integration disposition and separate exact merge grant. Current checks are complete; the earlier hosted artifact remains historical. Staging and production remain separate.",
+      "next_action": "Retain the authenticated actual dev merge and exact merged-commit CI as scoped historical observations. Reconcile sourceb97490d2 and mergeb04d1115 with matching hosted-artifact and independent integration qualification receipts through existing gates. Earlier hosted proof stays historical; staging, production and whole-MB-03 disposition remain separate.",
       "state": "PENDING REVIEW",
-      "title": "RAP-03.C integrated draft - current-head qualification pending, unmerged",
+      "title": "RAP-03.C dev merge observed - independent integration qualification pending",
       "writer": "Owner-relayed / independently retained evidence; present writer activity not observed"
     },
     {
@@ -1261,17 +1275,18 @@
       "writer": "RemoCommand Codex - frozen candidate; source lease closed",
       "activity_at": null,
       "activity_basis": "RECEIPT",
-      "next_action": "Reconcile the observed draft head against the independently reviewed local candidate and CI proposal, authenticate exact source and artifact qualification, then use existing independent integration gates. No new acceptance, coding activity, merge or runtime effect is established here.",
+      "next_action": "Reconcile the observed merged sourceb97490d2 and dev mergeb04d1115 against the independently reviewed local candidate and original CI proposal. Authenticate exact source/artifact and integration receipts through existing gates; no new source-writing admission or current coding is established by merge metadata.",
       "blockers": [
         "The combined local candidate and external CI proposal have bounded independent review; no new source-writing or hosted-execution admission is established.",
-        "The draft now has a different exact head. The older held hosted artifact does not qualify that head, and this metadata observation does not establish its relationship to the local consolidated candidate.",
+        "PR3568 sourceb97490d2 is now observed merged into dev atb04d1115. The exact relationship of that external source/merge to the independently reviewed local consolidated candidate remains unverified; the older hosted artifact does not qualify either tuple by inheritance.",
         "Original standalone source-acceptance receipt bindings and exact master-milestone mapping remain separate obligations."
       ],
       "evidence_ids": [
         "p0-consolidated-local-review-c4fd4b99",
         "rap03c-pr3568-head-d7d49bae-observed",
         "rap03c-pr3568-head-b97490d2-observed",
-        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592"
+        "rap03c-pr3568-head-b97490d2-checks-completed-3596d592",
+        "rap03c-pr3568-dev-merge-b04d1115-observed"
       ]
     },
     {
@@ -2241,7 +2256,7 @@
     },
     "remocommand": {
       "current_item_id": "remo-p0-packet-b",
-      "note": "PR3568 current exact headb97490d2/tree0e0696a2 remains draft/open and unmerged. All15 check records completed:14 success and one skipped; all nine workflows succeeded. The older hosted artifact does not qualify this head. Local source acceptances and original dates remain preserved with canonical synchronization pending; no current coding or new acceptance is inferred."
+      "note": "PR3568 sourceheadb97490d2/tree0e0696a2 is now truly merged into dev atb04d1115/tree0e0696a2, October17 22:31:15 UTC; the merge is in current target ancestry. Source-head checks retain14 success/one skip and nine successful workflows. Exact merged-commit checks separately show12 success/one skip and seven successful workflows. Older hosted proof does not transfer. Established local source acceptances and original dates remain preserved with canonical synchronization pending; present coding and independent integration acceptance remain unconfirmed."
     }
   },
   "panels": {
@@ -2272,12 +2287,13 @@
       "PR3568 check snapshot October17 21:11 UTC: exact draft headb97490d2/tree0e0696a2 now has14 successful checks, one skipped check and nine successful workflows in complete bounded pages. It remains open/unmerged. This supersedes the in-progress check snapshot; source acceptance, current-head hosted-artifact qualification and final integration are separate gates.",
       "Creator POD04 historical CI precision: authenticated original October8 RemoMedia job output confirms dependency-scan.test.ts:33 real-workspace policy failure inside the failed Tests step. This is an existing-log observation, not a new test or scan run. The failure remains unwaived; accepted source and the three completed bounded audits are preserved.",
       "Creator POD04 coordination reply October17 21:25 UTC authenticates the exact private request and identifies a specific authority gap: no authenticated current Creator/main holder or native lease-control location. The reporter claims no custodianship or lease. A normal combined-CI route is prepared but unexecuted; source acceptances and all three closed audits remain preserved.",
-      "Creator POD04: the conditional O1 scoped custodian proposal and native proposed contract are authenticated. Fresh focused O2 conflict checks passed, and its 21:55 UTC pre-acquisition ACK was delivered with exact raw readback. This satisfies only the preliminary O2 prerequisite; actual native target acquisition and the separate qualification ACK remain pending."
+      "Creator POD04: the conditional O1 scoped custodian proposal and native proposed contract are authenticated. Fresh focused O2 conflict checks passed, and its 21:55 UTC pre-acquisition ACK was delivered with exact raw readback. This satisfies only the preliminary O2 prerequisite; actual native target acquisition and the separate qualification ACK remain pending.",
+      "PR3568 actual merge October17 22:31:15 UTC is authenticated: closed, nondraft, sourceb97490d2 merged into dev atb04d1115/tree0e0696a2 with target ancestry verified. The exact merged commit separately has12 successful checks, one skipped and seven successful workflows in complete bounded pages; source-head evidence remains14 success/one skip and nine successful workflows. This supersedes earlier open/draft/current-target implications while retaining those snapshots historically. Held hosted qualification stays tied to head95b8aae7; no source or independent integration acceptance, current coding, milestone or production qualification is inferred."
     ],
     "critical_path": [
       "MB-01 integration lineage is on dev. Reconcile Issue 3564 and the remaining required CI / milestone obligations instead of requesting the already-completed cumulative merge.",
       "RAP-03.B-1: exact draft-publication authority, current-target CI, broad-regression reconciliation, final independent integration review and legacy-account transition policy.",
-      "RAP-03.C: bind the new draft source head and tree to matching hosted qualification before final independent integration review and separately authorized dev merge or release. Preserve historical source acceptances.",
+      "RAP-03.C: retain the observed actual dev mergeb04d1115 separately from established local source acceptances. Bind exact source/merged-result qualification and independent integration receipts through existing gates; the earlier hosted artifact does not transfer. Canonical ledger synchronization, original frontend/Jest tuples, whole-MB-03 obligations, staging and production remain separate.",
       "P0 consolidated security candidate: obtain exact reviewed CI application/publication admission, verify the resulting head and run separately authorized hosted qualification. Original A/B history and standalone source-receipt gaps remain distinct.",
       "Authenticate the current Plan 1 acceptance register and original source receipt identities before any additional master-milestone mapping or formal child promotion.",
       "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing.",
@@ -2288,7 +2304,7 @@
       "Formal MB-01 / MB-03 / MB-04 child/card wording remains a historical disposition pending exact predecessor-bound owner approval; the current engineering records above supersede stale present-tense interpretations.",
       "Issue 3564 repair is source accepted but parked. Path-filtered Asset Hub CI / normal lockfile qualification and full-history scanner limitations remain separate.",
       "RAP-03.B-1 broad regressions remain unresolved; missing durable accountId has a production transition / linkage decision before activation.",
-      "RAP-03.C draft headb97490d2 remains unmerged. Its check/workflow snapshot is complete and green apart from the skipped manual check, but the older hosted artifact does not match. Exact current-head source/artifact qualification, independent integration, staging, production and whole-MB-03 acceptance remain unverified.",
+      "RAP-03.C sourceb97490d2 is now observed merged into dev atb04d1115. Source-head and merged-commit check/workflow coverage are separately complete and green apart from skipped checks. Matching hosted-artifact qualification, independent integration acceptance, staging, production and whole-MB-03 acceptance remain unverified; the older artifact is exact-head historical evidence.",
       "C2a/C1b canonical ledger sync remains pending without demoting established independent source acceptance.",
       "Frontend/Jest original full-tree and raw acceptance-receipt binding is unavailable; owner-confirmed acceptance is preserved as a labeled relay.",
       "Current Plan 1 acceptance register and exact mappings for P0 A/B and PRs 3565–3567 remain unauthenticated.",
@@ -2301,10 +2317,10 @@
       "Bounded private authenticated GitHub/receipt reader and updater handover amendment; existing public source and one-path publication ceiling remain unchanged.",
       "Current authoritative Plan 1 acceptance-register pointer / exact bytes and requirement-level mappings for presently unmapped packets.",
       "Separate RAP-03.B-1 publication / integration and legacy-account transition decisions; source acceptance does not grant these effects.",
-      "Separate final integration and merge decision for PR3568 only after matching exact current-head source and hosted artifact qualification; no staging or production effect implied.",
+      "PR3568 actual dev merge is an authenticated historical observation. Obtain or reconcile exact independent integration and matching artifact qualification receipts through existing authority; observed GitHub merge/check metadata supplies no new acceptance or milestone disposition. Any staging, production activation or whole-MB-03 decision remains separate.",
       "Exact bounded P0 CI amendment application, publication and hosted qualification of the resulting candidate; merge and deployment remain separate.",
       "Creator POD04: the prepared conditional scoped designation and authenticated O1 proposal do not establish an active native lease. O1 must complete exclusive native acquisition and supply its actual custody ACK; O2 must authenticate that unexpired exact lease and provide the separate matching qualification ACK. No additional owner decision is currently established by this coordination step. Exact combined CI and independent review still precede any separate integration or merge decision; all three bounded source audits stay closed."
     ]
   },
-  "checksum": "fdd6f94a3daed2247ffc81ad48e638d83dd37ebcceb95e927ac726d6a28ab151"
+  "checksum": "d9157868438bbbd5545d8b2109be275a9f0bbc259b45a87e5ab52b5335f16894"
 }
