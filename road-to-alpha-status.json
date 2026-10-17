@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "revision": 264,
-  "generated_at": "2026-10-17T19:59:01.700Z",
-  "last_evidence_check": "2026-10-17T19:59:01.700Z",
+  "revision": 265,
+  "generated_at": "2026-10-17T20:14:37.165Z",
+  "last_evidence_check": "2026-10-17T20:14:37.165Z",
   "latest_accepted_engineering_event": {
-    "at": "2026-10-17T18:17:43+00:00",
+    "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
     "precision": "second",
-    "basis": "Creator Character Delete CSRF: authenticated original independent source PASS"
+    "basis": "Creator Character Create CSRF: exact owner-relayed independent source PASS"
   },
   "last_milestone_disposition_change": {
     "at": "2026-10-17T02:06:20.127731Z",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-17T19:59:01.293Z",
+      "checked_at": "2026-10-17T20:14:36.777Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-17T19:59:01.295Z",
+      "checked_at": "2026-10-17T20:14:36.779Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-17T19:59:01.297Z",
+      "checked_at": "2026-10-17T20:14:36.781Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-17T19:59:01.700Z",
+      "checked_at": "2026-10-17T20:14:37.165Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-17T19:58:36.087070+00:00",
+      "checked_at": "2026-10-17T20:13:56.925798+00:00",
       "status": "DEGRADED",
-      "note": "Authorized coordination receipts checked with limited metadata coverage. Independently accepted canonical dispositions have exact owner-authorized public projections. Established source acceptances and original technical timestamps are preserved. C2a/C1b canonical ledger synchronization remains pending."
+      "note": "Connected and mounted receipts checked with limited coverage. Exact direct-owner Create source acceptance is retained at the owner-provided original time; original reviewer JSON raw authentication remains pending. All completed bounded source audits and formal dispositions stay closed and preserved. POD04 readiness grants no target custody or integration; C2a/C1b canonical synchronization remains pending."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-17T19:59:01.150780+00:00",
+      "checked_at": "2026-10-17T20:14:36.582790+00:00",
       "status": "OK",
-      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current draft. No new acceptance or coding activity inferred."
+      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification applies only while its exact source head matches. No source acceptance or coding inferred from GitHub checks."
     }
   ],
   "evidence": [
@@ -732,6 +732,28 @@
       "accepted_at": null,
       "accepted_date": null,
       "scope": "Authoring executor handoff after authenticated revision4, clean independently accepted DELETE predecessor and fresh exclusive two-file custody. Existing CSRF helper supplies the POST content-type headers; server security, schemas, tenant guard and all other product paths unchanged. Retained same-test predecessor evidence is9 pass/11 fail; candidate77 focused tests pass, including20 new and57 existing, with scoped lint passing. Both TypeScript checks retain the same preexisting TS2322; no typecheck PASS. Package raw bytes/hashes and closure verified; separate independent nonauthoring source acceptance pending. Controlled local ports are not real browser/session/hosted qualification. No inherited parent/main/POD/RCD acceptance or milestone disposition."
+    },
+    {
+      "id": "creator-pod04-current-target-readiness-a821c9d2",
+      "title": "Creator POD04: retained exact combined identity and current integration gates",
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "a821c9d24d997d1d7523d75081b6cc6e70885a6c",
+      "tree": "9321de899e64802f5624779aff2c69158a8f2b2b",
+      "sha256": "944d6f2488acb2af7f4b5a878bd07ae808eb9e417768c7f3df6492e7b3fed1f5",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "Read-only October17 20:05 UTC observation: PR92 remains open/unmerged at accepted67428661 source, current main9bbc4cf3, graph3 ahead/4 behind. Existing synthetica821c9d2/tree9321de89 has those exact parents and may be reused as an identity, not a merge or acceptance. Combined check runs0; older October8 RemoMedia CI failed at Tests while engine passed. Current complete bounded query has0 review threads and0 PR reviews. Prior local qualification lease expired October11; no current target custody or normal combined CI is established. O1 custody/qualification, actual combined CI, O2 prospective review and separate integration admission remain required; accepted source scopes stay closed."
+    },
+    {
+      "id": "creator-character-create-csrf-owner-relayed-source-pass-5adb24b7",
+      "title": "Creator Character Create CSRF: exact owner-relayed independent source PASS",
+      "classification": "SOURCE ACCEPTED",
+      "commit": "5adb24b7dd5b1fb1026c669702a09f994dcb4421",
+      "tree": "25e5ca85b3d12b999a6962cd273412fd7d918688",
+      "sha256": "944d6f2488acb2af7f4b5a878bd07ae808eb9e417768c7f3df6492e7b3fed1f5",
+      "accepted_at": "2026-10-17T19:58:08.973Z",
+      "accepted_date": "2026-10-17",
+      "scope": "Direct owner explicitly relayed independent nonauthoring PASS for only the exact two-file child of accepted9e4c00af. Original19:58:08.973 UTC acceptance time is supplied by the owner and retained distinctly from this check. The reported original9286-byte reviewer JSON is still unavailable and its raw hash is not authenticated; this record authenticates the exact owner relay, not that original artifact. Retained same-test red9 pass/11 fail and green77/77 include57 existing regressions; preexisting TS2322 remains NOT PASS. GET, DELETE and CREATE audits stay closed and source writer closed. No inherited five-file-parent/main/POD/RCD integration, hosted/browser qualification, whole-product security, publication, provider or production effect follows."
     }
   ],
   "work_items": [
@@ -1206,20 +1228,21 @@
       "milestone_ids": [
         "MB-12"
       ],
-      "classification": "SOURCE CANDIDATE",
-      "state": "PENDING REVIEW",
-      "writer": "Spock Codex - frozen two-file Create source; writer lease closed",
+      "classification": "SOURCE ACCEPTED",
+      "state": "IDLE",
+      "writer": "Spock Codex - accepted frozen Create source; writer lease closed",
       "activity_at": "2026-10-17T18:46:41.460000+00:00",
       "activity_basis": "TEST RUN",
-      "next_action": "Obtain separate independent nonauthoring source-only review for exact5adb24b7/tree25e5ca85 against accepted9e4c00af. Preserve completed GET and DELETE audits. Retain baseline TS2322 and browser/hosted limitations; no integration or milestone acceptance inferred.",
+      "next_action": "Preserve the exact owner-relayed bounded Create source PASS and completed audit. Authenticate the original reviewer JSON when retrievable without reopening the audit. Advance POD04 prospective qualification separately through O1 current-target custody, combined CI and O2 review; no unrelated correction is admitted.",
       "blockers": [
-        "Independent nonauthoring source acceptance of the exact Character Create child is pending.",
-        "Preexisting TS2322 and real browser/session/hosted qualification remain separate.",
-        "POD04 then POD05 then POD03, RCD10 custody, inherited five-file parent and whole-product security remain separate gates."
+        "Original reviewer JSON raw authentication remains pending; exact owner-relayed acceptance is preserved.",
+        "Preexisting TS2322, real browser/hosted qualification and inherited five-file-parent/main security obligations remain separate.",
+        "POD04 target/qualification custody, normal combined CI and independent prospective review remain gated; POD05 then POD03 and RCD10 stay separate."
       ],
       "evidence_ids": [
         "creator-character-create-csrf-audit-handoff-5adb24b7",
-        "creator-character-delete-csrf-original-verdict-9e4c00af"
+        "creator-character-delete-csrf-original-verdict-9e4c00af",
+        "creator-character-create-csrf-owner-relayed-source-pass-5adb24b7"
       ]
     }
   ],
@@ -2138,7 +2161,7 @@
   "lanes": {
     "spock": {
       "current_item_id": "spock-creator",
-      "note": "GET-await and DELETE CSRF bounded independent acceptances and completed audits remain closed. After fresh native custody and exclusive two-file ACK, Character Create successor5adb24b7 is tested and frozen; writer closed at revision5 and private audit package verified. Separate nonauthoring source review is pending; no current coding is asserted. POD04 prospective target preparation remains separate under existing O1 gates."
+      "note": "Owner relayed exact independent bounded Create source PASS at original19:58:08.973 UTC; original reviewer JSON remains unavailable, with relay provenance explicit. GET, DELETE and CREATE audits are closed and writer custody closed. Current priority is separate POD04 prospective preparation under O1 source/target/CI and O2 review gates. No current coding or target lease is asserted."
     },
     "remocommand": {
       "current_item_id": "remo-p0-packet-b",
@@ -2165,7 +2188,9 @@
       "Creator Character Delete CSRF: native custody gate resolved and fresh two-file ACK completed; exact successor9e4c00af frozen with 32 focused tests and scoped lint passing. Private audit handoff bytes/hashes verified and writer closed. Independent source acceptance remains pending; baseline typecheck failure retained.",
       "Creator Character Delete CSRF: exact7064-byte independent source PASS authenticated at original October17 18:17:43 UTC. Frozen two-file child9e4c00af is SOURCE ACCEPTED; retained32-case evidence and original baseline typecheck limitation preserved. Both GET and DELETE audits are closed; no integration or milestone completion is inferred.",
       "Creator Character Create CSRF: exact two-file successor5adb24b7 frozen after current custody and fresh ACK. Retained same-test red9/11 and green77/77, scoped lint passing; baseline TS2322 preserved. Private raw-byte-verified audit handoff and revision5 writer closure retained. Source acceptance is pending.",
-      "Creator POD04 separate prospective preparation, checked October17 18:47 UTC: PR92 remains open/unmerged at accepted head67428661. Observed main9bbc4cf3 and that head diverge by3 ahead/4 behind. O1 must bind a fresh prospective combined result and target custody; no integration or renewed lease is granted."
+      "Creator POD04 separate prospective preparation, checked October17 18:47 UTC: PR92 remains open/unmerged at accepted head67428661. Observed main9bbc4cf3 and that head diverge by3 ahead/4 behind. O1 must bind a fresh prospective combined result and target custody; no integration or renewed lease is granted.",
+      "Creator Character Create CSRF: exact owner-relayed independent source PASS retained at original October17 19:58:08.973 UTC. Child5adb24b7/tree25e5ca85 is source accepted; all three bounded audits and writer leases closed. Original9286-byte reviewer JSON authentication remains pending, explicitly separate from owner-relay authority; baseline TS2322 is not PASS.",
+      "Creator POD04 readiness: current accepted head67428661, main9bbc4cf3 and retained combineda821c9d2/tree9321de89 match exact parents. The synthetic identity can be reused; it has0 check runs. Older PR CI failed RemoMedia Tests. Expired local qualification occupancy and current O1 target custody must be resolved before combined CI and O2 prospective acceptance."
     ],
     "critical_path": [
       "MB-01 integration lineage is on dev. Reconcile Issue 3564 and the remaining required CI / milestone obligations instead of requesting the already-completed cumulative merge.",
@@ -2175,7 +2200,7 @@
       "Authenticate the current Plan 1 acceptance register and original source receipt identities before any additional master-milestone mapping or formal child promotion.",
       "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing.",
       "CONV-04A: use the retained passed shared-surface reviews; reconcile the actual remaining integration gates instead of requesting a duplicate source review.",
-      "Creator: independently review the frozen Character Create CSRF child5adb24b7/tree25e5ca85; native custody and writer closeout are verified. GET and DELETE audits remain accepted/closed. In parallel, O1 must establish fresh POD04 current-target custody, exact combined result and CI/O2 prospective review before separate integration admission; POD05/POD03 and RCD10 remain gated."
+      "Creator: retain closed GET/DELETE/CREATE bounded source audits and original acceptance times. Advance POD04 under fresh O1 current-target/qualification custody, reuse/revalidate exact combineda821c9d2 if unchanged, obtain normal combined CI and reconcile the Tests failure, then O2 prospective review and separate integration admission. POD05 then POD03 caller and RCD10 remain separate."
     ],
     "blockers": [
       "Formal MB-01 / MB-03 / MB-04 child/card wording remains a historical disposition pending exact predecessor-bound owner approval; the current engineering records above supersede stale present-tense interpretations.",
@@ -2186,7 +2211,7 @@
       "Frontend/Jest original full-tree and raw acceptance-receipt binding is unavailable; owner-confirmed acceptance is preserved as a labeled relay.",
       "Current Plan 1 acceptance register and exact mappings for P0 A/B and PRs 3565–3567 remain unauthenticated.",
       "Historical October 11 S04/domain/TLS/hosted and legacy-profile transition gates remain unless later qualified receipts supersede them. CONV-04A final-head shared-source reviews are already passed.",
-      "Creator: Character Create source is frozen awaiting separate independent nonauthoring acceptance; no source writer lease remains open. Existing TS2322 and real browser/hosted qualification are unresolved. POD04 target lease remains unrenewed and its diverged prospective combined result requires separate qualification.",
+      "Creator: original Create reviewer JSON is unavailable, while exact owner-relayed source acceptance is preserved. POD04 combined result has no check runs; older source-head RemoMedia Tests failed, local qualification lease expired, and current O1 target custody is not granted. Baseline TS2322 and browser/hosted qualification remain separate.",
       "The newer local P0 combined candidate is frozen and unpublished; the existing draft head/checks cannot qualify it. No new successor writer admission is established."
     ],
     "decisions": [
@@ -2196,8 +2221,8 @@
       "Separate RAP-03.B-1 publication / integration and legacy-account transition decisions; source acceptance does not grant these effects.",
       "Separate final integration and merge decision for PR3568 only after matching exact current-head source and hosted artifact qualification; no staging or production effect implied.",
       "Exact bounded P0 CI amendment application, publication and hosted qualification of the resulting candidate; merge and deployment remain separate.",
-      "Creator review: separate independent nonauthoring source verdict for exact Character Create child5adb24b7/tree25e5ca85 and two-path scope. Existing O1 must separately establish POD04 target custody and prospective combined-result qualification; no repeated historical-cursor input is required."
+      "Creator: retrieve/authenticate the reported original Create reviewer JSON without reopening completed source review. Existing O1 custodian must furnish fresh POD04 source/target and qualification custody; actual combined CI, O2 review and separate integration admission remain required. No unrelated client-CSRF correction is admitted."
     ]
   },
-  "checksum": "5a86bc4a6c9bb7ccad209b4484b91b847ba60f2c2f333063fa5c194a533b2735"
+  "checksum": "d6c2f64b84acbce4660486e3370d63d8f559822136a5a9f4d053d9a1e01c7f50"
 }
