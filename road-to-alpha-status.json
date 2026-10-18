@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 322,
-  "generated_at": "2026-10-18T06:27:53.926Z",
-  "last_evidence_check": "2026-10-18T06:27:53.926Z",
+  "revision": 323,
+  "generated_at": "2026-10-18T06:37:53.973Z",
+  "last_evidence_check": "2026-10-18T06:37:53.973Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,42 +21,42 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T06:27:53.521Z",
+      "checked_at": "2026-10-18T06:37:53.580Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T06:27:53.523Z",
+      "checked_at": "2026-10-18T06:37:53.583Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T06:27:53.525Z",
+      "checked_at": "2026-10-18T06:37:53.584Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T06:27:53.926Z",
+      "checked_at": "2026-10-18T06:37:53.973Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T06:27:25.299769+00:00",
+      "checked_at": "2026-10-18T06:37:23.749889+00:00",
       "status": "DEGRADED",
       "note": "Generation-five sole normal CI is terminal HOLD after a real dependency-scan timeout and worker timeout; app build was skipped. Exact native custody is formally released and independently verified, all original logs and every34 peer-bundle payload entries authenticate, and all historical prefixes remain intact. The attempt is consumed. No retry, waiver, source change, main merge or deployment is admitted. All original source acceptances/dates, closed audits, previous generations, RAP03C and formal milestones are preserved. Canonical synchronization remains separate and receipt coverage limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T06:27:53.283665+00:00",
+      "checked_at": "2026-10-18T06:37:53.238300+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
@@ -2443,5 +2443,5 @@
       "Creator POD04: generation-five sole normal CI ended HOLD and exact native custody is formally released. Separate exact owner admission is required for bounded diagnosis of dependency-scan execution/evidence and the worker timeout, any correction, and any later CI. No source/test/security-policy change, waiver, retry, fresh custody, main merge or deployment is authorized by these receipts."
     ]
   },
-  "checksum": "e6f7477f7c656546f4a9783147d08f5ee651f64c25a81ee362bafb4049c1a311"
+  "checksum": "2bfd5dbf9b9c12b0d4683996b44e774c563cc66d6ae238e5a6c3abeb57f9a94f"
 }
