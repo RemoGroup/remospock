@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 315,
-  "generated_at": "2026-10-18T05:17:19.870Z",
-  "last_evidence_check": "2026-10-18T05:17:19.870Z",
+  "revision": 316,
+  "generated_at": "2026-10-18T05:27:12.190Z",
+  "last_evidence_check": "2026-10-18T05:27:12.190Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,42 +21,42 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T05:17:19.447Z",
+      "checked_at": "2026-10-18T05:27:11.728Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T05:17:19.452Z",
+      "checked_at": "2026-10-18T05:27:11.732Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T05:17:19.454Z",
+      "checked_at": "2026-10-18T05:27:11.733Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T05:17:19.870Z",
+      "checked_at": "2026-10-18T05:27:12.190Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T05:16:51.911525+00:00",
+      "checked_at": "2026-10-18T05:26:44.192612+00:00",
       "status": "DEGRADED",
       "note": "Generation-five sole owner-approved literal-URL publication succeeded and one normal exact-combined CI started. At the retained04:51 UTC observation the engine and app lint/typecheck passed while full tests/build and independent review remained pending. No final CI/security pass or acceptance is inferred. Original source acceptances, all closed audits, previous generations, RAP03C, unwaived security findings and all32 formal milestones are preserved. Canonical synchronization remains separate and receipt coverage limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T05:17:19.194136+00:00",
+      "checked_at": "2026-10-18T05:27:11.477484+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
@@ -2431,5 +2431,5 @@
       "Creator POD04: the owner-approved single literal-URL attempt is consumed and one normal combined CI started. Preserve the finite custody window and all real results; no retry, fallback, renewal or additional CI. Separate independent review and guarded close remain. No source edit, security waiver, main merge or deployment is admitted."
     ]
   },
-  "checksum": "c59b1b06e13d2fb4bbf4538caea9fa59aba4f902dd20641c41b9b71eaa567b95"
+  "checksum": "478157d842779d19068f8964a36aef921582564f6e3decca1ffec0190c14bf01"
 }
