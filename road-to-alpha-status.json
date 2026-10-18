@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 316,
-  "generated_at": "2026-10-18T05:27:12.190Z",
-  "last_evidence_check": "2026-10-18T05:27:12.190Z",
+  "revision": 317,
+  "generated_at": "2026-10-18T05:44:12.737Z",
+  "last_evidence_check": "2026-10-18T05:44:12.737Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T05:27:11.728Z",
+      "checked_at": "2026-10-18T05:44:12.331Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T05:27:11.732Z",
+      "checked_at": "2026-10-18T05:44:12.336Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T05:27:11.733Z",
+      "checked_at": "2026-10-18T05:44:12.338Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T05:27:12.190Z",
+      "checked_at": "2026-10-18T05:44:12.737Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T05:26:44.192612+00:00",
+      "checked_at": "2026-10-18T05:43:03.764139+00:00",
       "status": "DEGRADED",
-      "note": "Generation-five sole owner-approved literal-URL publication succeeded and one normal exact-combined CI started. At the retained04:51 UTC observation the engine and app lint/typecheck passed while full tests/build and independent review remained pending. No final CI/security pass or acceptance is inferred. Original source acceptances, all closed audits, previous generations, RAP03C, unwaived security findings and all32 formal milestones are preserved. Canonical synchronization remains separate and receipt coverage limited."
+      "note": "Generation-five sole normal CI completed as HOLD after a real dependency-scan timeout and worker timeout; app build was skipped. The exact native lease is formally released and independently verified with all historical prefixes intact. Complete provider logs and every34 peer-bundle payload entries authenticate. The attempt is consumed; no retry, waiver, source change, main merge or deployment is admitted. Original source acceptances/dates, all closed audits, previous generations, RAP03C and formal milestones remain preserved. Canonical synchronization stays separate and receipt coverage remains limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T05:27:11.477484+00:00",
+      "checked_at": "2026-10-18T05:44:12.019034+00:00",
       "status": "OK",
-      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
+      "note": "Authenticated seven-PR checks and three retained receipts reverified with complete bounded check/workflow coverage. Observed true dev merge and exact-head historical hosted scope remain distinct from source and independent integration acceptance. No new acceptance or coding inferred."
     }
   ],
   "evidence": [
@@ -930,6 +930,17 @@
       "accepted_at": null,
       "accepted_date": null,
       "scope": "The owner-approved literal-repository publication succeeded October18 04:45 UTC. Original native intent/result and independent GitHub readback establish one non-force build ref at the unchanged exact combined commit and one normal push-triggered workflow, attempt one. Both fresh custody ACKs and the original finite native lease match; the invocation occurred within the75-minute remaining-time requirement. This consumes the sole attempt; no retry, fallback, renewal or additional CI is admitted. At the independent04:51 UTC provider observation, the engine job and all nine required validator/composition steps passed; app lint and typecheck passed, full tests were running and build was pending. The unchanged normal workflow and complete bounded run/job metadata are retained with original logs for the completed engine job. No final app/security/build or whole-CI success, source/integration acceptance, main merge or milestone disposition is inferred. Preserve all three closed source acceptances and original dates, historical security findings, prior generations and RAP03C. Await the full actual hosted result and separate independent prospective review, then guarded exact-owned close; no merge or deployment."
+    },
+    {
+      "id": "creator-pod04-g5-ci-timeout-hold-released-a821c9d2",
+      "title": "Creator POD04 normal CI HOLD and native custody release verified",
+      "classification": "HISTORICAL PUBLIC",
+      "commit": "a821c9d24d997d1d7523d75081b6cc6e70885a6c",
+      "tree": "9321de899e64802f5624779aff2c69158a8f2b2b",
+      "sha256": "7908cbc41da34d942351b0571b0949b7a69d5e013d2d4328256239306f3b498a",
+      "accepted_at": null,
+      "accepted_date": null,
+      "scope": "The sole owner-authorized generation-five normal CI completed with failure October18 05:29 UTC. Engine and app lint/typecheck passed. App tests reported2716 passed,1 failed,227 skipped; the real workspace dependency scan timed out at120 seconds and a Vitest worker update timeout was reported. Secret-scan3tests reported pass; app build was skipped. This establishes neither complete dependency clearance nor a package-specific new advisory verdict; historical security findings remain unwaived. O2 independently retained complete original logs, reconciled the peer evidence bundle and every34 manifested payload entries, and issued a separate prospective HOLD. O1 then formally released the exact owned native lease at05:35 UTC through the unchanged guarded control. Independent live verification at05:37 UTC confirmed no active pointer, exact closing/released records and preserved acquisition/historical register prefixes. Fresh GitHub checks retain one terminal failed run at the exact combined commit, unchanged source/main and an unmerged source PR. Both original custody ACKs remain genuine history; the sole attempt is consumed. No retry, renewal, source/test/policy edit, waiver, main merge or deployment is admitted. All three closed original source acceptances/dates, earlier generations, RAP03C and all32 formal milestones remain preserved. No new source/integration acceptance or milestone disposition is issued."
     }
   ],
   "work_items": [
@@ -991,7 +1002,7 @@
       "activity_at": "2026-10-16T19:40:19.687+00:00",
       "activity_basis": "TEST RUN",
       "blockers": [
-        "One normal generation-five exact-combined CI is running after genuine custody and both new ACKs. At04:51 UTC engine passed and app full tests were active; app build/final security-inclusive qualification and independent review remain pending. The one publication attempt is consumed. Preserve all historical security findings without waiver.",
+        "The sole generation-five normal CI failed at the real workspace dependency scan after a120-second timeout, with a Vitest worker timeout; app build did not run.2716 reported passes and the passed secret scan do not establish full security or CI qualification. Native custody is released, all prior evidence preserved, and no retry/waiver is admitted.",
         "Exact combined CI results and independent prospective integration review remain unqualified. The historical RemoMedia dependency-scan failure inside Tests remains unwaived.",
         "Five-file-parent/main security obligations, POD05 then POD03 caller, RCD10, baseline TS2322, hosted/browser qualification and production remain separate."
       ],
@@ -1008,7 +1019,7 @@
       "milestone_ids": [
         "MB-12"
       ],
-      "next_action": "Preserve all three closed source audits and original acceptances. Generation-five sole literal-URL publication succeeded and one exact-combined normal CI is running. Engine passed; app lint/typecheck passed and full tests/build remain for the final result. Retain complete real security-inclusive evidence for independent prospective review and guarded close. No retry, extra CI, merge or deployment.",
+      "next_action": "Preserve all three closed source audits and original acceptances. Generation-five sole normal CI is terminal HOLD: real dependency scan timed out, worker timeout reported and app build skipped. Exact native custody is formally released and independently verified. Retain all original evidence; separate exact owner admission is required before any diagnosis, change or further CI. No merge or deployment.",
       "state": "IDLE",
       "title": "Creator workbench GET-await repair",
       "writer": "Spock Codex - accepted frozen GET-await source; writer lease closed"
@@ -1423,10 +1434,10 @@
       "writer": "Spock Codex - accepted frozen Create source; writer lease closed",
       "activity_at": "2026-10-17T18:46:41.460000+00:00",
       "activity_basis": "TEST RUN",
-      "next_action": "Preserve original Create verdict/time and all three closed audits. Owner-approved generation-five exact-combined normal CI started through the literal-URL publication; await the app full tests/build and separate independent prospective review. No source correction, retry or additional CI admitted.",
+      "next_action": "Preserve the original Create verdict/time and all three closed source audits. Generation-five exact combined CI is HOLD and native custody is formally released. Await separate exact owner admission for bounded dependency-scan execution/evidence diagnosis and any later correction or CI; no source or policy change is currently admitted.",
       "blockers": [
         "Preexisting TS2322, real browser/hosted qualification and inherited five-file-parent/main security obligations remain separate.",
-        "Generation-five actual custody and both fresh ACKs are verified; the sole normal combined CI is active. Engine and app lint/typecheck passed at04:51 UTC; complete app/security/build qualification and independent review remain pending. POD05 then POD03, baseline TS2322, hosted/browser and RCD10 stay separate."
+        "Generation-five normal CI: engine/app lint/typecheck passed, but the real dependency scan timed out and a Vitest worker timeout was recorded; app build was skipped. Full qualification is HOLD and custody is released. POD05 then POD03, historical baseline TS2322, hosted/browser and RCD10 remain separate."
       ],
       "evidence_ids": [
         "creator-character-create-csrf-audit-handoff-5adb24b7",
@@ -2351,7 +2362,7 @@
   "lanes": {
     "spock": {
       "current_item_id": "spock-creator",
-      "note": "All three bounded Creator verdicts remain authenticated and audits closed. Generation-five actual custody and both fresh ACKs match the successful sole literal-URL publication. One normal exact-combined CI is active: engine passed; complete app/security/build results and independent review remain pending. No coding or acceptance inferred; previous generations and RAP03C preserved."
+      "note": "All three bounded Creator verdicts remain authenticated and audits closed. Generation-five sole normal CI failed at a real dependency-scan timeout, with worker timeout and skipped app build. Independent post-CI HOLD and actual guarded native release are verified; source/main remain unchanged. Preserve original dates, all prior generations and RAP03C. No new acceptance or coding activity inferred."
     },
     "remocommand": {
       "current_item_id": "remo-p0-packet-b",
@@ -2397,7 +2408,8 @@
       "Creator POD04 generation four: owner-approved corrected transport preparation and both new custody gates independently verified October18 04:05 UTC. Actual native lease/completion/register prefix and separate O2 qualification ACK match the unchanged exact combined candidate. One normal CI remains conditional on final gates; no remote success, CI pass, acceptance or milestone disposition inferred.",
       "Creator POD04 generation four: sole publication attempt stopped locally with Git exit128; no hosted CI ran. O2 independently verified unchanged exact candidate, zero provider runs/ref and formal guarded native release October18 04:13 UTC. Custody ACKs remain historical; this is a publication failure, not a new test or security verdict. All source acceptances and prior evidence are preserved.",
       "Creator POD04 generation five: owner-approved explicit-URL transport preparation and both new custody gates independently verified October18 04:41 UTC. Actual native lease/completion/register prefix and separate O2 qualification ACK match the unchanged exact combined candidate. One normal CI remains conditional on final gates; no remote success, CI pass, acceptance or milestone disposition inferred.",
-      "Creator POD04 generation five: sole owner-approved literal-URL publication succeeded and one normal exact-combined CI started October18 04:45 UTC. At04:51 UTC engine and app lint/typecheck passed; full app tests/build and independent prospective review remain pending. No new acceptance or formal disposition."
+      "Creator POD04 generation five: sole owner-approved literal-URL publication succeeded and one normal exact-combined CI started October18 04:45 UTC. At04:51 UTC engine and app lint/typecheck passed; full app tests/build and independent prospective review remain pending. No new acceptance or formal disposition.",
+      "Creator POD04 generation five: complete original normal CI evidence and all34 peer-bundle payloads authenticated; independent prospective qualification is HOLD. Exact native custody was formally released October18 05:35 UTC and verified with intact register history. No new source/integration acceptance or formal disposition."
     ],
     "critical_path": [
       "MB-01 integration lineage is on dev. Reconcile Issue 3564 and the remaining required CI / milestone obligations instead of requesting the already-completed cumulative merge.",
@@ -2407,7 +2419,7 @@
       "Authenticate the current Plan 1 acceptance register and original source receipt identities before any additional master-milestone mapping or formal child promotion.",
       "Preserve all original RemoTotal outcomes and accepted contributions; current row-level coverage is pending, not presumed missing.",
       "CONV-04A: use the retained passed shared-surface reviews; reconcile the actual remaining integration gates instead of requesting a duplicate source review.",
-      "Creator: preserve all three closed source audits. Generation-five sole literal-URL publication succeeded; one normal exact-combined CI is running. Await full app/security/build results and independent prospective review, then guarded exact-owned close. No retry, extra CI, source edit, merge or deployment. POD05 then POD03 and RCD10 stay separate."
+      "Creator: preserve all three closed source audits and original acceptances. The sole generation-five normal CI is terminal HOLD after a real dependency-scan timeout and worker timeout; app build was skipped. Exact native custody is released and verified. Separate owner admission is needed before diagnosis, change or further CI. POD05 then POD03 and RCD10 remain separate."
     ],
     "blockers": [
       "Formal MB-01 / MB-03 / MB-04 child/card wording remains a historical disposition pending exact predecessor-bound owner approval; the current engineering records above supersede stale present-tense interpretations.",
@@ -2418,7 +2430,7 @@
       "Frontend/Jest original full-tree and raw acceptance-receipt binding is unavailable; owner-confirmed acceptance is preserved as a labeled relay.",
       "Current Plan 1 acceptance register and exact mappings for P0 A/B and PRs 3565–3567 remain unauthenticated.",
       "Historical October 11 S04/domain/TLS/hosted and legacy-profile transition gates remain unless later qualified receipts supersede them. CONV-04A final-head shared-source reviews are already passed.",
-      "Creator POD04: one normal generation-five combined CI is active. At04:51 UTC engine and app lint/typecheck passed; app full tests, real security results, build and independent prospective review remain pending. The sole attempt is consumed. Historical dependency-security findings, baseline TS2322 and hosted/browser/production gates remain preserved.",
+      "Creator POD04: real workspace dependency scan timed out at120 seconds and a Vitest worker timeout was reported; app build did not run. The passed engine/lint/typecheck/secret-scan results and2716 reported passes do not establish full qualification. The sole attempt is consumed and exact native custody is formally released. No waiver or retry is admitted.",
       "The newer local P0 combined candidate is frozen and unpublished; the existing draft head/checks cannot qualify it. No new successor writer admission is established."
     ],
     "decisions": [
@@ -2428,8 +2440,8 @@
       "Separate RAP-03.B-1 publication / integration and legacy-account transition decisions; source acceptance does not grant these effects.",
       "PR3568 actual dev merge is an authenticated historical observation. Obtain or reconcile exact independent integration and matching artifact qualification receipts through existing authority; observed GitHub merge/check metadata supplies no new acceptance or milestone disposition. Any staging, production activation or whole-MB-03 decision remains separate.",
       "Exact bounded P0 CI amendment application, publication and hosted qualification of the resulting candidate; merge and deployment remain separate.",
-      "Creator POD04: the owner-approved single literal-URL attempt is consumed and one normal combined CI started. Preserve the finite custody window and all real results; no retry, fallback, renewal or additional CI. Separate independent review and guarded close remain. No source edit, security waiver, main merge or deployment is admitted."
+      "Creator POD04: generation-five sole normal CI ended HOLD and exact native custody is formally released. Separate exact owner admission is required for bounded diagnosis of dependency-scan execution/evidence and the worker timeout, any correction, and any later CI. No source/test/security-policy change, waiver, retry, fresh custody, main merge or deployment is authorized by these receipts."
     ]
   },
-  "checksum": "478157d842779d19068f8964a36aef921582564f6e3decca1ffec0190c14bf01"
+  "checksum": "e72df508e3d0cf3f57b1e0e29f09a48294eee09c65e6a5f6f8263025d51b3d76"
 }
