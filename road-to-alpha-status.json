@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 307,
-  "generated_at": "2026-10-18T03:40:47.408Z",
-  "last_evidence_check": "2026-10-18T03:40:47.408Z",
+  "revision": 308,
+  "generated_at": "2026-10-18T03:50:23.341Z",
+  "last_evidence_check": "2026-10-18T03:50:23.341Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,42 +21,42 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T03:40:46.997Z",
+      "checked_at": "2026-10-18T03:50:22.897Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T03:40:47.002Z",
+      "checked_at": "2026-10-18T03:50:22.900Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T03:40:47.005Z",
+      "checked_at": "2026-10-18T03:50:22.901Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T03:40:47.408Z",
+      "checked_at": "2026-10-18T03:50:23.341Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T03:40:10.344911+00:00",
+      "checked_at": "2026-10-18T03:49:47.487516+00:00",
       "status": "DEGRADED",
       "note": "Generation-three sole Git publication attempt failed in transport before hosted CI; independent original provider/native evidence verifies zero combined runs, no build ref and formal native release. Genuine ACKs remain historical. A prepared transport-only correction is awaiting a fresh exact owner disposition; it is not proven remote success or future execution authority. Source acceptances and three closed audits, security findings and formal milestones are preserved; C2a/C1b canonical synchronization remains pending and metadata coverage is limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T03:40:46.760213+00:00",
+      "checked_at": "2026-10-18T03:50:22.710848+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
@@ -2383,5 +2383,5 @@
       "Creator POD04: decide the exact prepared transport-only proposal for one fresh finite custody generation and one controlled new normal publication attempt of the unchanged candidate. Depth2 preparation verified a1309-byte offline thin pack; actual remote transport success is unproved. The released generation and consumed one-attempt intent cannot be revived. No source edit, extra CI, security waiver, main merge, deployment or automatic renewal is admitted."
     ]
   },
-  "checksum": "4a352e8e91370d0800086d5d57323c4320771ad09e4e1b91d7832806e7c22b80"
+  "checksum": "00e4f3b78174c6f3bb89dad69c47b23415f5100606caadd8ac6b233ca8a92f48"
 }
