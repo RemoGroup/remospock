@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 295,
-  "generated_at": "2026-10-18T01:19:11.897Z",
-  "last_evidence_check": "2026-10-18T01:19:11.897Z",
+  "revision": 296,
+  "generated_at": "2026-10-18T01:29:10.799Z",
+  "last_evidence_check": "2026-10-18T01:29:10.799Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,42 +21,42 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T01:19:11.495Z",
+      "checked_at": "2026-10-18T01:29:10.374Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T01:19:11.498Z",
+      "checked_at": "2026-10-18T01:29:10.377Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T01:19:11.499Z",
+      "checked_at": "2026-10-18T01:29:10.378Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T01:19:11.897Z",
+      "checked_at": "2026-10-18T01:29:10.799Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T01:18:42.806718+00:00",
+      "checked_at": "2026-10-18T01:28:42.333433+00:00",
       "status": "DEGRADED",
       "note": "Authenticated original O1 fresh custody proposal is retained as source material; reported old closure and owner-authority relay are preserved with their exact scope. New O2 coordination admission/conflict consent, fresh native acquisition and distinct second ACK remain separately pending. Old expired authority is historical only. All three bounded Creator audits stay closed; C2a/C1b canonical synchronization remains pending and receipt coverage stays limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T01:19:11.318308+00:00",
+      "checked_at": "2026-10-18T01:29:10.190925+00:00",
       "status": "OK",
       "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
@@ -2347,5 +2347,5 @@
       "Creator POD04: separate O2 authorization is required to process the exact fresh three-hour proposal through new conflict-consent and actual-custody qualification ACK gates. The dashboard heartbeat cannot issue coordination-event writes. No original ACK reuse, expiry extension, source edit, extra CI, merge or deployment is admitted."
     ]
   },
-  "checksum": "e6c04c7dc17c2fd8f39dfc1f96bc433168161c81e7bd42f9fa0ed7dbce220cbf"
+  "checksum": "8771ed47cc0d786eef6e5dad885f709604a5112a77e9ec6626a4adb25e83ec44"
 }
