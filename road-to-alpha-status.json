@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 306,
-  "generated_at": "2026-10-18T03:35:17.672Z",
-  "last_evidence_check": "2026-10-18T03:35:17.672Z",
+  "revision": 307,
+  "generated_at": "2026-10-18T03:40:47.408Z",
+  "last_evidence_check": "2026-10-18T03:40:47.408Z",
   "latest_accepted_engineering_event": {
     "at": "2026-10-17T19:58:08.973Z",
     "date": "2026-10-17",
@@ -21,44 +21,44 @@
     {
       "id": "local-git",
       "label": "Accepted / candidate Git identities",
-      "checked_at": "2026-10-18T03:35:17.263Z",
+      "checked_at": "2026-10-18T03:40:46.997Z",
       "status": "OK",
       "note": "3 frozen commit/tree identities rechecked. A Git commit alone is not an acceptance."
     },
     {
       "id": "envelope-C2a",
       "label": "C2a accepted source envelope",
-      "checked_at": "2026-10-18T03:35:17.266Z",
+      "checked_at": "2026-10-18T03:40:47.002Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "envelope-C1b",
       "label": "C1b accepted source envelope",
-      "checked_at": "2026-10-18T03:35:17.267Z",
+      "checked_at": "2026-10-18T03:40:47.005Z",
       "status": "OK",
       "note": "Exact retained envelope byte count and SHA-256 rechecked. Independent local source acceptance is preserved; no integration or milestone promotion."
     },
     {
       "id": "github",
       "label": "Public dashboard GitHub branch",
-      "checked_at": "2026-10-18T03:35:17.671Z",
+      "checked_at": "2026-10-18T03:40:47.408Z",
       "status": "OK",
       "note": "Public branch metadata read successfully; no completion inferred from branch activity."
     },
     {
       "id": "coordination",
       "label": "Authorized coordination receipts",
-      "checked_at": "2026-10-18T03:33:48.196561+00:00",
+      "checked_at": "2026-10-18T03:40:10.344911+00:00",
       "status": "DEGRADED",
       "note": "Generation-three sole Git publication attempt failed in transport before hosted CI; independent original provider/native evidence verifies zero combined runs, no build ref and formal native release. Genuine ACKs remain historical. A prepared transport-only correction is awaiting a fresh exact owner disposition; it is not proven remote success or future execution authority. Source acceptances and three closed audits, security findings and formal milestones are preserved; C2a/C1b canonical synchronization remains pending and metadata coverage is limited."
     },
     {
       "id": "github-remogpt",
       "label": "RemoGPT PRs and retained receipts",
-      "checked_at": "2026-10-18T03:35:17.069524+00:00",
+      "checked_at": "2026-10-18T03:40:46.760213+00:00",
       "status": "OK",
-      "note": "Authenticated seven-PR checks and three retained receipts reverified with complete bounded check/workflow coverage. Observed true dev merge and exact-head historical hosted scope remain distinct from source and independent integration acceptance. No new acceptance or coding inferred."
+      "note": "Authenticated checks completed for seven configured PRs and three retained receipts. Exact target ancestry and complete bounded check/workflow pages verified. Held qualification is retained historically and applies only while its exact source head matches the current configured PR head. No new acceptance or coding activity inferred."
     }
   ],
   "evidence": [
@@ -2383,5 +2383,5 @@
       "Creator POD04: decide the exact prepared transport-only proposal for one fresh finite custody generation and one controlled new normal publication attempt of the unchanged candidate. Depth2 preparation verified a1309-byte offline thin pack; actual remote transport success is unproved. The released generation and consumed one-attempt intent cannot be revived. No source edit, extra CI, security waiver, main merge, deployment or automatic renewal is admitted."
     ]
   },
-  "checksum": "dfb8285f4e254f868b62a2dcbfe503f40fc1ee6e59f2a78aa876dd9217add1ec"
+  "checksum": "4a352e8e91370d0800086d5d57323c4320771ad09e4e1b91d7832806e7c22b80"
 }
